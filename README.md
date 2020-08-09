@@ -2,6 +2,8 @@
 
 TEI XML files of the project [The School of Salamanca](https://salamanca.school/). Works, Dictionary Articles and more.
 
+## What's this?
+
 The project [The School of Salamanca](https://salamanca.school/) of the Academy of Sciences and Literature | Mainz, in
 collaboration with the
 [Institute for Philosophy of the Goethe University Frankfurt](http://www.philosophie.uni-frankfurt.de/) and the
