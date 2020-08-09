@@ -14,6 +14,10 @@ and forwarded to a long-time archival site and research data repository at [zeno
 forwarding happens automatically with every TEI file checked in here, and is done with the
 [tei2zenodo service](https://gitlab.gwdg.de/rg-mpg-de/tei2zenodo) developed at the MPI for European Legal History.
 
-All the files are available under open access terms: They are licensed
-[CC-BY (4.0)](https://creativecommons.org/licenses/by/4.0) except where stated differently in the files themselves
-(in the `/TEI/teiHeader/fileDesc/publicationStmt/availability/licence` element or thereabouts).
+## Licence
+
+All the files are available under open access terms: They are licensed under
+the terms of the
+[Creative Commons Attribution licence (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0) except where stated
+differently in the files themselves (in the `/TEI/teiHeader/fileDesc/publicationStmt/availability/licence` element
+or thereabouts).
