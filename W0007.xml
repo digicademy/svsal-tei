@@ -42,7 +42,7 @@
                     <surname>Caesar</surname>, <forename>Ingo</forename>
                 </persName>
             </editor>
-            <editor xml:id="CR" role="Other" >
+            <editor xml:id="CR" role="Other">
                 <persName ref="orcid:0000-0001-5095-1793" full="yes">
                     <surname full="yes">Rico Carmona</surname>, <forename full="yes">Cindy</forename>
                 </persName>
@@ -84,7 +84,7 @@
                 </licence>
             </availability>
             <date type="digitizedEd" when="2019-03-15">2019-03-15</date>
-            <idno>
+            <idno><idno type="DOI">10.5072/zenodo.660726</idno>
                 <idno xml:id="urlid">https://id.salamanca.school/texts/W0007</idno>
                 <idno xml:id="urltei">https://id.salamanca.school/texts/W0007?format=tei</idno>
                 <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0007?format=html</idno>
@@ -1201,7 +1201,7 @@
     </encodingDesc>
     
     <revisionDesc status="g_enriched_approved">
-        <listChange>
+        <listChange><change when="2020-08-13">Added DOI 10.5072/zenodo.660726 (automatically added by tei2zenodo service).</change>
             <change who="#AW" when="2020-08-09" status="g_enriched_approved" xml:id="W0007-change-030" xml:lang="en">Prepare for zenodo upload: expand XIncludes, use zenodo terms in @roles and licence/@n.</change>
             <change who="#CR #auto" when="2019-10-24" status="g_enriched_approved" xml:lang="en" xml:id="W0007_change_029">teiHeader update. Rearranged editor(s) sequence and @role #additional.</change>
             <change who="#DG #CR #auto" when="2019-08-07" status="g_enriched_approved" xml:lang="en" xml:id="W0007_change_028">Revised teiHeader, update @role in editor.</change>
