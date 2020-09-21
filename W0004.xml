@@ -83,7 +83,7 @@
                     </licence>
                 </availability>
                 <date type="digitizedEd" when="2018-07-10">2018-07-10</date>
-                <idno>
+                <idno><idno type="DOI">10.5281/zenodo.4041996</idno>
                     <idno xml:id="urlid">https://id.salamanca.school/texts/W0004</idno>
                     <idno xml:id="urltei">https://id.salamanca.school/texts/W0004?format=tei</idno>
                     <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0004?format=html</idno>
@@ -159,36 +159,36 @@
         <encodingDesc>
             <projectDesc xml:id="projectDesc">
                 <p xml:id="p_retq324ewfr" xml:lang="de">Dieses Dokument wurde im Rahmen des Projekts 
-                    <ref target="https://www.salamanca.school/de/project.html">"Die Schule von Salamanca.
-                    Eine digitale Quellensammlung und ein Wörterbuch ihrer juridisch-politischen Sprache"</ref> der
+                    <ref target="https://www.salamanca.school/de/project.html">&quot;Die Schule von Salamanca.
+                    Eine digitale Quellensammlung und ein Wörterbuch ihrer juridisch-politischen Sprache&quot;</ref> der
                     <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>, kodiert. Dieses Projekt zielt
                     neben der Herstellung eines Wörterbuchs auf die freie und leicht zugängliche
-                    Präsentation wichtiger Texte aus dem Diskussionszusammenhang der sog. "Schule von
-                    Salamanca" ab, die hierfür (i.d.R.) aus den Erst-Drucken retrodigitalisiert werden.
+                    Präsentation wichtiger Texte aus dem Diskussionszusammenhang der sog. &quot;Schule von
+                    Salamanca&quot; ab, die hierfür (i.d.R.) aus den Erst-Drucken retrodigitalisiert werden.
                     Von einer kritischen Überarbeitung und einem Rückgriff auf die Manuskript-Quellen oder
                andere Ausgaben wurde abgesehen.</p>
                 <p xml:id="p_fhsdofisad" xml:lang="en">This document was  
-                    encoded within the scope of the project <ref target="https://www.salamanca.school/en/project.html">"The School of Salamanca. A Digital Collection of 
-                    Sources and a Dictionary of its Juridical-Political Language"</ref> of the 
+                    encoded within the scope of the project <ref target="https://www.salamanca.school/en/project.html">&quot;The School of Salamanca. A Digital Collection of 
+                    Sources and a Dictionary of its Juridical-Political Language&quot;</ref> of the 
                     <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>. 
                     Besides creating a dictionary, the project aims at a freely available and easily accessible 
-                    collection of important texts from the discoursive context of the so called "School of Salamanca", 
+                    collection of important texts from the discoursive context of the so called &quot;School of Salamanca&quot;, 
                     which are being digitized for this purpose (usually in the form of their initial edition). A critical revision, 
                     or a recourse to manuscript templates, for instance, has been refrained from.
                 </p>
                 <p xml:id="p_fhsdofesad" xml:lang="es">
-                    Este documento se codificó en el marco del proyecto <ref target="https://www.salamanca.school/es/project.html">"La Escuela de Salamanca. Una 
-                    colección digital de fuentes y un diccionario de su lenguaje jurídico-político"</ref> 
+                    Este documento se codificó en el marco del proyecto <ref target="https://www.salamanca.school/es/project.html">&quot;La Escuela de Salamanca. Una 
+                    colección digital de fuentes y un diccionario de su lenguaje jurídico-político&quot;</ref> 
                     de la <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>.
                     Además de la producción de un diccionario, el proyecto tiene como objetivo la presentación gratuita y 
-                    accesible de textos importantes del contexto de discusión de la llamada "Escuela de Salamanca", 
+                    accesible de textos importantes del contexto de discusión de la llamada &quot;Escuela de Salamanca&quot;, 
                     que se digitalizan (básicamente en la forma de su primera publicación).
                     Se ha prescindido tanto de una revisión crítica, como de un 
                     recurso que muestre los originales de los manuscritos o otras ediciones.
                 </p>
             </projectDesc>
             <editorialDecl>
-                <p xml:id="editorialdecl-de" xml:lang="de">Dieses Werk wurde für das Projekt "Die Schule von Salamanca" 
+                <p xml:id="editorialdecl-de" xml:lang="de">Dieses Werk wurde für das Projekt &quot;Die Schule von Salamanca&quot; 
                     im Double-Keying-Verfahren durch Nicht-Muttersprachler transkribiert 
                     (siehe hierzu auch die 
                     <ref target="http://facs.salamanca.school/docs/transcription/guidelines/general/SvSal_Allgemeine_Erfassungsanweisungen.pdf">allgemeinen</ref>
@@ -198,14 +198,14 @@
                     und gemäß der 
                     <ref target="https://www.salamanca.school/de/guidelines.html">Editionsrichtlinien</ref> 
                     durch das Projekt in XML/TEI P5 kodiert.</p><p xml:id="editorialdecl-en" xml:lang="en">This work was transcribed by non-native speakers through 
-                    double keying for the project "The School of Salamanca" (see also the 
+                    double keying for the project &quot;The School of Salamanca&quot; (see also the 
                     <ref target="http://facs.salamanca.school/docs/transcription/guidelines/general/SvSal_Allgemeine_Erfassungsanweisungen.pdf">general</ref>
                     and 
                     <ref target="http://facs.salamanca.school/docs/transcription/guidelines/specific/">werkspezifischen</ref>
                     transcription guidelines of the project, currently only available in German) and was 
                     encoded by the project in XML/TEI P5 according to the 
                     <ref target="https://www.salamanca.school/en/guidelines.html">edition guidelines</ref>.</p><p xml:id="editorialdecl-es" xml:lang="es">Esta obra fue transcrita por hablantes no nativos a través 
-                    de doble codificación para el proyecto "La Escuela de Salamanca" (véase también las Directrices 
+                    de doble codificación para el proyecto &quot;La Escuela de Salamanca&quot; (véase también las Directrices 
                     <ref target="http://facs.salamanca.school/docs/transcription/guidelines/general/SvSal_Allgemeine_Erfassungsanweisungen.pdf">Generales</ref> 
                     y 
                     <ref target="http://facs.salamanca.school/docs/transcription/guidelines/specific/">Específicas</ref> de 
@@ -232,10 +232,10 @@
                     utilizado en la obra por medio de <att>xml:id</att>, por favor refiérase a las 
                     <ref target="https://www.salamanca.school/en/guidelines.html#es-xmlid">directrices de edición</ref>.</p>
             </refsDecl><styleDefDecl scheme="css"/><tagsDecl> <!-- from TEI P5 2.8.0 on: @partial="true" -->
-                <rendition scheme="css" xml:id="hyphenBefore">content:'-';</rendition>
-                <rendition scheme="css" xml:id="noHyphen">content:'';</rendition>
-                <rendition scheme="css" xml:id="asterisk">content:'*';</rendition>
-                <rendition scheme="css" xml:id="dagger">content:'†';</rendition>
+                <rendition scheme="css" xml:id="hyphenBefore">content:&apos;-&apos;;</rendition>
+                <rendition scheme="css" xml:id="noHyphen">content:&apos;&apos;;</rendition>
+                <rendition scheme="css" xml:id="asterisk">content:&apos;*&apos;;</rendition>
+                <rendition scheme="css" xml:id="dagger">content:&apos;†&apos;;</rendition>
                 <rendition scheme="css" xml:id="initCaps" scope="first-letter">font-size: xx-large; font-style: initial;</rendition>
                 <rendition scheme="css" xml:id="it">font-style: italic;</rendition>
                 <rendition scheme="css" xml:id="recte">font-style: normal;</rendition>
@@ -246,9 +246,9 @@
                 <rendition scheme="css" xml:id="spc">letter-spacing: 3px;</rendition>
                 <rendition scheme="css" xml:id="r-center">text-align: center;</rendition>
                 <rendition scheme="css" xml:id="right">text-align: right;</rendition>
-                <rendition scheme="css" xml:id="inline-space">content: '        ';</rendition>
-                <rendition scheme="css" xml:id="h-line">content: " ";display:block;border-bottom: 1px solid #rrggbb;</rendition>
-                <rendition scheme="css" xml:id="inline-h-line">content: " — ";</rendition>
+                <rendition scheme="css" xml:id="inline-space">content: &apos;        &apos;;</rendition>
+                <rendition scheme="css" xml:id="h-line">content: &quot; &quot;;display:block;border-bottom: 1px solid #rrggbb;</rendition>
+                <rendition scheme="css" xml:id="inline-h-line">content: &quot; — &quot;;</rendition>
                 <namespace name="http://www.tei-c.org/ns/1.0">
                     <tagUsage gi="lb" rendition="#noHyphen"/>
                     <tagUsage gi="milestone" rendition="#asterisk"/>
@@ -266,41 +266,41 @@
                 </application>
             </appInfo><listPrefixDef>
                 <prefixDef ident="author" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://id.salamanca.school/authors.$1">
-                   <p xml:id="p_f2q34f3cew" xml:lang="en">Within the scope of this edition, private URIs using an "author" prefix refer to 
-                       person datasets, available in the "tei/authors/" directory of the svsal-data package.
+                   <p xml:id="p_f2q34f3cew" xml:lang="en">Within the scope of this edition, private URIs using an &quot;author&quot; prefix refer to 
+                       person datasets, available in the &quot;tei/authors/&quot; directory of the svsal-data package.
                        The filenames therein are concatenations of the internal ID number of the respective person, beginning 
-                       with the letter "A", and the file extension ".xml". The web application displays these datasets 
+                       with the letter &quot;A&quot;, and the file extension &quot;.xml&quot;. The web application displays these datasets 
                        under the address <ref type="url" target="http://www.salamanca.school/author.html">http://www.salamanca.school/author.html</ref>, 
-                       which is to be complemented by the "?aid=" parameter, followed by the internal ID number.</p>
+                       which is to be complemented by the &quot;?aid=&quot; parameter, followed by the internal ID number.</p>
                 </prefixDef>
                 <prefixDef ident="work" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://id.salamanca.school/works.$1">
-                    <p xml:id="p_awevearvq" xml:lang="en">Within the scope of this edition, private URIs using a "work" prefix refer to 
-                        work datasets, available in the "tei/works/" directory of the svsal-data package.
+                    <p xml:id="p_awevearvq" xml:lang="en">Within the scope of this edition, private URIs using a &quot;work&quot; prefix refer to 
+                        work datasets, available in the &quot;tei/works/&quot; directory of the svsal-data package.
                         The filenames therein are concatenations of the internal ID number of the respective work, beginning 
-                        with the letter "W", and the file extension ".xml". The web application displays these datasets 
+                        with the letter &quot;W&quot;, and the file extension &quot;.xml&quot;. The web application displays these datasets 
                         under the address <ref type="url" target="http://www.salamanca.school/work.html">http://www.salamanca.school/work.html</ref>, 
-                        which is to be complemented by the "?wid=" parameter, followed by the internal ID number.</p>
+                        which is to be complemented by the &quot;?wid=&quot; parameter, followed by the internal ID number.</p>
                 </prefixDef>
                 <prefixDef ident="lemma" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://www.salamanca.school/lemma.html?lid=$1">
-                    <p xml:id="p_dlkjupupu" xml:lang="en">Within the scope of this edition, private URIs using a "lemma" prefix refer to 
-                        dictionary datasets, available in the "tei/lemmata/" directory of the svsal-data package.
+                    <p xml:id="p_dlkjupupu" xml:lang="en">Within the scope of this edition, private URIs using a &quot;lemma&quot; prefix refer to 
+                        dictionary datasets, available in the &quot;tei/lemmata/&quot; directory of the svsal-data package.
                         The filenames therein are concatenations of the internal ID number of the respective lemma, beginning 
-                        with the letter "L", and the file extension ".xml". The web application displays these datasets 
+                        with the letter &quot;L&quot;, and the file extension &quot;.xml&quot;. The web application displays these datasets 
                         under the address <ref type="url" target="http://www.salamanca.school/lemma.html">http://www.salamanca.school/lemma.html</ref>, 
-                        which is to be complemented by the "?lid=" parameter, followed by the internal ID number.</p>
+                        which is to be complemented by the &quot;?lid=&quot; parameter, followed by the internal ID number.</p>
                 </prefixDef>
                 <prefixDef ident="facs" matchPattern="(W[0-9]{4})-[0-9]{4}" replacementPattern="http://wwwuser.gwdg.de/~svsal/images/$1/$0.jpg"> <!-- einbändige Werke -->
-                    <p xml:id="p_sdeaeeq1" xml:lang="en">Within the scope of this edition, private URIs using the "facs" prefix 
-                        refer to scan image files within the server system of the "Gesellschaft für wissenschaftliche Datenverarbeitung in
-                        Göttingen (GWDG)" at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
-                        therein are concatenations of the internal ID number of the respective work and the ".jpg" file extension. 
+                    <p xml:id="p_sdeaeeq1" xml:lang="en">Within the scope of this edition, private URIs using the &quot;facs&quot; prefix 
+                        refer to scan image files within the server system of the &quot;Gesellschaft für wissenschaftliche Datenverarbeitung in
+                        Göttingen (GWDG)&quot; at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
+                        therein are concatenations of the internal ID number of the respective work and the &quot;.jpg&quot; file extension. 
                         The mapping of each ID to its respective work also can be found at the mentioned address.</p>
                 </prefixDef>
                 <prefixDef ident="facs" matchPattern="(W[0-9]{4})-([A-Z])-[0-9]{4}" replacementPattern="http://wwwuser.gwdg.de/~svsal/images/$1/$2/$0.jpg"> <!-- mehrbändige Werke -->
-                    <p xml:id="p_sdeaeeq2" xml:lang="en">Within the scope of this edition, private URIs using the "facs" prefix 
-                        refer to scan image files within the server system of the "Gesellschaft für wissenschaftliche Datenverarbeitung in
-                        Göttingen (GWDG)" at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
-                        therein are concatenations of the internal ID number of the respective work and the ".jpg" file extension. 
+                    <p xml:id="p_sdeaeeq2" xml:lang="en">Within the scope of this edition, private URIs using the &quot;facs&quot; prefix 
+                        refer to scan image files within the server system of the &quot;Gesellschaft für wissenschaftliche Datenverarbeitung in
+                        Göttingen (GWDG)&quot; at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
+                        therein are concatenations of the internal ID number of the respective work and the &quot;.jpg&quot; file extension. 
                         The mapping of each ID to its respective work also can be found at the mentioned address.</p>
                 </prefixDef>
                 <!-- The following prefixes linking our data to external sources are disabled for now,
@@ -1192,7 +1192,7 @@
 
 
         <revisionDesc status="g_enriched_approved">
-            <listChange ordered="true">
+            <listChange ordered="true"><change when="2020-09-21">Added DOI 10.5281/zenodo.4041996 (automatically added by tei2zenodo service).</change>
                 <change who="#CR #auto" when="2019-11-07" status="g_enriched_approved" xml:lang="en">charq0307 replaced by chare682 (latin small letter q with dot above).</change>
                 <change who="#CR #auto" when="2019-10-24" status="g_enriched_approved" xml:lang="en">teiHeader update. Rearranged editor(s) sequece and @role #additional.</change>
                 <change who="#DG #CR #auto" when="2019-08-07" status="g_enriched_approved" xml:lang="en">Revised teiHeader, update @role in editor.</change>
