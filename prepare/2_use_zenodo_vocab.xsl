@@ -8,10 +8,6 @@
     exclude-result-prefixes="tei xsl #default"
     version="2.0">
 
-<!--    <xsl:include href="./xipr-1-1.xsl"/>-->
-<!--    <xsl:param name="XiFilePath" as="xs:string" select="'../../04-39/trunk/svsal-tei/meta'"/>-->
-<!--    <xsl:apply-templates select="$node" mode="xipr"/>-->
-
     <xsl:output method="xml"/>
 <!--    <xsl:strip-space elements="p div head titlePart hi damage unclear"/>-->
     <xsl:strip-space elements="tei:choice tei:abbr tei:expan tei:orig tei:reg tei:sic tei:corr tei:g tei:damage tei:unclear"/>
@@ -20,7 +16,7 @@
     <xsl:template match="/"><xsl:text>
 </xsl:text>
         <xsl:processing-instruction name="xml-model">
-            href="https://files.salamanca.school/saltei.rng"
+            href="http://files.salamanca.school/saltei.rng"
             type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction><xsl:text>
 </xsl:text>
@@ -28,6 +24,12 @@
     </xsl:template>
 
     <!-- IdentityTransform -->
+    <xsl:template match="@xml:base" />
+    <xsl:template match="@href">
+        <xsl:attribute name="href">
+            <xsl:value-of select="replace(., '(https://files.salamanca.school/)|(../meta/)', 'http://files.salamanca.school/')"/>
+        </xsl:attribute>
+    </xsl:template>
     <xsl:template mode="#all" match="@* | node()">
         <xsl:copy copy-namespaces="no">
             <xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -35,12 +37,13 @@
     </xsl:template>
 
     <!-- Another identity transform to get rid of redundant tei: namespaces/prefixes -->
+<!--
     <xsl:template mode="#all" match="tei:*">
         <xsl:element name="{local-name()}">
             <xsl:apply-templates select="@* | node()" mode="#current"/>
         </xsl:element>
     </xsl:template>
-
+-->
 
     <!-- Use zenodo vocabulary for contributor roles (#scholarly, #technical, #additional) -->
     <xsl:template match="/TEI/teiHeader/fileDesc/titleStmt/editor/@role">
