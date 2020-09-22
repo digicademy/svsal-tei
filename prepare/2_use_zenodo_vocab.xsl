@@ -25,25 +25,11 @@
 
     <!-- IdentityTransform -->
     <xsl:template match="@xml:base" />
-    <xsl:template match="@href">
-        <xsl:attribute name="href">
-            <xsl:value-of select="replace(., '(https://files.salamanca.school/)|(../meta/)', 'http://files.salamanca.school/')"/>
-        </xsl:attribute>
-    </xsl:template>
     <xsl:template mode="#all" match="@* | node()">
         <xsl:copy copy-namespaces="no">
             <xsl:apply-templates select="@* | node()" mode="#current"/>
         </xsl:copy>
     </xsl:template>
-
-    <!-- Another identity transform to get rid of redundant tei: namespaces/prefixes -->
-<!--
-    <xsl:template mode="#all" match="tei:*">
-        <xsl:element name="{local-name()}">
-            <xsl:apply-templates select="@* | node()" mode="#current"/>
-        </xsl:element>
-    </xsl:template>
--->
 
     <!-- Use zenodo vocabulary for contributor roles (#scholarly, #technical, #additional) -->
     <xsl:template match="/TEI/teiHeader/fileDesc/titleStmt/editor/@role">
