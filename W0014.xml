@@ -83,7 +83,7 @@
                     </licence>
                 </availability>
             	<date type="digitizedEd" when="2018-12-19">2018-12-19</date>
-                <idno>
+                <idno><idno type="DOI">10.5281/zenodo.4046301</idno>
                     <idno xml:id="urlid">https://id.salamanca.school/texts/W0014</idno>
                     <idno xml:id="urltei">https://id.salamanca.school/texts/W0014?format=tei</idno>
                     <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0014?format=html</idno>
@@ -1193,7 +1193,7 @@
         </encodingDesc>
         
         <revisionDesc status="g_enriched_approved">
-            <listChange ordered="true">
+            <listChange ordered="true"><change when="2020-09-23">Added DOI 10.5281/zenodo.4046301 (automatically added by tei2zenodo service).</change>
                 <change who="#CR #auto" when="2020-09-22" status="g_enriched_approved" xml:id="W0013_change_018" xml:lang="en">teiHeader update. Repository permalink updated.</change>
                 <change who="#CR #auto" when="2019-10-25" status="g_enriched_approved" xml:id="W0013_change_017" xml:lang="en">teiHeader update. Rearranged editor(s) sequece and @role #additional.</change>
                 <change who="#DG #CR #auto" when="2019-08-08" status="g_enriched_approved" xml:id="W0014_change_035" xml:lang="en">Revised teiHeader, update @role in editor.</change>
