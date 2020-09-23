@@ -34,7 +34,7 @@
     <!-- Use zenodo vocabulary for contributor roles (#scholarly, #technical, #additional) -->
     <xsl:template match="/TEI/teiHeader/fileDesc/titleStmt/editor/@role">
         <xsl:variable name="FirstRole">
-            <xsl:value-of select="tokenize(., ' ')[1]"/>
+            <xsl:value-of select="tokenize(string(.), ' ')[1]"/>
         </xsl:variable>
         <xsl:choose>
             <xsl:when test="$FirstRole = '#scholarly'">
