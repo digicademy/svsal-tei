@@ -91,7 +91,7 @@
                     </licence>
                 </availability>
             	<date type="digitizedEd" when="2020-03-23">2020-03-23.</date>
-                <idno>
+                <idno><idno type="DOI">10.5281/zenodo.4046459</idno>
                     <idno xml:id="urlid">https://id.salamanca.school/texts/W0078</idno>
                     <idno xml:id="urltei">https://id.salamanca.school/texts/W0078?format=tei</idno>
                     <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0078?format=html</idno>
@@ -1201,7 +1201,7 @@
         </encodingDesc>
 
         <revisionDesc status="g_enriched_approved">
-            <listChange>
+            <listChange><change when="2020-09-23">Added DOI 10.5281/zenodo.4046459 (automatically added by tei2zenodo service).</change>
                 <change who="#CR #auto" when="2020-03-20" status="g_enriched_approved" xml:id="W0078_change_028" xml:lang="en">teiHeader update.</change>
                 <change who="#DG #CR #auto" when="2020-03-19" status="g_enriched_approved" xml:id="W0078_change_027" xml:lang="en">Generated @xml:id after corrections.</change>
                 <change who="#DG #CR #auto" when="2020-03-19" status="g_enriched_approved" xml:id="W0078_change_026" xml:lang="en">Numbered lines after corrections.</change>
