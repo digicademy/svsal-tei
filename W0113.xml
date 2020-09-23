@@ -73,7 +73,7 @@
                     </licence>
                 </availability>
             	<date type="digitizedEd" when="2020-04-27">2020-04-27.</date>
-                <idno>
+                <idno><idno type="DOI">10.5281/zenodo.4046457</idno>
                     <idno xml:id="urlid">https://id.salamanca.school/texts/W0113</idno>
                     <idno xml:id="urltei">https://id.salamanca.school/texts/W0113?format=tei</idno>
                     <idno xml:id="urlhtml">https://id.salamanca.school/texts/W0113?format=html</idno>
@@ -1175,7 +1175,7 @@
         </encodingDesc>
         
         <revisionDesc status="g_enriched_approved">
-            <listChange ordered="true">
+            <listChange ordered="true"><change when="2020-09-23">Added DOI 10.5281/zenodo.4046457 (automatically added by tei2zenodo service).</change>
                 <change who="#AW" when="2020-04-27" status="g_enriched_approved" xml:id="W0113_change_024" xml:lang="en">Re-introduced XIncludes in EncodingDesc.</change>
                 <change who="#AW" when="2020-04-27" status="g_enriched_approved" xml:id="W0113_change_023" xml:lang="en">Moved notes to the word ending in cases where they occurred in non-word-breaking linebreaks.</change>
                 <change who="#DG #CR #auto" when="2020-04-27" status="g_enriched_approved" xml:id="W0113_change_022" xml:lang="en">teiHeader update.</change>
