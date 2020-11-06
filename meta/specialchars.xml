@@ -20,7 +20,7 @@
             </titleStmt>
             <editionStmt>
                 <edition xml:lang="de">Die Transkription der Texte wurde unter Verwendung des
-                <ref type="url" target="https://files.salamanca.school/SvSal_txt.rng">&quot;SvSal-Schemas für Werke&quot;</ref> angefertigt.
+                <ref type="url" target="https://files.salamanca.school/SvSal_txt.rng">"SvSal-Schemas für Werke"</ref> angefertigt.
             </edition>
                 <respStmt>
                     <resp>Created by</resp>
@@ -608,6 +608,7 @@
                     <mapping type="composed">è</mapping>
                     <mapping type="standardized">e</mapping>
                 </char>
+                
                 <char xml:id="charg0304">
                     <desc>LATIN SMALL LETTER G WITH MACRON</desc>
                     <charProp>
@@ -622,6 +623,11 @@
                     <desc>LATIN SMALL LETTER I WITH TILDE</desc>
                     <mapping type="precomposed">ĩ</mapping>
                     <mapping type="composed">ĩ</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0300">
+                    <desc>LATIN SMALL LETTER I WITH GRAVE</desc>
+                    <mapping type="precomposed">ì</mapping>
                     <mapping type="standardized">i</mapping>
                 </char>
                 <char xml:id="chari0302">
@@ -651,6 +657,12 @@
                     <mapping type="composed">j̃</mapping>
                     <mapping type="standardized">j</mapping>
                 </char>
+                <char xml:id="charj0308">
+                    <desc>LATIN SMALL LETTER J WITH DIAERESIS</desc>
+                    <mapping type="composed">j̈</mapping>
+                    <mapping type="standardized">j</mapping>
+                </char>
+
                 <char xml:id="charl0303">
                     <desc>LATIN SMALL LETTER L WITH TILDE</desc>
                     <mapping type="composed">l̃</mapping>
@@ -847,6 +859,12 @@
                     <mapping type="standardized">u</mapping>
                 </char>
                 
+                <char xml:id="charu0302">
+                    <desc>LATIN SMALL LETTER U WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">û</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                
                 <char xml:id="charx0303">
                     <desc>LATIN SMALL LETTER X WITH TILDE</desc>
                     <mapping type="composed">x̃</mapping>
@@ -936,6 +954,9 @@
         </encodingDesc>
         <revisionDesc status="a_raw">
             <listChange>
+                <change who="#AW" when="2020-11-06" status="a_raw" xml:lang="en">Added composed j with diaeresis character.</change>
+                <change who="#CR" when="2020-10-12" status="a_raw" xml:lang="en">Added latin small letter u with circumflex.</change>
+                <change who="#CR" when="2020-10-12" status="a_raw" xml:lang="en">Added latin small letter i with grave.</change>
                 <change who="#CR" when="2020-04-30" status="a_raw" xml:lang="en">Added latin small letter g with macron.</change>
                 <change who="#CR" when="2019-10-25" status="a_raw" xml:lang="en">Added precomposed paragraphus sign.</change>
                 <change who="#CR" when="2019-05-13" status="a_raw" xml:lang="en">Added precomposed small letter p wit acute accent.</change>
