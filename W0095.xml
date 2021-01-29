@@ -1183,7 +1183,8 @@
         </encodingDesc>
         
         <revisionDesc status="g_enriched_approved">
-            <listChange ordered="true"><change when="2020-09-23">Added DOI 10.5281/zenodo.4046453 (automatically added by tei2zenodo service).</change>
+            <listChange ordered="true">
+                <change who="#auto"         when="2020-09-23" status="g_enriched_approved">Added DOI 10.5281/zenodo.4046453 (automatically added by tei2zenodo service).</change>
                 <change who="#DG #CR #auto" when="2020-01-28" status="g_enriched_approved" xml:id="W0095_change_019" xml:lang="en">teiHeader update.</change>
                 <change who="#DG #CR #auto" when="2020-01-28" status="g_enriched_approved" xml:id="W0095_change_018" xml:lang="en">Generated @xml:id.</change>
                 <change who="#DG #CR #auto" when="2020-01-28" status="g_enriched_approved" xml:id="W0095_change_017" xml:lang="en">Numbered lines.</change>
