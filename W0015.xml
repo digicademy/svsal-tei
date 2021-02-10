@@ -4,7 +4,6 @@
             schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="W0015">
 <?svsal htmlFragmentationDepth="4"?>
-
     <teiHeader>
         <fileDesc>
             <titleStmt>

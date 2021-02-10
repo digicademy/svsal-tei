@@ -124,7 +124,7 @@
                                 </persName>
                                 <persName ref="cerl:cnp02082507 viaf:22194470 gnd:1037564960" key="Dorico, Luigi">
                                     <forename>Luigi</forename>
-                                    <surname>Dorico</surname>
+                                    <surname>Dorico</surname><msDesc >
                                 </persName>
                             </publisher>
                         </imprint>
