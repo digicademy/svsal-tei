@@ -804,6 +804,11 @@
                     <mapping type="standardized">q</mapping>
                 </char>
                 
+                <char xml:id="charq0307">
+                    <desc>LATIN SMALL LETTER Q WITH DOT ABOVE</desc>
+                    <mapping type="composed">q̇</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
                 <char xml:id="charq0308">
                     <desc>LATIN SMALL LETTER Q WITH TWO DOTS ABOVE</desc>
                     <mapping type="composed">q̈</mapping>
