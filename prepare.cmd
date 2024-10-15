@@ -14,8 +14,10 @@
 @echo off
 set JAVA_BIN="C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe"
 
-%JAVA_BIN% -cp "./prepare/saxon9he.jar" net.sf.saxon.Transform -s:%1 -xsl:"./prepare/1_fix_urls.xsl" -o:"temp1.xml"
-.\prepare\xmllint.exe --nowarning --xinclude --nsclean "temp1.xml" > "temp2.xml"
-%JAVA_BIN% -cp "./prepare/saxon9he.jar" net.sf.saxon.Transform -s:"temp2.xml" -xsl:"./prepare/2_use_zenodo_vocab.xsl" -o:%2
+:: .\prepare\sed.exe -e "s|<xi:include href=^"\.\./meta/|<xi:include href=^"./meta/|g" L0007.xml
+.\prepare\sed.exe -e "s|\.\./meta/|./meta/|g" %1 > "temp1.xml"
+%JAVA_BIN% -cp "./prepare/saxon9he.jar" net.sf.saxon.Transform -s:"temp1.xml" -xsl:"./prepare/1_fix_urls.xsl" -o:"temp2.xml"
+.\prepare\xmllint.exe --nowarning --xinclude --nsclean temp2.xml > temp3.xml
+%JAVA_BIN% -cp "./prepare/saxon9he.jar" net.sf.saxon.Transform -s:"temp3.xml" -xsl:"./prepare/2_use_zenodo_vocab.xsl" -o:%2
 
-del "temp1.xml" "temp2.xml"
+del "temp1.xml" "temp2.xml" "temp3.xml"
