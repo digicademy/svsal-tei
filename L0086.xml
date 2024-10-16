@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://files.salamanca.school/saltei.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0086">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Infidelitas</title>
+                <title type="short">Infidelitas</title>
+                <author xml:id="JLE" role="#scholarly">
+                    <persName>
+                        <surname>Egío García</surname>, <forename>José Luis</forename>
+                    </persName>
+                </author>
+                <author xml:id="AW" role="#scholarly #technical">
+                    <persName>
+                        <surname>Wagner</surname>, <forename>Andreas</forename>
+                    </persName>
+                </author>
+                <editor xml:id="CR" role="DataManager">
+                    <persName>
+                        <surname>Rico Carmona</surname>, <forename>Cindy</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition n="1.0.0" xml:id="ed_L0086" xml:lang="en">
+                    Complete digital edition, <date type="digitizedEd" when="2024-02-28">2024-02-28</date>.
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt xml:id="publicationStmt">
+                <publisher xml:id="pubstmt-publisher">
+                    <orgName xml:lang="de">Akademie der Wissenschaften und der Literatur, Mainz</orgName>
+                    <ref type="url" target="http://salamanca.adwmainz.de/">http://salamanca.adwmainz.de/</ref>
+                </publisher><distributor xml:id="pubstmt-distributor">
+                    <orgName xml:lang="de">Akademie der Wissenschaften und der Literatur, Mainz</orgName>,
+                    <orgName xml:lang="de">Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie</orgName>,
+                    <orgName xml:lang="de">Goethe-Universität Frankfurt/Main</orgName>
+                    <email>info@salamanca.adwmainz.de</email>
+                </distributor><pubPlace role="digitizedEd" xml:lang="en" xml:id="pubstmt-pubplace">
+                    Frankfurt am Main, Germany (<ref type="url" target="http://salamanca.adwmainz.de/">http://salamanca.adwmainz.de/</ref>)
+                </pubPlace><availability xml:id="pubstmt-availability">
+                    <licence n="cc-by" target="https://creativecommons.org/licenses/by/4.0">
+                        <p xml:id="p_wc2c454" xml:lang="de">Dieses Werk bzw. dieser Inhalt wurde digitalisiert durch die <ref target="http://www.adwmainz.de">Akademie der
+                            Wissenschaften und der Literatur, Mainz</ref> und steht unter einer <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
+                              Commons Lizenz: Namensnennung 4.0 International (CC BY 4.0)</ref>.</p>
+                        <p xml:id="p_ffjaztskfd" xml:lang="en">This work or content, respectively, was digitized by the 
+                            <ref target="http://www.adwmainz.de">Akademie der  Wissenschaften und der Literatur, Mainz</ref>,
+                        and is licensed under the terms of a 
+                            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</ref>.</p>
+                        <p xml:id="p_7rlkjdf8sd" xml:lang="es">Esta obra respectivamente este contenido ha sido digitalizado por la <ref target="http://www.adwmainz.de">Akademie der
+                            Wissenschaften und der Literatur, Mainz</ref> y es autorizado bajo una licencia de 
+                            <ref target="https://creativecommons.org/licenses/by/4.0/deed.es"> Creative Commons Reconocimiento 4.0 Internacional (CC BY 4.0)</ref></p>
+                    </licence>
+                </availability>
+                <date type="digitizedEd" when="2024-02-28">2024-02-28</date>
+                <idno>
+                    <idno xml:id="urlid">https://id.salamanca.school/texts/L0086</idno>
+                    <idno xml:id="urltei">https://id.salamanca.school/texts/L0086?format=tei</idno>
+                    <idno xml:id="urlhtml">https://id.salamanca.school/texts/L0086</idno>
+                    <idno xml:id="urlrdf">https://id.salamanca.school/texts/L0086?format=rdf</idno>
+                    <idno xml:id="urltxtedit">https://id.salamanca.school/texts/L0086?format=txt&amp;mode=edit</idno>
+                </idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p xml:id="p_borndigital">This document is the source itself. It was not derived from a source.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="en" n="main" xml:lang="en">English</language>
+            </langUsage>
+        </profileDesc>
+        
+        <encodingDesc>
+            <projectDesc xml:id="projectDesc">
+                <p xml:id="p_retq324ewfr" xml:lang="de">Dieses Dokument wurde im Rahmen des Projekts 
+                    <ref target="https://www.salamanca.school/de/project.html">"Die Schule von Salamanca.
+                    Eine digitale Quellensammlung und ein Wörterbuch ihrer juridisch-politischen Sprache"</ref> der
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>, kodiert. Dieses Projekt zielt
+                    neben der Herstellung eines Wörterbuchs auf die freie und leicht zugängliche
+                    Präsentation wichtiger Texte aus dem Diskussionszusammenhang der sog. "Schule von
+                    Salamanca" ab, die hierfür (i.d.R.) aus den Erst-Drucken retrodigitalisiert werden.
+                    Von einer kritischen Überarbeitung und einem Rückgriff auf die Manuskript-Quellen oder
+               andere Ausgaben wurde abgesehen.</p>
+                <p xml:id="p_fhsdofisad" xml:lang="en">This document was  
+                    encoded within the scope of the project <ref target="https://www.salamanca.school/en/project.html">"The School of Salamanca. A Digital Collection of 
+                    Sources and a Dictionary of its Juridical-Political Language"</ref> of the 
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>. 
+                    Besides creating a dictionary, the project aims at a freely available and easily accessible 
+                    collection of important texts from the discoursive context of the so called "School of Salamanca", 
+                    which are being digitized for this purpose (usually in the form of their initial edition). A critical revision, 
+                    or a recourse to manuscript templates, for instance, has been refrained from.
+                </p>
+                <p xml:id="p_fhsdofesad" xml:lang="es">
+                    Este documento se codificó en el marco del proyecto <ref target="https://www.salamanca.school/es/project.html">"La Escuela de Salamanca. Una 
+                    colección digital de fuentes y un diccionario de su lenguaje jurídico-político"</ref> 
+                    de la <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>.
+                    Además de la producción de un diccionario, el proyecto tiene como objetivo la presentación gratuita y 
+                    accesible de textos importantes del contexto de discusión de la llamada "Escuela de Salamanca", 
+                    que se digitalizan (básicamente en la forma de su primera publicación).
+                    Se ha prescindido tanto de una revisión crítica, como de un 
+                    recurso que muestre los originales de los manuscritos o otras ediciones.
+                </p>
+            </projectDesc>
+            <refsDecl xml:id="refsDecl">
+                <p xml:id="p_d2d3fccq3" xml:lang="de">Für eine Beschreibung der im Werk verwendeten Identifikations- und 
+                    Referenzierungsschemata für Elemente mittels <att>xml:id</att> siehe die
+                    <ref target="https://www.salamanca.school/de/guidelines.html#de-xmlid">Editionsrichtlinien</ref>.</p>
+                <p xml:id="p_d2derccq3" xml:lang="en">For a description of the schemata used for identification and referencing of elements 
+                    by means of <att>xml:id</att>, please refer to the
+                    <ref target="https://www.salamanca.school/en/guidelines.html#en-xmlid">edition guidelines</ref>.</p>
+                <p xml:id="p_d2deercq3" xml:lang="es">Para una descripción de los esquemas de identificación y referencia de elementos,
+                    utilizado en la obra por medio de <att>xml:id</att>, por favor refiérase a las 
+                    <ref target="https://www.salamanca.school/en/guidelines.html#es-xmlid">directrices de edición</ref>.</p>
+            </refsDecl><styleDefDecl scheme="css"/><tagsDecl> <!-- from TEI P5 2.8.0 on: @partial="true" -->
+                <rendition scheme="css" xml:id="hyphenBefore">content:'-';</rendition>
+                <rendition scheme="css" xml:id="noHyphen">content:'';</rendition>
+                <rendition scheme="css" xml:id="asterisk">content:'*';</rendition>
+                <rendition scheme="css" xml:id="dagger">content:'†';</rendition>
+                <rendition scheme="css" xml:id="initCaps" scope="first-letter">font-size: xx-large; font-style: initial;</rendition>
+                <rendition scheme="css" xml:id="it">font-style: italic;</rendition>
+                <rendition scheme="css" xml:id="recte">font-style: normal;</rendition>
+                <rendition scheme="css" xml:id="b">font-weight: bold;</rendition>
+                <rendition scheme="css" xml:id="sc">font-variant: small-caps;</rendition>
+                <rendition scheme="css" xml:id="sup">vertical-align: sup; font-size: .83em;</rendition>
+                <rendition scheme="css" xml:id="sub">vertical-align: sub; font-size: .83em;</rendition>
+                <rendition scheme="css" xml:id="spc">letter-spacing: 3px;</rendition>
+                <rendition scheme="css" xml:id="r-center">text-align: center;</rendition>
+                <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+                <rendition scheme="css" xml:id="inline-space">content: '        ';</rendition>
+                <rendition scheme="css" xml:id="h-line">content: " ";display:block;border-bottom: 1px solid #rrggbb;</rendition>
+                <rendition scheme="css" xml:id="inline-h-line">content: " — ";</rendition>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lb" rendition="#noHyphen"/>
+                    <tagUsage gi="milestone" rendition="#asterisk"/>
+                    <tagUsage gi="lg" rendition="#it"/>
+                    <tagUsage gi="head" rendition="#r-center"/>
+                </namespace>
+            </tagsDecl><appInfo>
+                <application ident="MUFI" version="4.0">
+                    <label xml:id="svsal-meta-la-0001">MUFI character recommendation v. 4.0</label>
+                    <ref target="http://hdl.handle.net/1956/10699"/>
+                </application>
+                <application ident="Unicode" version="6.3.0">
+                    <label xml:id="svsal-meta-la-0002">The Unicode Consortium. The Unicode Standard, Version 6.3.0</label>
+                    <ref target="http://www.unicode.org/versions/Unicode6.3.0/"/>
+                </application>
+            </appInfo><listPrefixDef>
+                <prefixDef ident="author" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://id.salamanca.school/authors.$1">
+                   <p xml:id="p_f2q34f3cew" xml:lang="en">Within the scope of this edition, private URIs using an "author" prefix refer to 
+                       person datasets, available in the "tei/authors/" directory of the svsal-data package.
+                       The filenames therein are concatenations of the internal ID number of the respective person, beginning 
+                       with the letter "A", and the file extension ".xml". The web application displays these datasets 
+                       under the address <ref type="url" target="http://www.salamanca.school/author.html">http://www.salamanca.school/author.html</ref>, 
+                       which is to be complemented by the "?aid=" parameter, followed by the internal ID number.</p>
+                </prefixDef>
+                <prefixDef ident="work" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://id.salamanca.school/works.$1">
+                    <p xml:id="p_awevearvq" xml:lang="en">Within the scope of this edition, private URIs using a "work" prefix refer to 
+                        work datasets, available in the "tei/works/" directory of the svsal-data package.
+                        The filenames therein are concatenations of the internal ID number of the respective work, beginning 
+                        with the letter "W", and the file extension ".xml". The web application displays these datasets 
+                        under the address <ref type="url" target="http://www.salamanca.school/work.html">http://www.salamanca.school/work.html</ref>, 
+                        which is to be complemented by the "?wid=" parameter, followed by the internal ID number.</p>
+                </prefixDef>
+                <prefixDef ident="lemma" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://www.salamanca.school/lemma.html?lid=$1">
+                    <p xml:id="p_dlkjupupu" xml:lang="en">Within the scope of this edition, private URIs using a "lemma" prefix refer to 
+                        dictionary datasets, available in the "tei/lemmata/" directory of the svsal-data package.
+                        The filenames therein are concatenations of the internal ID number of the respective lemma, beginning 
+                        with the letter "L", and the file extension ".xml". The web application displays these datasets 
+                        under the address <ref type="url" target="http://www.salamanca.school/lemma.html">http://www.salamanca.school/lemma.html</ref>, 
+                        which is to be complemented by the "?lid=" parameter, followed by the internal ID number.</p>
+                </prefixDef>
+                <prefixDef ident="facs" matchPattern="(W[0-9]{4})-[0-9]{4}" replacementPattern="http://wwwuser.gwdg.de/~svsal/images/$1/$0.jpg"> <!-- einbändige Werke -->
+                    <p xml:id="p_sdeaeeq1" xml:lang="en">Within the scope of this edition, private URIs using the "facs" prefix 
+                        refer to scan image files within the server system of the "Gesellschaft für wissenschaftliche Datenverarbeitung in
+                        Göttingen (GWDG)" at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
+                        therein are concatenations of the internal ID number of the respective work and the ".jpg" file extension. 
+                        The mapping of each ID to its respective work also can be found at the mentioned address.</p>
+                </prefixDef>
+                <prefixDef ident="facs" matchPattern="(W[0-9]{4})-([A-Z])-[0-9]{4}" replacementPattern="http://wwwuser.gwdg.de/~svsal/images/$1/$2/$0.jpg"> <!-- mehrbändige Werke -->
+                    <p xml:id="p_sdeaeeq2" xml:lang="en">Within the scope of this edition, private URIs using the "facs" prefix 
+                        refer to scan image files within the server system of the "Gesellschaft für wissenschaftliche Datenverarbeitung in
+                        Göttingen (GWDG)" at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
+                        therein are concatenations of the internal ID number of the respective work and the ".jpg" file extension. 
+                        The mapping of each ID to its respective work also can be found at the mentioned address.</p>
+                </prefixDef>
+                <!-- The following prefixes linking our data to external sources are disabled for now,
+                     because the data are not rich enough yet... -->
+                <!--
+                <prefixDef ident="cerl" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=$1">
+                    <p xml:id="p_ertertwe">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "cerl" auf Personen-
+                    Datensätze in der öffentlichen Datenbank unter http://thesaurus.cerl.org/.</p>
+                </prefixDef>
+                <prefixDef ident="gnd" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=$1">
+                    <p xml:id="p_xcvsdfdwq">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "cerl" auf Personen-
+                    Datensätze in der öffentlichen Datenbank unter http://thesaurus.cerl.org/.</p>
+                </prefixDef>
+                <prefixDef ident="viaf" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://viaf.org/viaf/$1">
+                    <p xml:id="p_lkjoiop">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "viaf" auf Personen-
+                Datensätze in der öffentlichen Datenbank unter http://viaf.org/viaf/.</p>
+                </prefixDef>
+                <prefixDef ident="fhla" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://www.larramendi.es/aut/$1">
+                    <p xml:id="p_lkjoiop">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "fhla" auf Personen-
+                Datensätze in der öffentlichen Datenbank unter http://www.larramendi.es/aut/.</p>
+                </prefixDef>
+
+                <prefixDef ident="getty" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://www.getty.edu/vow/TGNFullDisplay?subjectid=$1">
+                    <p xml:id="p_q23dfq23">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "getty" auf Personen-
+                        Datensätze in der öffentlichen Datenbank unter http://www.getty.edu/.</p>
+                </prefixDef>
+-->
+            </listPrefixDef>
+            <charDecl xml:id="charDecl">
+
+<!-- Characters below 00FF -->
+
+                <char xml:id="char0026">
+                    <desc>AMPERSAND</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>amp</value>
+                    </charProp>
+                    <mapping type="precomposed">&amp;</mapping>
+                    <mapping type="standardized">&amp;</mapping>
+                </char>
+            
+                <char xml:id="char00b6">
+                    <desc>PILCROW SIGN</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>para</value>
+                    </charProp>
+                    <mapping type="precomposed">¶</mapping>
+                    <mapping type="standardized">¶</mapping>
+                </char>
+                <char xml:id="charf1e1">
+                    <desc>PARAGRAPHUS</desc>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized"></mapping>
+                </char>
+            
+                <char xml:id="char00df">
+                    <desc>LATIN SMALL LETTER SHARP S</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>szlig</value>
+                    </charProp>
+                    <mapping type="precomposed">ß</mapping>
+                    <mapping type="standardized">ss</mapping>
+                </char>
+
+                <char xml:id="char00e6">
+                    <desc>LATIN SMALL LETTER AE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>aelig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Lat1Suppl">U+00E6</mapping>
+                    <mapping type="precomposed">æ</mapping>
+                    <mapping type="standardized">ae</mapping>
+                </char>
+                <char xml:id="char00c6">
+                    <desc>LATIN CAPITAL LETTER AE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>AElig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Lat1Suppl">U+00C6</mapping>
+                    <mapping type="precomposed">Æ</mapping>
+                    <mapping type="standardized">AE</mapping>
+                </char>
+                
+                <char xml:id="chara0302">
+                    <desc>LATIN SMALL LETTER A WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">â</mapping>
+                    <mapping type="composed">â</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+                
+                <char xml:id="chara0300">
+                    <desc>LATIN SMALL LETTER A WITH GRAVE</desc>
+                    <mapping type="precomposed">à</mapping>
+                    <mapping type="composed">à</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+
+<!-- Other Precomposed Characters -->
+
+                <char xml:id="char0180">
+                    <desc>LATIN SMALL LETTER B WITH STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>bstrok</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtB">U+0180</mapping>
+                    <mapping type="precomposed">ƀ</mapping>
+                    <mapping type="standardized">b</mapping>
+                </char>
+                <char xml:id="char0111">
+                    <desc>LATIN SMALL LETTER D WITH STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>dstrok</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0111</mapping>
+                    <mapping type="precomposed">đ</mapping>
+                    <mapping type="standardized">d</mapping>
+                </char>
+                <char xml:id="char0142">
+                    <desc>LATIN SMALL LETTER L WITH STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>lstrok</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0142</mapping>
+                    <mapping type="precomposed">ł</mapping>
+                    <mapping type="standardized">l</mapping>
+                </char>
+                <char xml:id="char0153">
+                    <desc>LATIN SMALL LIGATURE OE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>oelig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0153</mapping>
+                    <mapping type="precomposed">œ</mapping>
+                    <mapping type="standardized">oe</mapping>
+                </char>
+                <char xml:id="char0152">
+                    <desc>LATIN CAPITAL LIGATURE OE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>Oelig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0152</mapping>
+                    <mapping type="precomposed">Œ</mapping>
+                    <mapping type="standardized">OE</mapping>
+                </char>
+                
+                <char xml:id="char017f">
+                    <desc>LATIN SMALL LETTER LONG S</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>slong</value>
+                    </charProp>
+                    <mapping type="precomposed">ſ</mapping>
+                    <mapping type="standardized">s</mapping>
+                </char>
+                <char xml:id="char1e9c">
+                    <desc>LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>slongbarslash</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtAdd"/>
+                    <mapping type="precomposed">ẜ</mapping>
+                    <mapping type="standardized">s</mapping>
+                </char>
+                <char xml:id="char01d4">
+                    <desc>LATIN SMALL LETTER U WITH CARON</desc>
+                    <mapping type="precomposed">ǔ</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                <char xml:id="charu0300">
+                    <desc>LATIN SMALL LETTER U WITH GRAVE</desc>
+                    <mapping type="precomposed">ù</mapping>
+                    <mapping type="composed">ù</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                <char xml:id="char0250">
+                    <desc>LATIN SMALL LETTER TURNED A</desc>
+                    <mapping type="precomposed">ɐ</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+                <char xml:id="char0259">
+                    <desc>LATIN SMALL LETTER SCHWA</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>schwa</value>
+                    </charProp>
+                    <mapping type="precomposed">ə</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="char026f">
+                    <desc>LATIN SMALL LETTER TURNED M</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>turnedm</value>
+                    </charProp>
+                    <mapping type="precomposed">ɯ</mapping>
+                    <mapping type="standardized">m</mapping>
+                </char>
+                <char xml:id="char0292">
+                    <desc>LATIN SMALL LETTER EZH</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>ezh</value>
+                    </charProp>
+                    <mapping type="precomposed">ʒ</mapping>
+                    <mapping type="standardized">z</mapping>
+                </char>
+                <char xml:id="char204a">
+                    <desc>LATIN ABBREVIATION SIGN SMALL ET</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>et</value>
+                    </charProp>
+                    <mapping type="precomposed">⁊</mapping>
+                    <mapping type="standardized">et</mapping>
+                </char>
+                <char xml:id="char211f">
+                    <desc>RESPONSE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>Rslstrok</value>
+                    </charProp>
+                    <mapping type="precomposed">℟</mapping>
+                    <mapping type="standardized">R</mapping>
+                </char>
+                <char xml:id="char2184">
+                    <desc>LATIN ABBREVIATION SIGN SMALL CON</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>conbase</value>
+                    </charProp>
+                    <mapping type="precomposed">ↄ</mapping>
+                    <mapping type="standardized">con</mapping>
+                </char>
+                <char xml:id="chara751">
+                    <desc>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>pbardes</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝑ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="chara750">
+                    <desc>LATIN CAPITAL LETTER P WITH STROKE THROUGH DESCENDER</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>Pbardes</value>
+                    </charProp>
+                    <mapping type="precomposed">Ꝑ</mapping>
+                    <mapping type="standardized">P</mapping>
+                </char>
+                <char xml:id="chara753">
+                    <desc>LATIN SMALL LETTER P WITH FLOURISH</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>pflour</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝓ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="chara759">
+                    <desc>LATIN SMALL LETTER Q WITH DIAGONAL STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>qslstrok</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝙ</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chara75d">
+                    <desc>LATIN SMALL LETTER RUM ROTUNDA</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>rum</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝝ</mapping>
+                    <mapping type="standardized">rum</mapping>
+                </char>
+                <char xml:id="chara75f">
+                    <desc>LATIN SMALL LETTER V WITH DIAGONAL STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>vdiagstrok</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝟ</mapping>
+                    <mapping type="standardized">v</mapping>
+                </char>
+                <char xml:id="chara76d">
+                    <desc>LATIN SMALL LETTER IS</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>is</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝭ</mapping>
+                    <mapping type="standardized">is</mapping>
+                </char>
+
+                <char xml:id="chara770">
+                    <desc>MODIFIER LETTER US</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>usmod</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝰ</mapping>
+                    <mapping type="standardized">us</mapping>
+                </char>
+
+                <char xml:id="chare682">
+                    <desc>LATIN SMALL LETTER Q WITH DOT ABOVE</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>qdot</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E682</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">q̇</mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e682.png"/>
+                </char>
+
+                <char xml:id="chare8b3">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH R ROTUNDA</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>q2app</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E8B3</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e8b3.png"/>
+                </char>
+                <char xml:id="chare8bf">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH FINAL ET</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>q3app</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E8BF</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e8bf.png"/>
+                </char>
+                <char xml:id="chara757">
+                    <desc>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>qbardes</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtD">U+A757</mapping>
+                    <mapping type="precomposed">ꝗ</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chare68b">
+                    <desc>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE</desc>
+                    <desc n="Combined">LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER + COMBINING TILDE</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>qbardestilde</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> qbardestilde = qbardes + combtilde </value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E68B</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+E68B = A757+ 0303</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">ꝗ̃</mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e68b.png"/>
+                </char>
+                <char xml:id="char0308">
+                    <desc>LATIN SMALL LETTER Q WITH STROKE AND COMBINING DIAERESIS</desc>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value> qdiaeresis = qbardes + combdiaeresis </value>
+                    </charProp>
+                    <mapping type="composed">ꝗ̈</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charebd1">
+                    <desc>LATIN SMALL LETTER D ROTUNDA WITH DOT ABOVE</desc>
+                    <desc>LATIN SMALL LETTER D ROTUNDA + COMBINING DOT ABOVE</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>drotdot</value>
+                    </charProp>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value> drotdot = drot + combdot </value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+EBD1</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+EBD1 = A77A + 0307</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">ꝺ̇</mapping>
+                    <mapping type="standardized">d</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/ebd1.png"/>
+                </char>
+                <char xml:id="charf159">
+                    <desc>LATIN ABBREVIATION SIGN SMALL DE</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>de</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+F159</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">d</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/f159.png"/>
+                </char>
+                <char xml:id="chary0302">
+                    <desc>LATIN SMALL LETTER Y WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">ŷ</mapping>
+                    <mapping type="composed">ŷ</mapping>
+                    <mapping type="standardized">y</mapping>
+                </char>
+
+<!-- Combining Characters, the first character of the code after "char" is the base letter, then come 4 identifying characters combining mark -->
+
+                <char xml:id="chara0303">
+                    <desc>LATIN SMALL LETTER A WITH TILDE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>atilde</value>
+                    </charProp>
+                    <charProp>
+                        <unicodeName>combined-entity</unicodeName>
+                        <value> atilde = a + combtilde </value>
+                    </charProp>
+                    <mapping type="precomposed">ã</mapping>
+                    <mapping type="composed">ã</mapping>
+                    <mapping type="standardized">a</mapping>
+                    <graphic mimeType="image/png" url="http://www.manuscriptorium.com/apps/gbank/data/mufi-graphic/00e3.png"/>
+                </char>
+                <char xml:id="chara0304">
+                    <desc>LATIN SMALL LETTER A WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>amacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> amacr = a + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0101</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+0101 = 0061 + 0304</mapping>
+                    <mapping type="precomposed">ā</mapping>
+                    <mapping type="composed">ā</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+                <char xml:id="charb0307">
+                    <desc>LATIN SMALL LETTER B WITH DOT ABOVE</desc>
+                    <mapping type="composed">ḃ</mapping>
+                    <mapping type="standardized">b</mapping>
+                </char>
+                <char xml:id="charc0303">
+                    <desc>LATIN SMALL LETTER C WITH TILDE</desc>
+                    <mapping type="composed">c̃</mapping>
+                    <mapping type="standardized">c</mapping>
+                </char>
+                <char xml:id="charc0327">
+                    <desc>LATIN SMALL LETTER C WITH CEDILLA</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>ccedil</value>
+                    </charProp>
+                    <mapping type="precomposed">ç</mapping>
+                    <mapping type="composed">ç</mapping>
+                    <mapping type="standardized">c</mapping>
+                    <graphic mimeType="image/png" url="http://www.manuscriptorium.com/apps/gbank/data/mufi-graphic/00e7.png"/>
+                </char>
+                <char xml:id="chare0303">
+                    <desc>LATIN SMALL LETTER E WITH TILDE</desc>
+                    <mapping type="precomposed">ẽ</mapping>
+                    <mapping type="composed">ẽ</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                
+                <char xml:id="chare0308">
+                    <desc>LATIN SMALL LETTER E WITH TWO DOTS ABOVE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>euml</value>
+                    </charProp>
+                    <mapping type="precomposed">ë</mapping>
+                    <mapping type="composed">ë</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0327">
+                    <desc>LATIN SMALL LETTER E WITH CEDILLA</desc>
+                    <mapping type="precomposed">ȩ</mapping>
+                    <mapping type="composed">ȩ</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0304">
+                    <desc>LATIN SMALL LETTER E WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>emacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> emacr = e + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0113</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+0113 = 0065 + 0304</mapping>
+                    <mapping type="precomposed">ē</mapping>
+                    <mapping type="composed">ē</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0328">
+                    <desc>LATIN SMALL LETTER E WITH OGONEK</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>eogon</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0119</mapping>
+                    <mapping type="precomposed">ę</mapping>
+                    <mapping type="composed">ę</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0302">
+                    <desc>LATIN SMALL LETTER E WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">ê</mapping>
+                    <mapping type="composed">ê</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare4e9">
+                    <desc>LATIN SMALL LETTER E WITH CURL</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>ecurl</value>
+                    </charProp>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value>ecurl = e + combcurl</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Combined">U+E4E9 = 0065 + 1DCE</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                
+                <char xml:id="chare0300">
+                    <desc>LATIN SMALL LETTER E WITH GRAVE</desc>
+                    <mapping type="precomposed">è</mapping>
+                    <mapping type="composed">è</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                
+                <char xml:id="charg0304">
+                    <desc>LATIN SMALL LETTER G WITH MACRON</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>gmacr</value>
+                    </charProp>
+                    <mapping type="precomposed">ḡ</mapping>
+                    <mapping type="standardized">g</mapping>
+                </char>
+                
+                <char xml:id="chari0303">
+                    <desc>LATIN SMALL LETTER I WITH TILDE</desc>
+                    <mapping type="precomposed">ĩ</mapping>
+                    <mapping type="composed">ĩ</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0300">
+                    <desc>LATIN SMALL LETTER I WITH GRAVE</desc>
+                    <mapping type="precomposed">ì</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0302">
+                    <desc>LATIN SMALL LETTER I WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">î</mapping>
+                    <mapping type="composed">î</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0304">
+                    <desc>LATIN SMALL LETTER I WITH MACRON</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>imacr</value>
+                    </charProp>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value>imacr = i + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+012B</mapping>
+                    <mapping type="precomposed">ī</mapping>
+                    <mapping type="composed">ī</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                
+                <char xml:id="charj0303">
+                    <desc>LATIN SMALL LETTER J WITH TILDE</desc>
+                    <mapping type="composed">j̃</mapping>
+                    <mapping type="standardized">j</mapping>
+                </char>
+                <char xml:id="charj0308">
+                    <desc>LATIN SMALL LETTER J WITH DIAERESIS</desc>
+                    <mapping type="composed">j̈</mapping>
+                    <mapping type="standardized">j</mapping>
+                </char>
+
+                <char xml:id="charl0303">
+                    <desc>LATIN SMALL LETTER L WITH TILDE</desc>
+                    <mapping type="composed">l̃</mapping>
+                    <mapping type="standardized">l</mapping>
+                </char>
+                <char xml:id="charl0309">
+                    <desc>LATIN SMALL LETTER L WITH HOOK</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>lhook</value>
+                    </charProp>
+                    <mapping type="composed">l̉</mapping>
+                    <mapping type="standardized">l</mapping>
+                </char>
+                
+                <char xml:id="charm0303">
+                    <desc>LATIN SMALL LETTER M WITH TILDE</desc>
+                    <mapping type="composed">m̃</mapping>
+                    <mapping type="standardized">m</mapping>
+                </char>
+                <char xml:id="charm0304">
+                    <desc>LATIN SMALL LETTER M WITH MACRON</desc>
+                    <mapping type="composed">m̄</mapping>
+                    <mapping type="standardized">m</mapping>
+                </char>
+                
+                <char xml:id="charn0303">
+                    <desc>LATIN SMALL LETTER N WITH TILDE</desc>
+                    <mapping type="precomposed">ñ</mapping>
+                    <mapping type="composed">ñ</mapping>
+                    <mapping type="standardized">n</mapping>
+                </char>
+                <char xml:id="char00D1">
+                    <desc>LATIN CAPITAL LETTER N WITH TILDE</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>Ntilde</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> Ntilde = N + combtilde</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Lat1Suppl">U+00D1</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+00D1 = 004E + 0303</mapping>
+                    <mapping type="precomposed">Ñ</mapping>
+                    <mapping type="composed">Ñ</mapping>
+                    <mapping type="standardized">N</mapping>
+                </char>
+                <char xml:id="charn0304">
+                    <desc>LATIN SMALL LETTER N WITH MACRON</desc>
+                    <mapping type="composed">n̄</mapping>
+                    <mapping type="standardized">n</mapping>
+                </char>
+                
+                <char xml:id="char0254">
+                    <desc>LATIN SMALL LETTER OPEN O</desc>
+                    <mapping type="precomposed">ɔ</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0300">
+                    <desc>LATIN SMALL LETTER O WITH GRAVE</desc>
+                    <mapping type="precomposed">ò</mapping>
+                    <mapping type="composed">ò</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0302">
+                    <desc>LATIN SMALL LETTER O WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">ô</mapping>
+                    <mapping type="composed">ô</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0303">
+                    <desc>LATIN SMALL LETTER O WITH TILDE</desc>
+                    <mapping type="precomposed">õ</mapping><!--00f5-->
+                    <mapping type="composed">õ</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo00F6">
+                    <desc>LATIN SMALL LETTER O WITH DIAERESIS</desc>
+                    <mapping type="MUFI">ö</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0304">
+                    <desc>LATIN SMALL LETTER O WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>omacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> omacr = o + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+014D</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+014D = 006F + 0304</mapping>
+                    <mapping type="precomposed">ō</mapping>
+                    <mapping type="composed">ō</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charp0301">
+                    <desc>LATIN SMALL LETTER P WITH ACUTE ACCENT</desc>
+                    <mapping type="precomposed">ṕ</mapping>
+                    <mapping type="composed">ṕ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="charp0303">
+                    <desc>LATIN SMALL LETTER P WITH TILDE</desc>
+                    <mapping type="composed">p̃</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="charp0307">
+                    <desc>LATIN SMALL LETTER P WITH DOT ABOVE</desc>
+                    <mapping type="composed">ṗ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                
+                <char xml:id="charq0301">
+                    <desc>LATIN SMALL LETTER Q WITH ACUTE ACCENT</desc>
+                    <mapping type="composed">q́</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0303">
+                    <desc>LATIN SMALL LETTER Q WITH TILDE</desc>
+                    <mapping type="composed">q̃</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0304">
+                    <desc>LATIN SMALL LETTER Q WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>qmacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> qmacr = q + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+E681</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">q̄</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                
+                <char xml:id="charq0307">
+                    <desc>LATIN SMALL LETTER Q WITH DOT ABOVE</desc>
+                    <mapping type="composed">q̇</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0308">
+                    <desc>LATIN SMALL LETTER Q WITH TWO DOTS ABOVE</desc>
+                    <mapping type="composed">q̈</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0366">
+                    <desc>LATIN SMALL LETTER Q WITH SMALL O ABOVE</desc>
+                    <mapping type="composed">qͦ</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                
+                <char xml:id="charr0303">
+                    <desc>LATIN SMALL LETTER R WITH TILDE</desc>
+                    <mapping type="composed">r̃</mapping>
+                    <mapping type="standardized">r</mapping>
+                </char>
+                <char xml:id="charr0304">
+                    <desc>LATIN SMALL LETTER R WITH MACRON</desc>
+                    <mapping type="composed">r̄</mapping>
+                    <mapping type="standardized">r</mapping>
+                </char>
+                
+                <char xml:id="chars0303">
+                    <desc>LATIN SMALL LETTER S WITH TILDE</desc>
+                    <mapping type="composed">s̃</mapping>
+                    <mapping type="standardized">s</mapping>
+                </char>
+                <char xml:id="chart0303">
+                    <desc>LATIN SMALL LETTER T WITH TILDE</desc>
+                    <mapping type="composed">t̃</mapping>
+                    <mapping type="standardized">t</mapping>
+                </char>
+                
+                <char xml:id="charu0303">
+                    <desc>LATIN SMALL LETTER U WITH TILDE</desc>
+                    <mapping type="precomposed">ũ</mapping>
+                    <mapping type="composed">ũ</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                <char xml:id="charu0304">
+                    <desc>LATIN SMALL LETTER U WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>umacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> umacr = u + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+016B</mapping>
+                    <mapping type="precomposed">ū</mapping>
+                    <mapping type="composed">ū</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                
+                <char xml:id="charu0302">
+                    <desc>LATIN SMALL LETTER U WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">û</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                
+                <char xml:id="charx0303">
+                    <desc>LATIN SMALL LETTER X WITH TILDE</desc>
+                    <mapping type="composed">x̃</mapping>
+                    <mapping type="standardized">x</mapping>
+                </char>
+                <char xml:id="chary0304">
+                    <desc>LATIN SMALL LETTER Y WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>ymacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> ymacr = y + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtB">U+0233</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+0233 = 0079 + 0304</mapping>
+                    <mapping type="precomposed">ȳ</mapping>
+                    <mapping type="composed">ȳ</mapping>
+                    <mapping type="standardized">y</mapping>
+                </char>
+                
+                
+                <!-- Horizontal bars and lines, cross-like symbols -->
+                <char xml:id="char2013">
+                    <desc>EN DASH</desc>
+                    <mapping type="MUFI" subtype="GenPunct">U+2013</mapping>
+                    <mapping type="precomposed">–</mapping>
+                    <mapping type="standardized">–</mapping>
+                </char>
+                <char xml:id="char2014">
+                    <desc>EM DASH</desc>
+                    <mapping type="MUFI" subtype="GenPunct">U+2014</mapping>
+                    <mapping type="precomposed">—</mapping>
+                    <mapping type="standardized">—</mapping>
+                </char>
+                <char xml:id="char2020">
+                    <desc>DAGGER</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>dagger</value>
+                    </charProp>
+                    <mapping type="precomposed">†</mapping>
+                    <mapping type="standardized">+</mapping>
+                </char>
+                <char xml:id="char271d">
+                    <desc>LATIN CROSS</desc>
+                    <mapping type="MUFI" subtype="Dingbats">U+271D</mapping>
+                    <mapping type="precomposed">✝</mapping>
+                    <mapping type="standardized">+</mapping>
+                </char>
+                
+                
+                <!-- Combining characters where even the base letter is a four-letter codepoint -->
+                <char xml:id="char01310323">
+                    <desc>LATIN TURNED SMALL LETTER I</desc>
+                    <mapping type="precomposed">ı̣</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="char21840303">
+                    <desc>LATIN ABBREVIATION SIGN SMALL CON WITH TILDE</desc>
+                    <mapping type="composed">ↄ̃</mapping>
+                    <mapping type="standardized">con</mapping>
+                </char>
+                <char xml:id="chara7590303">
+                    <desc>LATIN SMALL LETTER Q WITH DIAGONAL STROKE AND TILDE</desc>
+                    <mapping type="composed">ꝙ̃</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chare8bf0301">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH FINAL ET AND WITH ACUTE ACCENT</desc>
+                    <mapping type="composed">́</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chare8bf0308">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH FINAL ET AND WITH TWO DOTS ABOVE</desc>
+                    <mapping type="composed">̈</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+
+                <!-- Other characters, not present in unicode nor MUFI -->
+                <char xml:id="char-turnedfl">
+                    <desc>LATIN TURNED SMALL LIGATURE FL</desc>
+                    <mapping type="standardized">fl.</mapping>
+                </char>
+            </charDecl>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.56.0">
+                    <label xml:id="L0086-label">DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
+        <revisionDesc status="g_enriched_approved">
+            <listChange>
+                <change who="#CR" when="2024-04-04" status="g_enriched_approved" xml:id="L0086_change_013" xml:lang="en">Corrected double persName inside and outsid of bibl.</change>
+                <change who="#CR #auto" when="2024-03-19" status="g_enriched_approved" xml:id="L0086_change_012" xml:lang="en">Added bibl from L0998.</change>
+                <change who="#CR #auto" when="2024-03-14" status="g_enriched_approved" xml:id="L0086_change_011" xml:lang="en">Changed structure from ref(persName bibl/title) to bibl(author/persName date biblScope).</change>
+                <change who="#CR #auto" when="2024-03-19" status="g_enriched_approved" xml:id="L0086_change_010" xml:lang="en">Added persName from L0998 and ref to SvSal Authors.</change>
+                <change who="#CR" when="2024-03-12" status="g_enriched_approved" xml:id="L0001_change_009" xml:lang="en">Transformation TEI-P5 to SvSal-TEI.</change>
+                <change who="#CR" when="2024-03-12" status="g_enriched_approved" xml:id="L0001_change_008" xml:lang="en">Structural annotation and manual changes.</change>
+                <change who="#AW" when="2024-02-28" status="g_enriched_approved">Integrated updated text and converted to TEI XML</change>
+                <change who="#AW" when="2020-06-01" status="f_enriched">Integrated #JLE's text with the #AW's previous text "The Approach of Some Major Commentators on STh II-II, q. 10: De Infidelitate"</change>
+                <change who="#AW" when="2015-06-12" status="b_cleared">Finished draft</change>
+                <change who="#IC" when="2015-01-15" status="a_raw">fourth revision</change>
+                <change who="#IC" when="2014-03-21" status="a_raw">third revision</change>
+                <change who="#IC" when="2014-03-17" status="a_raw">second revision</change>
+                <change who="#IC" when="2013-12-13" status="a_raw">Testdatensatz erstellt</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="en" type="lemma_article" xml:id="completeWork">
+        <front xml:id="L0086-front-d1e81">
+            <titlePage xml:id="L0086-tp1">
+                <docTitle xml:id="L0086-dt1">
+                    <titlePart type="main" xml:id="L0086-tpt1">Infidelitas</titlePart>
+                </docTitle>
+                <byline>
+                <docAuthor sameAs="#JLE">
+                    <persName>
+                        <surname>Egío García</surname>, <forename>José Luis</forename>
+                    </persName>
+                </docAuthor>
+                 /
+                <docAuthor sameAs="#AW">
+                    <persName>
+                        <surname>Wagner</surname>, <forename>Andreas</forename>
+                    </persName>
+                </docAuthor>
+                </byline>
+            </titlePage>
+            <div type="contents" xml:id="L0086-div-d1e119">
+                <list xml:id="L0086-li-d1e119">
+                    <head xml:id="L0086-it-d1e124">Contents</head>
+                    <item xml:id="L0086-it-d1e128"><ref target="#L0086-div-d1e219">1 Definition and contexts of discussion</ref></item>
+                    <item xml:id="L0086-it-d1e132"><ref target="#L0086-div-d1e241">1.1 Related concepts</ref></item>
+                    <item xml:id="L0086-it-d1e136"><ref target="#L0086-div-d1e321">1.2 Particular groups of infidels</ref></item>
+                    <item xml:id="L0086-it-d1e141"><ref target="#L0086-div-d1e347">2 Infidelitas in the School of Salamanca</ref></item>
+                    <item xml:id="L0086-it-d1e145"><ref target="#L0086-div-d1e353">2.1 Defining infidelitas</ref></item>
+                    <item xml:id="L0086-it-d1e149"><ref target="#L0086-div-d1e392">2.2 Typologies of infidelitas</ref></item>
+                    <item xml:id="L0086-it-d1e153"><ref target="#L0086-div-d1e398">2.2.1 Conceptual distinctions: modes of infidelitas</ref></item>
+                    <item xml:id="L0086-it-d1e157"><ref target="#L0086-div-d1e432">2.2.2 Experience-based distinctions: groups of infidels</ref></item>
+                    <item xml:id="L0086-it-d1e161"><ref target="#L0086-div-d1e492">2.3 The theological and ethical dimension: infidelitas as sin affecting the moral capacity of the agent</ref></item>
+                    <item xml:id="L0086-it-d1e166"><ref target="#L0086-div-d1e583">2.4 Juridical and political debates</ref></item>
+                    <item xml:id="L0086-it-d1e170"><ref target="#L0086-div-d1e592">2.4.1 Infidelitas and dominium</ref></item>
+                    <item xml:id="L0086-it-d1e174"><ref target="#L0086-div-d1e669">2.4.2 Infidel subjects of Christian rulers</ref></item>
+                    <item xml:id="L0086-it-d1e178"><ref target="#L0086-div-d1e685">2.4.3 Infidel rulers</ref></item>
+                    <item xml:id="L0086-it-d1e182"><ref target="#L0086-div-d1e773">2.4.4 Baptism of infidels</ref></item>
+                    <item xml:id="L0086-it-d1e186"><ref target="#L0086-div-d1e832">2.4.5 Communication and convivencia: Social relations between Christians and infidels</ref></item>
+                    <item xml:id="L0086-it-d1e191"><ref target="#L0086-div-d1e882">2.4.6 Commercial relations between Christians and infidels</ref></item>
+                    <item xml:id="L0086-it-d1e195"><ref target="#L0086-div-d1e930">2.4.7 Infidels and (Christian) marriage</ref></item>
+                    <item xml:id="L0086-it-d1e199"><ref target="#L0086-div-d1e955">3 Final remark</ref></item>
+                    <item xml:id="L0086-it-d1e203"><ref target="#L0086-div-d1e976">Bibliography</ref></item>
+                    <item xml:id="L0086-it-d1e207"><ref target="#L0086-it-d1e981">Sources</ref></item>
+                    <item xml:id="L0086-it-d1e211"><ref target="#L0086-it-d1e1707">Research Literature</ref></item>
+                </list>
+            </div>
+        </front>
+        <body xml:id="L0086-body-d1e217">
+            <div type="part" n="1 Definition and contexts of discussion" xml:id="L0086-div-d1e219">
+                <head xml:id="Toc161137935">1 Definition and contexts of discussion</head>
+                <p n="1" xml:id="L0086-p-1">The authors of the School of Salamanca define infidelitas as the deliberate rejection of the (totality of the) Christian faith. The exact understanding of terms like “deliberate”, “rejection” or “totality”, however, was a matter of debate.</p>
+                <p n="2" xml:id="L0086-p-2">Discussions of infidelitas and its related issues usually take their starting point from <bibl><author><persName>Thomas Aquinas</persName></author>’ <biblScope>STh IIa-IIae, q. 10</biblScope></bibl>, q. 10. Other authors frequently referred to are <persName>Augustine</persName>, <persName ref="https://d-nb.info/gnd/120324431">Sylvester</persName> and <persName>Cajetan</persName>.</p>
+                <p n="3" xml:id="L0086-p-3">The Salamancan authors’ discussions of infidelity are shaped by questions arising from the practical experiences of missionaries in the Americas, leading to original departures from the medieval tradition.</p>
+                <div type="section" n="1.1 Related concepts" xml:id="L0086-div-d1e241">
+                    <head xml:id="Toc161137936">1.1 Related concepts</head>
+                    <p n="4" xml:id="L0086-p-4"><term xml:id="L0086-term-d1e249">apostasia</term>, <term xml:id="L0086-term-d1e253">bellum</term>, <term xml:id="L0086-term-d1e257">culpa</term>, <term xml:id="L0086-term-d1e261">dominium iurisdictionis</term>, <term xml:id="L0086-term-d1e266">dominium proprietatis</term>, <term xml:id="L0086-term-d1e270">fides</term>, <term xml:id="L0086-term-d1e274">haeresia</term>, <term xml:id="L0086-term-d1e278">ignorantia</term>, <term xml:id="L0086-term-d1e283">iudicium</term>, <term xml:id="L0086-term-d1e287">iuramentum</term>, <term xml:id="L0086-term-d1e291">iurisdictio</term>, <term xml:id="L0086-term-d1e295">ius communicandi</term>, <term xml:id="L0086-term-d1e299">ius peregrinandi</term>, <term xml:id="L0086-term-d1e302">ius praedicandi</term>, <term xml:id="L0086-term-d1e306">peccatum</term>, <term xml:id="L0086-term-d1e310">servitus</term>, <term xml:id="L0086-term-d1e315">superstitio</term> </p>
+                </div>
+                <div type="section" n="1.2 Particular groups of infidels" xml:id="L0086-div-d1e321">
+                    <head xml:id="Toc161137937">1.2 Particular groups of infidels</head>
+                    <p n="5" xml:id="L0086-p-5"><term xml:id="L0086-term-d1e329">infidelis</term> (<term xml:id="L0086-term-d1e332">etnicus</term>, <term xml:id="L0086-term-d1e335">iudaeus</term>, <term xml:id="L0086-term-d1e338">paganus</term>, <term xml:id="L0086-term-d1e341">saracenus</term>)</p>
+                </div>
+            </div>
+            <div type="part" n="2 Infidelitas in the School of Salamanca" xml:id="L0086-div-d1e347">
+                <head xml:id="Toc161137938">2 Infidelitas in the School of Salamanca</head>
+                <div type="section" n="2.1 Defining infidelitas" xml:id="L0086-div-d1e353">
+                    <head xml:id="Toc161137939">2.1 Defining infidelitas</head>
+                    <p n="6" xml:id="L0086-p-6">The Salamancan authors follow <persName>Thomas Aquinas</persName>’ bipartite definition (<bibl><author><persName>Aquinas</persName></author>, <biblScope>ST IIa-IIae, q. 10</biblScope></bibl>): in the negative sense, infidelity is the simple absence of faith. In the second definition, as contempt of the Christian faith or as refusal to be instructed in it, it represents a sin against the faith (<bibl><author><persName>Aquinas</persName></author>, <biblScope>ST II-IIae, q. 10 art. 1, p. 78</biblScope></bibl>; see <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 1 no. 1, p. 160</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 3, p. 64</biblScope></bibl>).</p>
+                    <p n="7" xml:id="L0086-p-7">In the late 16<hi rendition="#sup">th</hi> century, <persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName> refines this definition. Infidelity in the negative sense can be understood in two ways: as a lack of the intellectual capacity to receive and understand the faith, or as the absence of faith in an intellectually capable human being. Positive infidelity, always a sin, requires the explicit rejection of the faith or its non-acceptance despite sufficient instruction (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 1, col. 559</biblScope></bibl>).</p>
+                    <p n="8" xml:id="L0086-p-8">Manuals for confessors (e.g. <bibl corresp="https://id.salamanca.school/texts/W0015?mode=details"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1562">1562</date>/<date when="2018">2018</date></bibl>) define infidelity as an offence against the first of the Ten Commandments. It means rejecting the faith deliberately and consciously, which distinguishes it from minor infringements (<bibl corresp="https://id.salamanca.school/texts/W0015:2.2.2.2.1?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1562">1562</date>, <biblScope>Orden de confessarse, Primer mandamiento, Jnfidelidad, p. 21</biblScope></bibl>). For <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName>, infidelity cuts a person off from Church and salvation: the infidel denies God’s infallible truth and the divine means of redemption, as if God is capable of lying or cheating (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 1 no. 1, pp. 262 sq.</biblScope></bibl>).</p>
+                </div>
+                <div type="section" n="2.2 Typologies of infidelitas" xml:id="L0086-div-d1e392">
+                    <head xml:id="Toc161137940">2.2 Typologies of infidelitas </head>
+                    <div type="subsection" n="2.2.1 Conceptual distinctions: modes of infidelitas" xml:id="L0086-div-d1e398">
+                        <head xml:id="Toc161137941">2.2.1 Conceptual distinctions: modes of infidelitas</head>
+                        <p n="9" xml:id="L0086-p-9">Concerning the modes of infidelity, most Salamancan authors take <persName>Cajetan</persName>’s comments on <bibl><author><persName>Aquinas</persName></author>, <biblScope>STh IIa-IIae, q. 10, art. 2</biblScope></bibl> as a starting point. <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> approves <persName>Cajetan</persName>’s differentiation of four modes of infidelity based on intellectus but underlines that three of these can also be ascribed to a person’s will (voluntas), given that men are obliged to believe <quote>“because of God’s authority and because the Church says so”</quote> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 2 no. 3, p. 164</biblScope></bibl>). For <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName>, the only solely intellectual mode of infidelity is the negative one: the infidel who knows nothing of the faith cannot be said to have voluntas regarding it; he can neither dissent nor doubt.</p>
+                        <p n="10" xml:id="L0086-p-10"><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> offers his own tripartite distinction: refusal to believe the principles of the faith; suspension of judgement; doubts about the Christian precepts. In his view, only the categorical refusal of the Christian faith is clearly sinful (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16, sect. 1, no. 8 sq., p. 264</biblScope></bibl>).</p>
+                        <p n="11" xml:id="L0086-p-11"><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> also offers further criteria for differentiation: infidelity can also be defined in terms of content (materialiter) or form (formaliter). Materialiter, Christian sinners who ‘ignore’ a certain part of the faith are to be distinguished from infidels ‘ignoring’ the entire contents of the faith, even the First Truth (<quote>infidelitas secundum materiam</quote>: <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 1 no. 3, p. 263</biblScope></bibl>). <quote>Infidelitas secundum formam</quote> comprises two subtypes: negative and privative. Negative infidelity affects those who are completely ignorant of the faith due to geographical isolation. <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> argues that this kind of sinless infidelity may be difficult to conceive but is nevertheless possible. As the will of the infidel is not involved, negative infidelity does not constitute a sinful rejection of the faith. Privative infidelity, by contrast, is always sinful because in this case, the infidel turns away from Christianity despite sufficient instruction (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 1 no. 4, p. 263</biblScope></bibl>).</p>
+                    </div>
+                    <div type="subsection" n="2.2.2 Experience-based distinctions: groups of infidels" xml:id="L0086-div-d1e432">
+                        <head xml:id="Toc161137942">2.2.2 Experience-based distinctions: groups of infidels </head>
+                        <p n="12" xml:id="L0086-p-12">Other classifications of infidelity are based on the three ways of rejecting Christianity describes by <bibl><author><persName>Aquinas</persName></author>, <biblScope>STh IIa-IIae q. 10 art. 5</biblScope></bibl>, who distinguishes between pagans (never having received the faith at all), Jews (recognising the faith only in figura, i.e. in the prophecies of the Old Testament), and heretics (rejecting the manifest truth of the New Testament as taught by the Catholic Church) (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 5, p. 278</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 5, col. 595</biblScope></bibl>).</p>
+                        <p n="13" xml:id="L0086-p-13">Further subdivisions are rejected as unfounded and of little use for answering practical questions, and in order to avoid an endless differentiation (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 5, p. 279</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 5, cols. 596-597</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 5 no. 2, p. 184</biblScope></bibl>). Despite broadly agreeing on classification, Salamancan authors frequently disagree on concrete issues. A catechumen who embraces the Christian faith in general terms but insists on disagreeing on a certain point, for example, is considered a heretic by <persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName> and <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 5, col. 596</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 4 no. 9, p. 270</biblScope></bibl>), whereas <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> sees him as the pagan, Jew or Muslim that he was before his conversion (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 5 no. 4, p. 185</biblScope></bibl>).</p>
+                        <p n="14" xml:id="L0086-p-14">Salamancan scholars make innovative contributions to Catholic thought on infidelity mainly as a result of their reflections on the experiences of extra-European missions. In addition, they adopt the innovative jurisdictional classification originally formulated in the early 16<hi rendition="#sup">th</hi> century by <persName>Matías de Paz</persName> and <persName>Cajetan</persName> (<bibl type="changed"><author><persName>Paz</persName></author> <date when="2017">2017</date>, <biblScope>no. 8, pp. 86 sqq.</biblScope></bibl>; <bibl type="changed"><author><persName>Aquinas</persName></author>/<author><persName>Cajetan</persName></author> <date when="1897">1897</date>, <biblScope>q. 66 art. 8, comm., pp. 94 sq.</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0011:1.5.4.5.3?format=html"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 5 q. 3 art. 5, pp. 430sq.</biblScope></bibl>). Adding to the typologies based on European experiences, the authors distinguish between infidel subjects of Christian rulers (e.g. Jews, Muslims or heretics under the dominion of Christian princes), infidels living in formerly Christian lands (e.g. Turks or Saracens), and infidels living in lands which neither belonged to the Roman Empire nor had ever been under the jurisdiction of any Christian prince (e.g. Amerindians). <persName ref="https://d-nb.info/gnd/118726625">Las Casas</persName> underlines how this third category <quote>‘brought light into the former blindness’</quote> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118726625">Las Casas</persName></author> <date when="1876">1876</date>, <biblScope>cap. 38, p. 63</biblScope></bibl>).</p>
+                        <p n="15" xml:id="L0086-p-15">Aiming to develop evangelisation strategies fitting the cultural characteristics of different infidel peoples, <persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName> proposes grouping Asian, African, American and Oceanian (Solomon Islands) infidels into three types, according to what he perceives as their respective degree of reason (<quote>recta ratio</quote>: <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName></author> <date when="1588">1588</date>, <biblScope>prooem., pp. 117-122</biblScope></bibl>). By the 17<hi rendition="#sup">th</hi> century, these typologies of infidelity commonly appear in the juridical and pragmatic literature (<bibl corresp="https://id.salamanca.school/texts/W0096:vol1.2.10?format=html"><author><persName ref="https://d-nb.info/gnd/118837389">Solórzano</persName></author> <date when="1629">1629</date>, <biblScope>lib. 2 cap. 10, 11, pp. 348-372</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/119337843">Peña Montenegro</persName></author> <date when="1668">1668</date>, <biblScope>lib. 2 tract. 8 sess. 5, pp. 220 sqq.</biblScope></bibl>).</p>
+                        <p n="16" xml:id="L0086-p-16">Reacting to debates about new types of (European) infidelity in the 17<hi rendition="#sup">th</hi> century, <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> discusses whether atheism and philosophical deism should be considered new kinds of infidelity or whether their adherents can be subsumed under the main Thomist categories. He concludes that the latter should be kept for practical reasons (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 4 no. 10-15, pp. 270 sqq.</biblScope></bibl>).</p>
+                    </div>
+                </div>
+                <div type="section" n="2.3 The theological and ethical dimension" xml:id="L0086-div-d1e492">
+                    <head xml:id="Toc161137943">2.3 The theological and ethical dimension: infidelitas as sin affecting the moral capacity of the agent </head>
+                    <p n="17" xml:id="L0086-p-17">There is no consensus in the theological tradition regarding the question to what extent infidelity affects the moral capacity of an agent. <persName>Augustine of Hippo</persName> considered infidels incapable of true virtue, good actions and legitimate <term xml:id="L0086-term-d1e501">dominium</term>, all of them gifts of divine grace (see <bibl corresp="https://id.salamanca.school/texts/W0096:vol1.2.10.14?format=html"><author><persName ref="https://d-nb.info/gnd/118837389">Solórzano</persName></author> <date when="1629">1629</date>, <biblScope>lib. 2 cap. 10 no. 26, p. 354</biblScope></bibl>); any seemingly virtuous action of Greek or Roman pagans is based only on vainglory or greed (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118804065">Vázquez</persName></author> <date when="1606">1606</date>b, <biblScope>q. 109 cap. 4 no. 18, p. 523</biblScope></bibl>). <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> and <persName ref="https://d-nb.info/gnd/118804065">Vázquez</persName> explicitly reject <persName>Augustine</persName>’s position and similar statements by <persName>Gregory of Rimini</persName> (<bibl corresp="https://id.salamanca.school/texts/W0013:vol2.6?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>b, <biblScope>319</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 4, pp. 17 sqq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118804065">Vázquez</persName></author> <date when="1606">1606</date>b, <biblScope>q. 109 cap. 1, pp. 519 sq.</biblScope></bibl>). For them, an action corresponding to the natural recta ratio should be understood as implicitly corresponding to God’s intentions (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 5 no. 13, pp. 181 sq.</biblScope></bibl>) and referring virtualiter to him (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 4, p. 268</biblScope></bibl>). Such good actions are carried out just as God intends; hence, they are virtuous, as are their agents, even if they are infidels lacking knowledge of God. Many Salamancan authors (see the list given by <bibl corresp="https://id.salamanca.school/texts/W0096:vol1.2.11.22?format=html"><author><persName ref="https://d-nb.info/gnd/118837389">Solórzano</persName></author> <date when="1629">1629</date>, <biblScope>q. 10 cap. 11 no. 50, p. 370</biblScope></bibl>) underline that infidelity does not preclude a person from leading a life pleasing to God (<bibl corresp="https://id.salamanca.school/texts/W0013:vol2.6.1.article19?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>b, <biblScope>pars 1 no. 40, pp. 346 sq.</biblScope></bibl>, <bibl corresp="https://id.salamanca.school/texts/W0013:vol2.6.3.article14?format=html"><biblScope>pars 3 no. 14, p. 393</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 4, col. 589</biblScope></bibl>). Even if very difficult (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118804065">Vázquez</persName></author> <date when="1606">1606</date>b, <biblScope>q.109 cap. 2, pp. 520 sqq.</biblScope></bibl>), it is not impossible for an individual affected by the “mental blindness” of infidelity to live free of sin (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 3, p. 261</biblScope></bibl>).</p>
+                    <p n="18" xml:id="L0086-p-18">Over time, this positive view becomes common opinion (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 4 no. 4, p. 171</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 17 sect. 3 no. 3 sqq., p. 280 sq.</biblScope></bibl>), marginalising <persName>Augustine</persName>’s “exaggerated” criticism (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 4, col. 587</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 2 no. 2, p. 265</biblScope></bibl>). Augustinian authors have to reinterpret the words of their order’s founder to dissociate his position from that of <persName>Luther</persName> and other thinkers who hold that virtuous actions could only result from divine grace (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 4, pp. 271 sq.</biblScope></bibl>). In this, the Tridentine canons against <persName>Luther</persName>, as well as the condemnation of <persName>John Wycliff</persName> and <persName>Jan Hus</persName> (both radical interpreters of <persName>Augustine</persName>’s view on infidels’ moral capacity) formulated by the Council of Constance (1415) are important points of reference in Salamancan literature (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 4, col. 588</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0003:6.1.2.34?format=html"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1594">1594</date>, <biblScope>q. 62, praeamb. de Dominio, 1a q., p. 123</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0096:vol1.2.10.section56?format=html"><author><persName ref="https://d-nb.info/gnd/118837389">Solórzano</persName></author> <date when="1629">1629</date>, <biblScope>lib. 2 cap. 10 no. 56, p. 359</biblScope></bibl>).</p>
+                    <p n="19" xml:id="L0086-p-19">Despite being conscious of the contrary opinion in the theological tradition, <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName>’s confidence in infidels' capacity for a virtuous life leads him to speculate about the possibility that individuals affected by purely negative infidelity are capable of authentic contrition and thus of receiving grace (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 1 no. 10, pp. 162 sq.</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0013:vol1.5.2.34?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a, <biblScope>pars 1 no. 33, p. 337</biblScope></bibl>). This view divides his colleagues and is greatly criticised. In 1547, <persName ref="https://d-nb.info/gnd/118518844">Melchor Cano</persName> uses his first public lecture to rebut precisely this opinion of the recently deceased <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118518844">Cano</persName></author> <date when="1550">1550</date>, <biblScope>p. 2, ff. 13r-13v</biblScope></bibl>). The pragmatic literature considers it detrimental to evangelising zeal or even heretical (<bibl corresp="https://id.salamanca.school/texts/W0002:11.3.number18?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 11 no. 18, p. 70</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName></author> <date when="1588">1588</date>, <biblScope>lib. 5 cap. 4, pp. 494 sqq.</biblScope></bibl>). This may explain why <persName ref="https://d-nb.info/gnd/118798111">Soto</persName>, after initially following <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1547">1547</date>, <biblScope>cap. 19, fol. 140v</biblScope></bibl>), backs down in response to heavy criticism (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/119337843">Peña Montenegro</persName></author> <date when="1668">1668</date>, <biblScope>lib. 2 tract. 8 sess. 4 no. 3, p. 219</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1557">1557</date>, <biblScope>dist. 1 q. 2 art. 3, pp. 47 sq.</biblScope></bibl>).</p>
+                    <p n="20" xml:id="L0086-p-20">Underlying the whole debate is the view that in certain cases, infidelity is produced by <term xml:id="L0086-term-d1e551">ignorantia invincibilis</term>, i.e. a complete, guiltless lack of knowledge about the Christian faith due to geographical isolation, lack of preachers, etc. (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 1 no. 1, p. 163</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 1, p. 254</biblScope></bibl>). The Salamancans here follow <persName>Aquinas</persName>’ and <persName>Augustine</persName>’s position against more modern authors, such as <persName>Hadrian VI</persName>, <persName>Gabriel Biel</persName>, <persName>Jean Gerson</persName>, <persName>Hugh of Saint-Victor</persName>, <persName>William of Paris</persName> and <persName>William of Auxerre</persName>, for whom infidelity is always inexcusable and sinful (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 1, cols. 557-558</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 1, pp. 253 sq.</biblScope></bibl>). The latter hold that individuals who have full use of reason but lack faith must have rejected an inner instinct that should lead them towards God; also, if they strictly observed natural law, God himself would enlighten them through an internal revelation or by external means, such as by sending preachers or angels (see <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 1, col. 557</biblScope></bibl>). The Salamancan authors do admit that infidels without any knowledge of the faith are damned – not, however, as a result of their infidelity, but due to other sins committed against natural law. At the turn of the 17<hi rendition="#sup">th</hi> century, this position becomes the common opinion among the Salamancan scholars (see <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 17 sect. 1 no. 5, p. 275</biblScope></bibl>).</p>
+                    <p n="21" xml:id="L0086-p-21">The theoretical argument about <term xml:id="L0086-term-d1e562">ignorantia invincibilis</term> opens up a practical discussion regarding the teaching of the Gospel in the missionary field. Discussing the missionary practices in the Americas, most authors consider superficial teaching insufficient; <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> states that in order to label someone a “contumacious infidel” (<quote>infidelis per contrarietatem</quote>), he must have had the opportunity of hearing at least the main articles of Christianity presented in a convincing way (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 1 no. 10, p. 162</biblScope></bibl>). <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName>, by contrast, holds that even an insufficient proposition of the faith obliges the infidel to seek further information, as the rational character of the Christian precepts cannot be easily brushed away (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 17 sect. 1 no. 9, p. 276</biblScope></bibl>). Other 16<hi rendition="#sup">th</hi>-century authors, however, follow <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName>’s reasoning, postulating that infidels can only be labelled contumacious if the preacher had been capable of proving that Christian beliefs were more credible than any other cult or religion (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 1, p. 255</biblScope></bibl>).</p>
+                    <p n="22" xml:id="L0086-p-22">Contrary to the medieval tradition (see <bibl><author><persName>Aquinas</persName></author> <biblScope>IIa-IIae, q. 10, a. 6</biblScope></bibl>), Salamancan scholars are not particularly interested in evaluating the wickedness of infidelity compared to other sins and take a casuistic approach, if they discuss the topic at all (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 6 no. 2, p. 187</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 3 no. 7, p. 169</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 2, pp. 264 sqq.</biblScope></bibl>).</p>
+                </div>
+                <div type="section" n="2.4 Juridical and political debates" xml:id="L0086-div-d1e583">
+                    <head xml:id="Toc161137944">2.4 Juridical and political debates</head>
+                    <p n="23" xml:id="L0086-p-23">The theoretical debates on infidelity have important juridical and practical repercussions. To <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName>, the most important aim of doctrinal scholarship is to provide secular and ecclesiastical authorities with criteria to pass laws and judgements which adequately correspond to different kind of infidels, regulating the communication between Christians and infidels, whether they are subjects of the same ruler or not (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 16 sect. 4, pp. 268 sqq.</biblScope></bibl>).</p>
+                    <div type="subsection" n="2.4.1 Infidelitas and dominium" xml:id="L0086-div-d1e592">
+                        <head xml:id="Toc161137945">2.4.1 Infidelitas and dominium</head>
+                        <p n="24" xml:id="L0086-p-24">One of the most controversial issues is whether infidels are able or allowed to hold property or jurisdiction (<term xml:id="L0086-term-d1e601">dominium</term>). Following <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> (<bibl corresp="https://id.salamanca.school/texts/W0013:vol1.5.2.13?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a, <biblScope>pars 1 no. 7, p. 300</biblScope></bibl>), Salamancan authors agree that infidelity does not preclude <term xml:id="L0086-term-d1e608">dominium</term>, since divine positive law and its distinction between believers and infidels does not invalidate natural law (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.5.1.3?format=html"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>p. 1 lib. 4 q. 4 art. 1, pp. 302 sq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1995">1995</date>, <biblScope>no. 32, pp. 170-173</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0046:3.section4?format=html"><author><persName ref="https://d-nb.info/gnd/13700849X">Freitas</persName></author> <date when="1625">1625</date>, <biblScope>cap. 3 no. 4, fols. 14v-15r</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0006:vol1.4.6.10.31?format=html"><author><persName ref="https://d-nb.info/gnd/118837478">Covarrubias</persName></author> <date when="1573">1573</date>, <biblScope>pars 2 § 10 no. 2, pp. 508 sq.</biblScope></bibl>). Jurists like <persName ref="https://d-nb.info/gnd/118837389">Juan de Solórzano</persName> and <persName ref="http://viaf.org/viaf/72759209">Gregorio López</persName> echo the theologians’ criticism of the position of the 13<hi rendition="#sup">th</hi>-century Italian canonist <persName>Henry of Segusio</persName> and his followers (<bibl corresp="https://id.salamanca.school/texts/W0096:vol1.2.10.29?format=html"><author><persName ref="https://d-nb.info/gnd/118837389">Solórzano</persName></author> <date when="1629">1629</date>, <biblScope>lib. 2 cap. 10 no. 57, p. 359</biblScope></bibl>) and share their opinion (<bibl type="changed"><author><persName ref="http://viaf.org/viaf/72759209">López</persName></author> <date when="1555">1555</date>, <biblScope>Part. II, Tit. 23, L. 2, Glos. g, fol. 82v</biblScope></bibl>) that neither infidelity nor any other kind of mortal sin can cancel <term xml:id="L0086-term-d1e633">dominium</term> or transfer it into the hands of the Church. As stated by the Council of Constance, <term xml:id="L0086-term-d1e637">dominium</term> is instituted by human reason and natural law, not founded on faith and grace.</p>
+                        <p n="25" xml:id="L0086-p-25">The topic of <term xml:id="L0086-term-d1e644">dominium</term> is the starting point of discussions on war, slavery and forced conversions. Rejecting <persName>Aquinas</persName>' general justification of plundering the goods of foreign infidels (<bibl><author><persName>Aquinas</persName></author>, <biblScope>STh IIa-IIae, q. 66, art. 8</biblScope></bibl>), <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> denies that infidelity in itself gives a legitimate reason for war and plunder (<bibl corresp="https://id.salamanca.school/texts/W0013:vol1.5.2.30?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a, <biblScope>pars 1 no. 31, p. 328</biblScope></bibl>; see already <persName>Cajetan</persName>’s commentary at <bibl type="changed"><author><persName>Aquinas</persName></author>/<author><persName>Cajetan</persName></author> <date when="1897">1897</date>, <biblScope>q. 66 art. 8 comm., pp. 94 sq.</biblScope></bibl>). Both jurists and theologians follow him: since a war declared exclusively on account of the opponent's infidelity is unjust, it is also unjust to enslave infidels or to deprive them of their goods without another, legitimate reason (e.g. attacks, blasphemies, or other injustices: <bibl corresp="https://id.salamanca.school/texts/W0006:vol1.4.6.11.article1"><author><persName ref="https://d-nb.info/gnd/118837478">Covarrubias</persName></author> <date when="1573">1573</date>, <biblScope>pars 2 § 10 no. 1, p. 508</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName></author> <date when="1588">1588</date>, <biblScope>lib. 2 cap. 2, p. 214</biblScope></bibl>). However, Saracens and Turks are unanimously considered sworn enemies of Christianity: they, therefore, can be legitimately fought and enslaved and their goods plundered even in the absence of a current and substantive threat (<bibl corresp="https://id.salamanca.school/texts/W0011:1.5.4.5.3?format=html"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>p. 1 lib. 5 q. 3 art. 5, pp. 430 sq.</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0046:9.section10?format=html"><author><persName ref="https://d-nb.info/gnd/13700849X">Freitas</persName></author> <date when="1625">1625</date>, <biblScope>cap. 9 no. 10, fols. 95v-96r</biblScope></bibl>).</p>
+                        </div>
+                    <div type="subsection" n="2.4.2 Infidel subjects of Christian rulers" xml:id="L0086-div-d1e669">
+                        <head xml:id="Toc154144673">2.4.2 Infidel subjects of Christian rulers</head>
+                        <p n="26" xml:id="L0086-p-26">In the case of infidels subject to the authority of Christian princes, their infidelity and relations with Christian subjects tend to be viewed as a matter of political regulation; thus, instead of the casuistic discussion regarding war (see 2.4.1), authors apply the criminal legal framework regarding rebellion and anti-Christian proselytism to justify the punitive confiscations and enslavement campaigns suffered by the moriscos after their defeat in the Alpujarras in 1501 (<bibl corresp="https://id.salamanca.school/texts/W0003:1.4.2.1.13?format=html"><author><persName ref="https://d-nb.info/gnd/11865702X">Báñez</persName></author> <date when="1594">1594</date>, <biblScope>q. 57 art. 3, p. 22</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118734555">Molina</persName></author> <date when="1593">1593</date>, <biblScope>tract. 2 disp. 33, col. 239</biblScope></bibl>). Heretics, too, lose their rights to goods and authority over subjects because of their infidelity (<bibl type="changed"><author><persName>Castro</persName></author> <date when="1547">1547</date>, <biblScope>cap. 6, fols. 95r sqq.</biblScope></bibl>).</p>
+                        <p n="27" xml:id="L0086-p-27">For the Americas, where the infidel subjects of the Crown outnumber the Christians, fiscal issues need to be re-evaluated. Some authors, driven by missionary zeal, suggest imposing high tax rates on contumacious infidels (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName></author> <date when="1588">1588</date>, <biblScope>lib. 3 cap. 13, p. 329</biblScope></bibl>). But mostly this idea is rejected: while infidel subjects can be compelled to pay higher taxes, they are not to be oppressed by an excessive and tyrannical burden. Such a policy is denounced not only as contradicting Christian magnanimity but also as a covert form of illegitimate forced conversion (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 8 no. 11, p. 195</biblScope></bibl>). <persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName> instead suggests that tax under a Christian ruler should always be less than under preceding non-Christian authorities (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName></author> <date when="2007">2007</date>, <biblScope>no. 822, p. 172</biblScope></bibl>). In the case of Christians living or trading under the jurisdiction of infidel rulers, the latter’s infidelity is not considered a legitimate reason not to pay taxes (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/1089857055">Ledesma</persName></author> <date when="1617">1617</date>b, <biblScope>tract. 7, p. 193</biblScope></bibl>).</p>
+                    </div>
+                    <div type="subsection" n="2.4.3 Infidel rulers" xml:id="L0086-div-d1e685">
+                        <head xml:id="Toc161137946">2.4.3 Infidel rulers</head>
+                        <p n="28" xml:id="L0086-p-28">While the Salamancan authors agree that infidelity as such does not detract from the infidels’ ownership of goods (<term xml:id="L0086-term-d1e693">dominium rerum suis</term>), they reach no consensus regarding the jurisdictional rights (<term xml:id="L0086-term-d1e696">dominium iurisdictionis</term>) of infidel lords. Generally, Christians are supposed not to allow an infidel to acquire rule over Christians, lest the <term xml:id="L0086-term-d1e703">scandalum</term> endanger their faith. In the Salamancan authors’ opinion, this does not, however, invalidate an infidel lord’s pre-existing authority. This position of the School – one of its most distinctive – explicitly disagrees with summistae such as <persName>Angelo da Chiavasso</persName>, who consider an infidel’s jurisdiction null and void (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 10 no. 1,2, p. 200 sq.</biblScope></bibl>), instead following <persName>Aquinas</persName>. <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> and <persName ref="https://d-nb.info/gnd/118837478">Covarrubias</persName> list different reasons for waging a just war against infidel rulers, e.g. if they forbid or obstruct the preaching of the Christian faith or conversions (<bibl corresp="https://id.salamanca.school/texts/W0013:vol2.6.2.article7?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a, <biblScope>pars 2 no. 7, p. 364</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0006:vol1.4.6.11.article3"><author><persName ref="https://d-nb.info/gnd/118837478">Covarrubias</persName></author> <date when="1573">1573</date>, <biblScope>pars 2 § 10 no. 3, pp. 509 sq.</biblScope></bibl>). All other titles of just war against infidel authorities (<term xml:id="L0086-term-d1e714">ius peregrinandi</term>, settlement rights, exploitation of natural resources, intervention to help oppressed innocents, etc.) are not based on theological arguments but on the <term xml:id="L0086-term-d1e718">ius gentium</term>; in principle, they thus apply to infidel as well as Christian rulers. Later Salamancans develop <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName>’s ideas on the <term xml:id="L0086-term-d1e722">ius praedicandi</term> in ever-growing detail. <persName ref="https://d-nb.info/gnd/119220881">Gregorio de Valencia</persName> allows the use of force against any attempt to prevent the preaching of the gospel, but not for compelling infidels living under an infidel prince to listen (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/119220881">Valencia</persName></author> <date when="1603">1603</date>, <biblScope>disp. 1 q. 10 punct. 6, cols. 428-429</biblScope></bibl>). <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> holds that infidels interested in Christianity are justified in their political resistance against magistrates or rulers trying to prevent them listening to Christian preaching. He also sees external intervention by a Christian prince in their support as legitimate (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>q. 18 sect. 2 no. 8, p. 287</biblScope></bibl>).</p>
+                        <p n="29" xml:id="L0086-p-29">Some authors consider only actual obstruction of preaching or the persecution of Christian subjects as justification for what they call an <quote>“indirect”</quote> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 5 no. 8 sq., p. 294</biblScope></bibl>) annulment of an infidel’s rule (<bibl type="changed"><author><persName>De la Peña</persName></author> <date when="1982">1982</date>, <biblScope>p. 154</biblScope></bibl>). But a growing majority tend to consider already the potential threat an infidel ruler presents to a people being converted to Christianity as sufficient for intervention (<bibl corresp="https://id.salamanca.school/texts/W0001:vol1.1.1.2.7?format=html"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 1 cap. 1 § 3 no. 13, p. 4</biblScope></bibl>). According to <persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName>, Christian subjects of infidel rulers are always at risk, as shown by the Portuguese failures to evangelise Africa. From his mission-centred perspective, the adoption of preventive measures seems justified (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName></author> <date when="1588">1588</date>, <biblScope>lib. 3 cap. 2, pp. 282 sqq.</biblScope></bibl>). Later in the 17<hi rendition="#sup">th</hi> century, after experiences with different European and extra-European rulers who received baptism without a sincere will to convert, <persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName> considers even the conversion of a former infidel or heretical prince as an insufficient warrant against a real danger to the Catholic faith (<bibl corresp="https://id.salamanca.school/texts/W0001:vol1.1.1.2.7?format=html"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 1 cap. 1 § 3 no. 13, p. 4</biblScope></bibl>).</p>
+                        <p n="30" xml:id="L0086-p-30">Sins against natural law, thought to be prompted by infidelity, are not regarded as sufficient reason for Christian intervention (<term xml:id="L0086-term-d1e747">ius naturalis</term>, <term xml:id="L0086-term-d1e751">peccatum</term>). According to <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName>, <persName ref="https://d-nb.info/gnd/118798111">Soto</persName> and other theologians and jurists (for a detailed list, see <bibl corresp="https://id.salamanca.school/texts/W0046:9.section2?format=html"><author><persName ref="https://d-nb.info/gnd/13700849X">Freitas</persName></author> <date when="1625">1625</date>, <biblScope>cap. 9 no. 2, fol. 94r</biblScope></bibl>), neither the pope nor Christian rulers have the jurisdiction to punish foreign infidels’ sins (<bibl corresp="https://id.salamanca.school/texts/W0013:vol1.5.2.38?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a, <biblScope>pars 1 no. 40, p. 344</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0011:1.5.4.5.4?format=html"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>p. 1 lib. 5 q. 3 art. 5, p. 431</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0006:vol1.4.6.11.13?format=html"><author><persName ref="https://d-nb.info/gnd/118837478">Covarrubias</persName></author> <date when="1573">1573</date>, <biblScope>pars 2 § 10 no. 5, pp. 510 sq.</biblScope></bibl>). Later authors consider the opposite view unjust: similar violations, they argue, are committed daily in the Christian world, too, without justifying a war (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/119220881">Valencia</persName></author> <date when="1603">1603</date>, <biblScope>disp. 1 q. 10 punct. 7, cols. 432-436</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0106:1.25.section5?format=html"><author><persName ref="https://d-nb.info/gnd/118626302">Vázquez de Menchaca</persName></author> <date when="1572">1572</date>, <biblScope>cap. 24 no. 5, fol. 66r</biblScope></bibl>).</p>
+                    </div>
+                    <div type="subsection" n="2.4.4 Baptism of infidels" xml:id="L0086-div-d1e773">
+                        <head xml:id="Toc161137947">2.4.4 Baptism of infidels</head>
+                        <p n="31" xml:id="L0086-p-31">Following <persName>Aquinas</persName> (<bibl type="changed"><author><persName>Aquinas</persName></author>/<author><persName>Cajetan</persName></author> <date when="1895">1895</date>, <biblScope>q. 10 art. 8, pp. 88 sqq.</biblScope></bibl>), Salamancan scholars almost unanimously reject forced conversions as contradicting the voluntariness required in the act of faith. Only heretics who have already once received the Catholic faith can be forced to keep their obedience. For <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> and others, forced conversions are contrary to natural law and illegitimate, even if applied to infidel subjects of Christian princes (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 8 no. 3, p. 191</biblScope></bibl>). Following <persName>Aquinas</persName>, the School of Salamanca opposes the followers of <persName>Duns Scotus</persName>, who argue that infidel subjects of Christian princes to whom the faith has been sufficiently preached can be coerced to convert (<bibl><author><persName>Scotus</persName></author>, <title>In quartum sententiarum</title>, <biblScope>Dist. 4 q. 9; cf.</biblScope></bibl> the nuanced position of <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 8 no. 4, 5, pp. 192 sq.</biblScope></bibl>). Also, <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> and later Salamancans openly voice their doubts about the legitimacy and efficacy of the policy of forced conversions to which the Spanish Crown subjected its Jewish and Saracen Peninsular subjects during the 16<hi rendition="#sup">th</hi> century (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 3 no. 13, p. 290</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 8 no. 5, p. 193</biblScope></bibl>). For <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName>, the distinction between infidels who lived under Christian rule and those who do not mattered. While the latter cannot be forced to hear Christian preaching, a prince can oblige his vassals to receive religious indoctrination under threat of monetary penalty or exile: a kind of legitimate coertio indirecta (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 2 no. 4 sq., p. 286</biblScope></bibl> and <bibl><biblScope>disp. 8 sect. 3 no. 8 sqq., p. 289 sq.</biblScope></bibl>; <term xml:id="L0086-term-d1e789">libertas</term>). This is to be restricted to exceptional cases, as forced conversions result in dissimulation, sacrileges, blasphemies, and the scandalisation of infidels (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 3 no. 10, pp. 289 sq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/119337843">Peña Montenegro</persName></author> <date when="1668">1668</date>, <biblScope>lib. 2 tract. 8 sess. 5 no. 6-8, p. 221</biblScope></bibl>; <term xml:id="L0086-term-d1e793">simulatio</term>, <term xml:id="L0086-term-d1e798">sacrilegium</term>, <term xml:id="L0086-term-d1e802">blasphemia</term>, <term xml:id="L0086-term-d1e806">scandalum</term>). In any case, the temples and public worship of infidels who adhere to a monotheistic religion are to be respected (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 4 no. 9, p. 292</biblScope></bibl>).</p>
+                        <p n="32" xml:id="L0086-p-32">The complex conceptual framework developed by <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> and others shapes missionary activities, including the consolidation of rigorous catechisation strategies (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/119337843">Peña Montenegro</persName></author> <date when="1668">1668</date>, <biblScope>lib. 2 tract. 8 sess. 8 no. 1, p. 226</biblScope></bibl>). Infidelity is more than not being baptised. Hence, the reception of baptism is not enough to turn an infidel adult into a “true Christian” (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1967">1967</date>, <biblScope>pp. 157 sqq.</biblScope></bibl>). As the degree of grace conferred by a sacrament depends on the disposition to receive it, adequate catechisation is indispensable (<bibl corresp="https://id.salamanca.school/texts/W0014:2.15?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author>/<author><persName>Chaves</persName></author> <date when="1561">1561</date>, <biblScope>De Sacr. Bapt, q. 15, fol. 16r</biblScope></bibl>).</p>
+                        <p n="33" xml:id="L0086-p-33">For adults, the transition to Christianity is understood as a process of progressively overcoming ignorance and moral errors but accompanied by the permanent risk of a return to non-Christian beliefs (<term xml:id="L0086-term-d1e819">apostasia</term>). Following <persName>Aquinas</persName> against <persName>Duns Scotus</persName>, <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> cites the risk of apostasy as the main reason not to baptise infidel children without parental consent, even if the parents are slaves of a Christian master. He also rejects the abduction of infidel children with the aim of educating them as Christians as an aberration contrary to divine and natural law, as both grant parents the potestas over their offspring (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 12, pp. 203 sqq.</biblScope></bibl>, <bibl><biblScope>q. 10 art. 12 no. 14, 15, pp. 210 sq.</biblScope></bibl>; <term xml:id="L0086-term-d1e827">pater</term>). In the field, missionaries sometimes see things differently. <persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName> rejects <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName>’s positions, embracing instead <persName>Scotus</persName>’ perspective regarding the baptism of infidel children (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName></author> <date when="2007">2007</date>, <biblScope>no. 761, p. 158</biblScope></bibl>).</p>
+                    </div>
+                    <div type="subsection" n="2.4.5 Communication and convivencia" xml:id="L0086-div-d1e832">
+                        <head xml:id="Toc161137948">2.4.5 Communication and convivencia: Social relations between Christians and infidels</head>
+                        <p n="34" xml:id="L0086-p-34">The Salamancan scholars inherit an intense discussion on the ‘communication’ between Christians and infidels from the late medieval tradition (see <bibl><author><persName>Aquinas</persName></author> <biblScope>STh IIa-IIae q. 10, a. 9</biblScope></bibl>). Actual or potential dangers to the faith mark the limits of interreligious coexistence. Interactions between Christians and infidels are evaluated in a casuistic and prudential way (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 6, pp. 295 sqq.</biblScope></bibl>), taking into account specific circumstances, including the intellectual capacity of those involved: the simpler the Christian and the more educated the infidel, the greater the danger to the Christian faith (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 9 no. 5, p. 199</biblScope></bibl>). In line with tradition (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/120324431">Prierias</persName></author> <date when="1518">1518</date>, <biblScope>De Infidelitate, fol. 249v</biblScope></bibl>), authors tend to prohibit any situation in which a non-Christian exercised economic, social or other superiority over Christians: accordingly, Jews and other infidels are not allowed to have Christian servants or to hold public offices in a Christian polity (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 9 no. 5, p. 199</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1613">1613</date>, <biblScope>lib. 8 cap. 22, p. 553</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 5 no. 12 sqq., pp. 295 sq.</biblScope></bibl>).</p>
+                        <p n="35" xml:id="L0086-p-35">Various restrictions apply to social life. Although an infidel can perform a valid baptism in case of need (<bibl corresp="https://id.salamanca.school/texts/W0002:22.2.2.number6?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 22 no. 6, p. 389</biblScope></bibl>), he cannot become a godparent. <persName ref="https://d-nb.info/gnd/118619799">Suárez</persName> extends the traditional prohibition for Jews to inherit from Christians to Muslims (seen as enemies of Christians), but not to gentiles or pagans (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 6 no. 10 sq., p. 297</biblScope></bibl>).</p>
+                        <p n="36" xml:id="L0086-p-36">Many traditional regulations concerning food and common meals are meant to reduce the interaction of Christians with other religious communities to the minimum needed for the common good of a multireligious republic (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1613">1613</date>, <biblScope>lib. 8 cap. 22, p. 553</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 6 no. 7, p. 297</biblScope></bibl>). Sacred spaces are also the object of detailed regulations. On the one hand, Christians are protected against possible contamination stemming from synagogues, mosques, and other temples: visiting them (let alone participating in rites and celebrations) is strictly forbidden (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1613">1613</date>, <biblScope>lib. 8 cap 22, pp. 553 sq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 6 no. 2, p. 296</biblScope></bibl>). On the other, pragmatic literature offers rules to preserve the purity of Christian temples and spaces against any kind of infidel contamination, e.g. improper burials (<bibl corresp="https://id.salamanca.school/texts/W0002:27.39.4.number253?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 27 no. 253, p. 777</biblScope></bibl>).</p>
+                        <p n="37" xml:id="L0086-p-37">Convivencia remains a controversial issue. Before the Rebellion of the Alpujarras (1568-71), social interactions in everyday life tend to be considered licit and even welcome: <persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName> holds that daily contact with Christians, e.g. sharing meals or accommodation or taking a walk together, will lead to the conversion of infidels such as Saracens (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 9 no. 5, p. 199</biblScope></bibl>). By the 17<hi rendition="#sup">th</hi> century, however, authors like <persName ref="https://d-nb.info/gnd/124866166">Azor</persName> usually recommend Christians avoid such familiarity.</p>
+                        <p n="38" xml:id="L0086-p-38">The most original contributions result from the attempt to provide models for interaction specifically for Christians and infidels living together in the Americas. As the <quote>“obstinate perfidy”</quote> (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1613">1613</date>, <biblScope>lib. 8 cap. 22, p. 553</biblScope></bibl>) attributed to Jews and Muslims can hardly be attributed to the Amerindians, classical frameworks have to be revised. The inner logic of traditional regulations is reversed: in Europe, the faith of old Christians had to be protected in contacts with Jews and Muslims; in the Americas, the faith of neophytes and the good opinion of the sympathetic infidels need protection against <term xml:id="L0086-term-d1e873">scandalum</term> caused by the pernicious behaviour of Christian soldiers, encomenderos (<term xml:id="L0086-term-d1e877">encomienda</term>) or immoral clergymen (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/12116117X">Acosta</persName></author> <date when="1589">1589</date>, <biblScope>lib. 3 cap. 5, pp. 293 sqq.</biblScope></bibl>). These normative aims inspire different projects of concentration and isolation of indigenous infidels in pueblos de indios, reducciones or hospitals to which only missionaries had access. Theological debates with infidels are considered not only licit but mandatory if they are likely to confirm the superiority of the Christian faith (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 7, p. 283</biblScope></bibl>). Traditionally, they are regarded as indispensable in lands being converted, while their utility seems dubious where the Christian doctrine has already been consolidated (<bibl type="changed"><author><persName>Aquinas</persName></author>/<author><persName>Cajetan</persName></author> <date when="1895">1895</date>, <biblScope>q. 10 art. 7, pp. 87 sq.</biblScope></bibl>). Different Salamancan approaches reflect a growing awareness of the varying views on the rationality and generalisability of Christian doctrine, e.g. acknowledging that some dogmas can only be proved imperfectly or that Catholics, heretics, and Jews at least partially share a belief in the authority of the Bible or at least parts of it (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 9 art. 7 no. 3, pp. 189 sq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 7, p. 284</biblScope></bibl>).</p>
+                    </div>
+                    <div type="subsection" n="2.4.6 Commercial relations between Christians and infidels" xml:id="L0086-div-d1e882">
+                        <head xml:id="Toc161137949">2.4.6 Commercial relations between Christians and infidels</head>
+                        <p n="39" xml:id="L0086-p-39">Interreligious commercial relations are one of the most regulated fields. Legal and theological norms generally allow these if they serve the interest of Christian realms. The principle of good faith, seen as indispensable for the reliability of contracts and the survival of society, is also mandatory in trade with infidels (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/1089857055">Ledesma</persName></author> <date when="1617">1617</date>b, <biblScope>tract. 7, p. 193</biblScope></bibl>). Canon law prohibits the sale of potentially harmful goods to hostile infidels, e.g. weapons. The same applies to the sale of products to be used in non-Christian religious rites (<bibl corresp="https://id.salamanca.school/texts/W0013:vol1.5.2.17?format=html"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a, <biblScope>pars 1 no. 14, p. 303</biblScope></bibl>). <persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName> refers to recent legal provisions, like <bibl><author><persName>Julius III</persName></author>’s bull In Coena Domini (<date when="1550">1550</date>)</bibl>, which extends the penalty of excommunication to merchants selling arms to all hostile pagans, not just Turks and Saracens (<bibl corresp="https://id.salamanca.school/texts/W0002:27.14.number61?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 27 no. 61, p. 660</biblScope></bibl>). While upholding the medieval framework, Salamancan authors tend towards greater flexibility. They explicitly do not follow the <bibl><title>Summa Rosella</title> (<date when="1482">1482</date>)</bibl> and the <bibl><title>Summa sylvestrina</title> (<author><persName ref="https://d-nb.info/gnd/120324431">Prierias</persName></author> <date when="1518">1518</date>, <biblScope>De Infidelitate, fol. 249v</biblScope>)</bibl> by refusing to blame merchants for selling goods to infidels that can be employed for multiple purposes, even if they know that the infidels will use them for their religious rites (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1932">1932</date>, <biblScope>q. 10 art. 12 no. 2, p. 202 sq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/123151937">Aragón</persName></author> <date when="1584">1584</date>, <biblScope>q. 10 art. 5., p. 273</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/1089857055">Ledesma</persName></author> <date when="1617">1617</date>b, <biblScope>tract. 1, p. 23</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 6 no. 2, p. 296</biblScope></bibl>). Jurists complement canon law and theological authorities with secular law that regulated commerce with infidels since the Middle Ages, e.g. referring to the <bibl><title>Siete Partidas</title></bibl> to justify that Christian helmsmen guiding the ships of infidel enemies or merchants selling arms to them are punished by enslavement (<bibl type="changed"><author><persName>Hevia de Bolaños</persName></author> <date when="1629">1629</date>, <biblScope>lib. 1 cap. 12 no. 2, pp. 119 sq.</biblScope></bibl>).</p>
+                    </div>
+                    <div type="subsection" n="2.4.7 Infidels and (Christian) marriage" xml:id="L0086-div-d1e930">
+                        <head xml:id="Toc161137950">2.4.7 Infidels and (Christian) marriage </head>
+                        <p n="40" xml:id="L0086-p-40">One of the most discussed topics is interreligious <term xml:id="L0086-term-d1e939">matrimonium</term>. In line with tradition, a marriage between a Christian and a non-baptised partner (even if already a catechumen) is null and void (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/118619799">Suárez</persName></author> <date when="1621">1621</date>, <biblScope>disp. 18 sect. 6 no. 3, p. 296</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0002:22.16.2.3?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 22 no. 49, p. 413</biblScope></bibl>). Marriages between infidels are generally considered legitimate if they do not contravene natural law. These unions, however, do not have the same status as a Christian marriage, the only one considered indissoluble once consummated: when one spouse converts to Christianity, the marriage is not dissolved ipso facto, but divorce becomes possible if the infidel spouse represents a threat to the converted partner’s faith. The baptised partner can subsequently enter a Christian marriage (<bibl corresp="https://id.salamanca.school/texts/W0002:22.16.2.2?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 22 no. 49, pp.  sq.</biblScope></bibl>). A controversial question is whether the marriage of two infidels has to be repeated according to the Christian rite (in facie ecclesiae) after the baptism of both spouses. As it is impossible to formally repeat the marriages of all baptised Amerindians, pragmatic solutions are suggested. <persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName> holds that baptism itself was enough to make the marriage fully sacramental (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName></author> <date when="1562">1562</date>, <biblScope>pars 2 art. 36, pp. 452 sq.</biblScope></bibl>). He even proposes that marriages between infidels contracted in strict compliance with natural law have a certain sacramental character (<bibl type="changed"><author><persName ref="https://d-nb.info/gnd/100009816">Vera Cruz</persName></author> <date when="1562">1562</date>, <biblScope>pars 2 art. 35, p. 451</biblScope></bibl>), a claim that leads to an intense debate within the School of Salamanca (<bibl corresp="https://id.salamanca.school/texts/W0002:22.16.2.1?format=html"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 22 no. 48, 49, pp. 412 sq.</biblScope></bibl>; <bibl type="changed"><author><persName ref="https://d-nb.info/gnd/1089857055">Ledesma</persName></author> <date when="1617">1617</date>a, <biblScope>cap. 24, pp. 522 sqq.</biblScope></bibl>).</p>
+                    </div>
+                </div>
+            </div>
+            <div type="part" n="3 Final remark" xml:id="L0086-div-d1e955">
+                <head xml:id="Toc161137951">3 Final remark </head>
+                <p n="41" xml:id="L0086-p-41">One of the more conspicuous results of the Salamancan debates is that in many political-juridical discussions, the concept of infidelitas no longer plays a major role: for example, it cannot be used to great effect anymore in subsequent discussions about property or just war. For an overview of research literature (18th century – 2018) discussing infidelitas throughout history, see the bibliography in <bibl><author><persName>Meyer</persName></author> (<date when="2020">2020</date>)</bibl>.</p>
+            </div>
+        </body>
+        <back xml:id="L0086-back-d1e974">
+            <div type="sources" n="Bibliography" xml:id="L0086-div-d1e976">
+                <head xml:id="Toc161137952">Bibliography</head>
+                <list xml:id="L0086-li-d1e976">
+                    <item xml:id="L0086-it-d1e981">
+                        <head xml:id="Toc161137953">Sources</head>
+                        <list xml:id="L0086-li-d1e981">
+                            <item xml:id="L0086-it-d1e986"><bibl><author><persName ref="https://d-nb.info/gnd/12116117X"><hi rendition="#sc">Acosta</hi>, José de</persName></author>: <title>De procuranda salute indorum, libri sex. Salmanticae, Apud Guillelmum Foquel</title>, <date when="1588">1588</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1000"><bibl><author><persName><hi rendition="#sc">Aquinas</hi>, Thomas</persName></author>/<author><persName><hi rendition="#sc">Vio (Cajetan)</hi>, Thomas de</persName></author>: <title>Opera Omnia iussu impensaque Leonis XIII P. M. edita. Tomus octavus. Secunda secundae Summae Theologiae a quaestione I ad quaestionem LVI ad codices manuscriptos vaticanos exacta cum commentariis Thomae de Vio Caietani. Romae, Ex Typographia Polyglotta S. C. De Propaganda Fide</title>, <date when="1895">1895</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1014"><bibl><author><persName><hi rendition="#sc">Aquinas</hi>, Thomas</persName></author>/<author><persName><hi rendition="#sc">Vio (Cajetan)</hi>, Thomas de</persName></author>: <title>Opera Omnia iussu impensaque Leonis XIII P. M. edita. Tomus nonus. Secunda secundae Summae Theologiae a quaestione LVII ad quaestionem CXXII ad codices manuscriptos vaticanos exacta cum commentariis Thomae de Vio Caietani. Romae, Ex Typographia Polyglotta S. C. De Propaganda Fide</title>, <date when="1897">1897</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1028"><bibl><author><persName ref="https://d-nb.info/gnd/123151937"><hi rendition="#sc">Aragón</hi>, Pedro de</persName></author>: <title>In Secundam Secundae Diui Thomae Doctoris Angelici commentariorum. Tomus Primus. Salmanticae, Excudebat Ioannes Ferdinandus</title>, <date when="1584">1584</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1043"><bibl><author><persName><hi rendition="#sc">Augustin</hi> of Hippo</persName></author>: <title>In Ioannis Evangelium tractatus CXXIV, in: Augustin of Hippo, Opera Omnia post Lovaniensium Theologorum Recensionem. Tomus Tertius. Pars Altera. Lutetiae Parisiorum, Excudebatur et venit aput J -P. Migne</title>, <date when="1864">1864</date>. pp. 1379-1976.</bibl></item>
+                            <item xml:id="L0086-it-d1e1057"><bibl><author><persName ref="https://d-nb.info/gnd/133542521"><hi rendition="#sc">Avendaño</hi>, Diego de</persName></author>: <title>Thesaurus Indicus. Tomus Primus</title>. Antverpiae, Apud Iacobvm Mevrsivm, 1668. Online Edition: Avendaño, Thesaurus Indicus, Vol. 1 (2019 [1668]), in: The School of Salamanca. A Digital Collection of Sources <ref target="https://id.salamanca.school/texts/W0001:vol1">https://id.salamanca.school/texts/W0001:vol1</ref>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1071"><bibl><author><persName ref="https://d-nb.info/gnd/124866166"><hi rendition="#sc">Azor</hi>, Juan</persName></author>: <title>Institutiones morales in quibus universae quaestiones ad conscientiam recte aut prave factorum pertinentes, breviter tractantur. Tomus primus. Coloniae Agrippinae, Apud Antonium Hierat</title>, <date when="1613">1613</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1085"><bibl><author><persName ref="https://d-nb.info/gnd/118944053"><hi rendition="#sc">Azpilcueta</hi>, Martín de</persName></author>: <title>Relectio cap. Ita quorundam de Iudaeis in qua de rebus ad Sarracenos deferri prohibitis et censuris ob id latis non segniter disputatur. Coimbra, Ioannes Barrerius &amp; Ioannes Aluarus</title>, <date when="1550">1550</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1099"><bibl><author><persName ref="https://d-nb.info/gnd/118944053"><hi rendition="#sc">Azpilcueta</hi>, Martín de</persName></author>: <title>Manual de confessores y penitentes. Salamanca, Portonarijs, 1556. <hi rend="#it">Online Edition:</hi> <persName ref="https://d-nb.info/gnd/118944053"><hi rendition="#sc">Azpilcueta</hi></persName>, Manual de Confessores y Penitentes (2019 [1556]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0002">https://id.salamanca.school/texts/W0002</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1120"><bibl><author><persName ref="https://d-nb.info/gnd/11865702X"><hi rendition="#sc">Báñez</hi>, Domingo</persName></author>: <title>De Fide, Spe &amp; Charitate. Salmanticae, Apud S. Stephanum Ordinis Praedicatorum</title>, <date when="1584">1584</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1135"><bibl><author><persName ref="https://d-nb.info/gnd/11865702X"><hi rendition="#sc">Báñez</hi>, Domingo</persName></author>: <title>De Iure &amp; Iustitia Decisiones. Salmanticae, Apud Ioannem &amp; Andream Renaut fratres, <date when="1594">1594</date>. <hi rend="#it">Online Edition:</hi> <persName ref="https://d-nb.info/gnd/11865702X"><hi rendition="#sc">Báñez</hi></persName>, De Iure et Iustitia Decisiones (2019 [1594]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0003">https://id.salamanca.school/texts/W0003</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1159"><bibl><author><persName ref="https://d-nb.info/gnd/118518844"><hi rendition="#sc">Cano</hi>, Melchor</persName></author>: <title>Relectio de sacramentis in genere. Salmanticae, Excudebat Andreas de Portonariis</title>, <date when="1550">1550</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1173"><bibl><author><persName><hi rendition="#sc">Castro</hi>, Alfonso de</persName></author>: <title>De iusta haereticorum punitione libri tres. Salmanticae excudebat Ioannes Giunta</title>, <date when="1547">1547</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1187"><bibl><author><persName ref="https://d-nb.info/gnd/118837478"><hi rendition="#sc">Covarrubias</hi>, Diego de</persName></author>: <title>Regulae, Peccatum. De Regulis iuris, libro sexto, Relectio, in: Diego de Covarrubias, Opera omnia tribvs Tomis distincta: quorum hic Primus, Francofurti, Ex Officina Typograpica Nicolai Bassaei, Impensis Sigismundi Feierabend, 1573, 431-530. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118837478"><hi rendition="#sc">Covarrubias</hi> y Leyva</persName>, Opera Omnia, Vol. 1 (2021 [1573]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0006:vol1">https://id.salamanca.school/texts/W0006:vol1</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1209"><bibl><author><persName ref="https://d-nb.info/gnd/13700849X"><hi rendition="#sc">Freitas</hi>, Serafim de</persName></author>: <title>De iusto imperium lusitanorum asiatico. Vallisoleti, Ex Officina Hyeronimi Morillo, 1625. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/13700849X"><hi rendition="#sc">Freitas</hi></persName>, De Iusto Imperio Lusitanorum Asiatico (2020 [1625]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0046">https://id.salamanca.school/texts/W0046</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1230"><bibl><author><persName><hi rendition="#sc">Hevia de Bolaños</hi>, Juan de</persName></author>: <title>Segunda parte de la curia filipica: donde se trata breue y compendiosamente de la Mercancia, y Contratacion de tierra y mar. Valladolid, Ivan Lasso de las Peñas</title>, <date when="1629">1629</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1245"><bibl><author><persName ref="https://d-nb.info/gnd/118726625"><hi rendition="#sc">Las Casas</hi>, Bartolomé de</persName></author>: <title>Entre los remedios […] el octavo. Seville, Cromberger</title>, <date when="1552">1552</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1259"><bibl><author><persName ref="https://d-nb.info/gnd/118726625"><hi rendition="#sc">Las Casas</hi>, Bartolomé de</persName></author>: <title>Historia de las Indias, Tomo IV. Madrid, Imprenta de Miguel Ginesta 1876.</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1269"><bibl><author><persName ref="https://d-nb.info/gnd/118726625"><hi rendition="#sc">Las Casas</hi>, Bartolomé de</persName></author>: <title>Obras completas. 2. De unico vocationis modo. Madrid, Alianza Editorial</title>, <date when="1990">1990</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1283"><bibl><author><persName ref="https://d-nb.info/gnd/1089857055"><hi rendition="#sc">Ledesma</hi>, Pedro de</persName></author>: <title>Tratado del Sacramento del Matrimonio, in: Pedro de Ledesma, Primera parte de la suma en la qual se cifra, y suma todo lo que toca y pertenece a los sacramentos. Lisboa, Pedro Crasbeeck, 1617a. pp. 415-565.</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1293"><bibl><author><persName ref="https://d-nb.info/gnd/1089857055"><hi rendition="#sc">Ledesma</hi>, Pedro De</persName></author>: <title>Segunda parte de la Summa, en la cual se cifra y suma toda la moral y casos de conciencia que no pertenecen a los sacramentos. Lisboa, Pedro Crasbeeck, 1617b.</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1303"><bibl><author><persName ref="http://viaf.org/viaf/72759209"><hi rendition="#sc">López</hi>, Gregorio</persName></author>: <title>Segunda partida. Salamanca, Andrea de Portonaris</title>, <date when="1555">1555</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1318"><bibl><author><persName ref="https://d-nb.info/gnd/118734555"><hi rendition="#sc">Molina</hi>, Luis De</persName></author>: <title>De Iustitia et Iure. Tomus Primus. Conchae, Ex Officina Ioannis Masselini Typographi</title>, <date when="1593">1593</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1332"><bibl><author><persName><hi rendition="#sc">Paz</hi>, Matías de</persName></author>: <title>De dominio Regum Hispaniae super Indos [1512]. Salamanca, San Esteban</title>, <date when="2017">2017</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1346"><bibl><author><persName><hi rendition="#sc">Peña</hi>, Juan de la</persName></author>: <title>De bello contra insulanos. Madrid, CSIC</title>, <date when="1982">1982</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1360"><bibl><author><persName ref="https://d-nb.info/gnd/119337843"><hi rendition="#sc">Peña</hi> Montenegro, Alonso de la</persName></author>: <title>Itinerario para parochos de indios. Madrid, Por Ioseph Fernandez de Buendia</title>, <date when="1668">1668</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1374"><bibl><author><persName ref="https://d-nb.info/gnd/120324431"><hi rendition="#sc">Prierias</hi>, Silvester Mazzolino</persName></author>: <title>Summa Summarum que Sylvestrina dicitur. Argentoratum, Joannis Brieninger</title>, <date when="1518">1518</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1388"><bibl><author><persName ref="https://d-nb.info/gnd/118837389"><hi rendition="#sc">Solórzano</hi> Pereira, Juan de</persName></author>: <title>De Indiarum Iure, sive de Iusta Indiarum Occidentalium Inquisitione, Acquisitione, et Retentiones Tribus Libris Comprehensum [Tomus Primus], Matriti, Ex Typographia Francisci Martinez, 1629. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118837389"><hi rendition="#sc">Solórzano</hi> Pereira</persName>, De Indiarum Iure, Vol. 1 (2021 [1629]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0096:vol1">https://id.salamanca.school/texts/W0096:vol1</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1411"><bibl><author><persName ref="https://d-nb.info/gnd/118798111"><hi rendition="#sc">Soto</hi>, Domingo de</persName></author>: <title>De natura &amp; gratia. Venetijs, Apud Iuntas</title>, <date when="1547">1547</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1425"><bibl><author><persName ref="https://d-nb.info/gnd/118798111"><hi rendition="#sc">Soto</hi>, Domingo de</persName></author>: <title>De iustitia et iure Libri decem. Salmanticae, Excudebat Andreas à Portonariis, 1553. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118798111"><hi rendition="#sc">Soto</hi></persName>, De Iustitia et Iure (2020 [1553]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0011">https://id.salamanca.school/texts/W0011</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1446"><bibl><author><persName ref="https://d-nb.info/gnd/118798111"><hi rendition="#sc">Soto</hi>, Domingo de</persName></author>: <title>Commentariorum In Quartum Sententiarum. Tomus Primus. Salmanticae, Excudebat Andreas à Portonariis</title>, <date when="1557">1557</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1460"><bibl><author><persName ref="https://d-nb.info/gnd/118798111"><hi rendition="#sc">Soto</hi>, Domingo de</persName></author>: <title>Relectio de Dominio, in: Domingo de Soto, Relecciones y opúsculos I. Salamanca, San Esteban, 1995, 79-192.</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1470"><bibl><author><persName ref="https://d-nb.info/gnd/118619799"><hi rendition="#sc">Suárez</hi>, Francisco</persName></author>: <title>Opus de triplici virtute theologica, Fide, Spe, &amp; Charitate. Lugduni, Sumptibus Iacobi Cardon &amp; Petri Cauellar</title>, <date when="1621">1621</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1484"><bibl><author><persName ref="https://d-nb.info/gnd/1055527389"><hi rendition="#sc">Torres</hi>, Luis de</persName></author>: <title>Disputationum in Secundam Secundae D. Thoma, De Fide, Spe, Charitate et Prudentia. Tomus Unus. Lugduni, Sumptibus Horatii Cardon, Lyon</title>, <date when="1617">1617</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1499"><bibl><author><persName ref="https://d-nb.info/gnd/119220881"><hi rendition="#sc">Valencia</hi>, Gregorio de</persName></author>: <title>Commentariorum Theologicorum. Tomus Tertius: Complectens Omnia Secunda Secundae D. Thomae Theoremata. Lugduni, Sumptibus Horatij Cardon</title>, <date when="1603">1603</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1513"><bibl><author><persName ref="https://d-nb.info/gnd/118804065"><hi rendition="#sc">Vázquez</hi>, Gabriel</persName></author>: <title>Commentariorum ac disputationum in primam secundae S. Thomae. Tomus Secundus. Ingolstadii, Ex oficcina typographica ederiana, Impensis Ioannis Hertsroy &amp; Andreæ Angermarii, 1606. (Vázquez 1606a).</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1523"><bibl><author><persName ref="https://d-nb.info/gnd/118804065"><hi rendition="#sc">Vázquez</hi>, Gabriel</persName></author>: <title>Commentariorum ac disputationum in primam secundae S. Thomae. Tomus Secundus. Ingolstadii, Ex oficcina typographica ederiana, Impensis Ioannis Hertsroy &amp; Andreæ Angermarii, 1606. (Vázquez 1606b).</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1533"><bibl><author><persName ref="https://d-nb.info/gnd/118626302"><hi rendition="#sc">Vázquez de Menchaca</hi>, Fernando</persName></author>: <title>Controversiarum illustrium aliarumque usu frequentium, libri tres. Francfurti ad Mænum, Sigismundus Feierabend,1572.</title></bibl></item>
+                            <item xml:id="L0086-it-d1e1543"><bibl><author><persName ref="https://d-nb.info/gnd/100009816"><hi rendition="#sc">Vera Cruz</hi>, Alonso de la</persName></author>: <title>Speculum coniugiorum. Salmanticae, Excudebat Andreas à Portonarijs</title>, <date when="1562">1562</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1557"><bibl><author><persName ref="https://d-nb.info/gnd/100009816"><hi rendition="#sc">Vera Cruz</hi>, Alonso de la</persName></author>: <title>Relectio de dominio infidelium et iusto bello [1555]. México, UNAM</title>, <date when="2007">2007</date>.</bibl></item>
+                            <item xml:id="L0086-it-d1e1572"><bibl><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author>: <title>Confessionario util y provechoso. Santiago, [s.n.], 1562. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi></persName>, Confessionario (2018 [1562]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt; <ref target="https://id.salamanca.school/texts/W0015">https://id.salamanca.school/texts/W0015</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1593"><bibl><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author>/<author><persName>Tomás Chaves</persName></author>: <title>Summa sacramentorum ecclesiae. Pinciae, Excudebat Sebastianus Martinez, 1561. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi></persName>, Summa Sacramentorum (2018 [1561]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0014">https://id.salamanca.school/texts/W0014</ref>&gt;.</bibl></item>
+                            <item xml:id="L0086-it-d1e1617"><bibl><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author>: <title>De Indis insulanis relectio prior, in: Francisco de Vitoria, Relectiones Theologicae XII. Tomus Primus, Lugduni, apud Iacobum Boyerium, 1557. pp. 282-374. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi></persName>, Relectiones Theologicae XII, Vol. 1 (2018 [1557]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0013:vol1">https://id.salamanca.school/texts/W0013:vol1</ref>&gt; (<author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>a).</bibl></item>
+                            <item xml:id="L0086-it-d1e1644"><bibl><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author>: <title>Relectio De eo, ad quod tenetur homo ueniens ad usum rationis</title></bibl>, <bibl>in: <author><persName ref="https://d-nb.info/gnd/118768735">Francisco de Vitoria</persName></author>, <title>Relectionum Theologicarum. Secundus Tomus. Lugduni, apud Iacobum Boyerium, 1557. pp. 319-397. <hi rend="#it">Online Edition</hi>: <persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi></persName>, Relectiones Theologicae XII, Vol. 2 (2018 [1557]), in: The School of Salamanca. A Digital Collection of Sources</title> &lt;<ref target="https://id.salamanca.school/texts/W0013:vol2">https://id.salamanca.school/texts/W0013:vol2</ref>&gt; (<author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1557">1557</date>b).</bibl></item>
+                            <item xml:id="L0086-it-d1e1678"><bibl><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author> et al.: <title>Parecer sobre el bautismo de los indios, in: Francisco de Vitoria, Relectio de Indis o Libertad de los Indios.</title> Madrid, CSIC, <date when="1967">1967</date>, 157-164.</bibl></item>
+                            <item xml:id="L0086-it-d1e1692"><bibl><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author>: <title>Comentarios a la Secunda Secundae de Santo Tomás. Tomo I: De Fide et Spe (qq. 1-22). Salamanca, Dominicos de las Provincias de España</title>, <date when="1932">1932</date>.</bibl></item>
+                        </list>
+                    </item>
+                    <item xml:id="L0086-it-d1e1707">
+                        <head xml:id="Toc161137954">Research Literature</head>
+                        <list xml:id="L0086-li-d1e1707">
+                            <item xml:id="L0086-it-d1e1712"><bibl><author><persName><hi rendition="#sc">Meyer</hi>, Christoph</persName></author>:<title>Non-Christians in the Normative Culture of the Catholic Church between Antiquity and the Modern Era: A Select Bibliography</title>. Max Planck Institute for European Legal History Research Paper Series No. 2020-15: subsidia et instrumenta, [<ref target="http://doi.org/10.2139/ssrn.3206610">DOI:10.2139/ssrn.3206610</ref>].</bibl></item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>
