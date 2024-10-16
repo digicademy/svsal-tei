@@ -10,17 +10,18 @@
     version="2.0">
 
     <xsl:output method="xml"/>
-    <!-- for the root node, insert xml scheme processing instructions -->
+
     <xsl:template match="/">
         <xsl:apply-templates select="*"/>
     </xsl:template>
 
-    <!-- IdentityTransform -->
     <xsl:template match="@href">
         <xsl:attribute name="href">
-            <xsl:value-of select="replace(., '(https://files.salamanca.school/)|(../meta/)', 'http://files.salamanca.school/')"/>
+            <xsl:value-of select="replace(., '(http://files.salamanca.school/)|(../meta/)', 'https://files.salamanca.school/')"/>
         </xsl:attribute>
     </xsl:template>
+
+    <!-- IdentityTransform -->
     <xsl:template mode="#all" match="@* | node()">
         <xsl:copy copy-namespaces="yes">
             <xsl:apply-templates select="@* | node()" mode="#current"/>
