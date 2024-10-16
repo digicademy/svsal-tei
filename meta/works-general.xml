@@ -1,6 +1,7 @@
 <?xml-model href="http://files.salamanca.school/saltei.rng"
     type="application/xml"
-    schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:sal="http://salamanca.adwmainz.de" xml:id="WorksHeadGeneralXML">
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:sal="http://salamanca.adwmainz.de" xml:id="WorksHeadGeneralXML">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,23 +18,23 @@
                         <surname>Caesar</surname>, <forename>Ingo</forename>
                     </persName>
                 </author>
-                <editor role="translator" xml:id="CC">
+                <author xml:id="CC">
                     <persName ref="orcid:0000-0003-1240-649X">
                         <surname>Cárdenas Velásquez</surname>, <forename>Luisa Carolina</forename>
                     </persName>
-                </editor>
+                </author>
                 <author xml:id="DG">
                     <persName ref="orcid:0000-0002-0273-3844">
                         <surname>Glück</surname>, <forename>David</forename>
                     </persName>
                 </author>
-                <editor role="translator" xml:id="CRC">
+                <author xml:id="CRC">
                     <persName ref="orcid:0000-0001-5095-1793">
                         <surname>Rico Carmona</surname>, <forename>Cindy</forename>
                     </persName>
-                </editor>
+                </author>
                 <author xml:id="AW">
-                    <persName ref="gnd:108835820">
+                    <persName ref="orcid:0000-0003-1835-1653 gnd:108835820">
                         <surname>Wagner</surname>, <forename>Andreas</forename>
                     </persName>
                 </author>
@@ -48,7 +49,7 @@
                 </publisher>
                 <distributor xml:id="pubstmt-distributor">
                     <orgName xml:lang="de">Akademie der Wissenschaften und der Literatur, Mainz</orgName>,
-                    <orgName xml:lang="de">Max-Planck-Institut für europäische Rechtsgeschichte</orgName>,
+                    <orgName xml:lang="de">Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie</orgName>,
                     <orgName xml:lang="de">Goethe-Universität Frankfurt/Main</orgName>
                     <email>info@salamanca.adwmainz.de</email>
                 </distributor>
@@ -56,7 +57,7 @@
                     Frankfurt am Main, Germany (<ref type="url" target="http://salamanca.adwmainz.de/">http://salamanca.adwmainz.de/</ref>)
                 </pubPlace>
                 <availability xml:id="pubstmt-availability">
-                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                    <licence target="https://creativecommons.org/licenses/by/4.0" n="cc-by">
                         <p xml:id="p_wc2c454" xml:lang="de">Dieses Werk bzw. dieser Inhalt wurde digitalisiert durch die <ref target="http://www.adwmainz.de">Akademie der
                             Wissenschaften und der Literatur, Mainz</ref> und steht unter einer <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
                               Commons Lizenz: Namensnennung 4.0 International (CC BY 4.0)</ref>.</p>
