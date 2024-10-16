@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://files.salamanca.school/saltei.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0007">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Alea</title>
+                <title type="short">Alea</title>
+                <author xml:id="CB" role="#scholarly">
+                    <persName>
+                        <surname>Birr</surname>, <forename>Christiane</forename>
+                    </persName>
+                </author>
+                <editor xml:id="CR" role="Other">
+                    <persName>
+                        <surname>Rico Carmona</surname>, <forename>Cindy</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0.0" xml:id="ed_L0007" xml:lang="en">
+                    Complete digital edition, <date type="digitizedEd" when="2024-04-10">2024-04-10</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt xml:id="publicationStmt">
+                <publisher xml:id="pubstmt-publisher">
+                    <orgName xml:lang="de">Akademie der Wissenschaften und der Literatur, Mainz</orgName>
+                    <ref type="url" target="http://salamanca.adwmainz.de/">http://salamanca.adwmainz.de/</ref>
+                </publisher><distributor xml:id="pubstmt-distributor">
+                    <orgName xml:lang="de">Akademie der Wissenschaften und der Literatur, Mainz</orgName>,
+                    <orgName xml:lang="de">Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie</orgName>,
+                    <orgName xml:lang="de">Goethe-Universität Frankfurt/Main</orgName>
+                    <email>info@salamanca.adwmainz.de</email>
+                </distributor><pubPlace role="digitizedEd" xml:lang="en" xml:id="pubstmt-pubplace">
+                    Frankfurt am Main, Germany (<ref type="url" target="http://salamanca.adwmainz.de/">http://salamanca.adwmainz.de/</ref>)
+                </pubPlace><availability xml:id="pubstmt-availability">
+                    <licence n="cc-by" target="https://creativecommons.org/licenses/by/4.0">
+                        <p xml:id="p_wc2c454" xml:lang="de">Dieses Werk bzw. dieser Inhalt wurde digitalisiert durch die <ref target="http://www.adwmainz.de">Akademie der
+                            Wissenschaften und der Literatur, Mainz</ref> und steht unter einer <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
+                              Commons Lizenz: Namensnennung 4.0 International (CC BY 4.0)</ref>.</p>
+                        <p xml:id="p_ffjaztskfd" xml:lang="en">This work or content, respectively, was digitized by the 
+                            <ref target="http://www.adwmainz.de">Akademie der  Wissenschaften und der Literatur, Mainz</ref>,
+                        and is licensed under the terms of a 
+                            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</ref>.</p>
+                        <p xml:id="p_7rlkjdf8sd" xml:lang="es">Esta obra respectivamente este contenido ha sido digitalizado por la <ref target="http://www.adwmainz.de">Akademie der
+                            Wissenschaften und der Literatur, Mainz</ref> y es autorizado bajo una licencia de 
+                            <ref target="https://creativecommons.org/licenses/by/4.0/deed.es"> Creative Commons Reconocimiento 4.0 Internacional (CC BY 4.0)</ref></p>
+                    </licence>
+                </availability>
+                <date type="digitizedEd" when="2024-04-10">2024-04-10</date>
+                <idno>
+                    <idno xml:id="urlid">https://id.salamanca.school/texts/L0007</idno>
+                    <idno xml:id="urltei">https://id.salamanca.school/texts/L0007?format=tei</idno>
+                    <idno xml:id="urlhtml">https://id.salamanca.school/texts/L0007</idno>
+                    <idno xml:id="urlrdf">https://id.salamanca.school/texts/L0007?format=rdf</idno>
+                    <idno xml:id="urltxtedit">https://id.salamanca.school/texts/L0007?format=txt&amp;mode=edit</idno>
+                </idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p xml:id="p_borndigital">This document is the source itself. It was not derived from a source.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="en" n="main" xml:lang="en">English</language>
+            </langUsage>
+        </profileDesc>
+            
+        <encodingDesc>
+            <projectDesc xml:id="projectDesc">
+                <p xml:id="p_retq324ewfr" xml:lang="de">Dieses Dokument wurde im Rahmen des Projekts 
+                    <ref target="https://www.salamanca.school/de/project.html">"Die Schule von Salamanca.
+                    Eine digitale Quellensammlung und ein Wörterbuch ihrer juridisch-politischen Sprache"</ref> der
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>, kodiert. Dieses Projekt zielt
+                    neben der Herstellung eines Wörterbuchs auf die freie und leicht zugängliche
+                    Präsentation wichtiger Texte aus dem Diskussionszusammenhang der sog. "Schule von
+                    Salamanca" ab, die hierfür (i.d.R.) aus den Erst-Drucken retrodigitalisiert werden.
+                    Von einer kritischen Überarbeitung und einem Rückgriff auf die Manuskript-Quellen oder
+               andere Ausgaben wurde abgesehen.</p>
+                <p xml:id="p_fhsdofisad" xml:lang="en">This document was  
+                    encoded within the scope of the project <ref target="https://www.salamanca.school/en/project.html">"The School of Salamanca. A Digital Collection of 
+                    Sources and a Dictionary of its Juridical-Political Language"</ref> of the 
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>. 
+                    Besides creating a dictionary, the project aims at a freely available and easily accessible 
+                    collection of important texts from the discoursive context of the so called "School of Salamanca", 
+                    which are being digitized for this purpose (usually in the form of their initial edition). A critical revision, 
+                    or a recourse to manuscript templates, for instance, has been refrained from.
+                </p>
+                <p xml:id="p_fhsdofesad" xml:lang="es">
+                    Este documento se codificó en el marco del proyecto <ref target="https://www.salamanca.school/es/project.html">"La Escuela de Salamanca. Una 
+                    colección digital de fuentes y un diccionario de su lenguaje jurídico-político"</ref> 
+                    de la <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur, Mainz</ref>.
+                    Además de la producción de un diccionario, el proyecto tiene como objetivo la presentación gratuita y 
+                    accesible de textos importantes del contexto de discusión de la llamada "Escuela de Salamanca", 
+                    que se digitalizan (básicamente en la forma de su primera publicación).
+                    Se ha prescindido tanto de una revisión crítica, como de un 
+                    recurso que muestre los originales de los manuscritos o otras ediciones.
+                </p>
+            </projectDesc>
+            <refsDecl xml:id="refsDecl">
+                <p xml:id="p_d2d3fccq3" xml:lang="de">Für eine Beschreibung der im Werk verwendeten Identifikations- und 
+                    Referenzierungsschemata für Elemente mittels <att>xml:id</att> siehe die
+                    <ref target="https://www.salamanca.school/de/guidelines.html#de-xmlid">Editionsrichtlinien</ref>.</p>
+                <p xml:id="p_d2derccq3" xml:lang="en">For a description of the schemata used for identification and referencing of elements 
+                    by means of <att>xml:id</att>, please refer to the
+                    <ref target="https://www.salamanca.school/en/guidelines.html#en-xmlid">edition guidelines</ref>.</p>
+                <p xml:id="p_d2deercq3" xml:lang="es">Para una descripción de los esquemas de identificación y referencia de elementos,
+                    utilizado en la obra por medio de <att>xml:id</att>, por favor refiérase a las 
+                    <ref target="https://www.salamanca.school/en/guidelines.html#es-xmlid">directrices de edición</ref>.</p>
+            </refsDecl><styleDefDecl scheme="css"/><tagsDecl> <!-- from TEI P5 2.8.0 on: @partial="true" -->
+                <rendition scheme="css" xml:id="hyphenBefore">content:'-';</rendition>
+                <rendition scheme="css" xml:id="noHyphen">content:'';</rendition>
+                <rendition scheme="css" xml:id="asterisk">content:'*';</rendition>
+                <rendition scheme="css" xml:id="dagger">content:'†';</rendition>
+                <rendition scheme="css" xml:id="initCaps" scope="first-letter">font-size: xx-large; font-style: initial;</rendition>
+                <rendition scheme="css" xml:id="it">font-style: italic;</rendition>
+                <rendition scheme="css" xml:id="recte">font-style: normal;</rendition>
+                <rendition scheme="css" xml:id="b">font-weight: bold;</rendition>
+                <rendition scheme="css" xml:id="sc">font-variant: small-caps;</rendition>
+                <rendition scheme="css" xml:id="sup">vertical-align: sup; font-size: .83em;</rendition>
+                <rendition scheme="css" xml:id="sub">vertical-align: sub; font-size: .83em;</rendition>
+                <rendition scheme="css" xml:id="spc">letter-spacing: 3px;</rendition>
+                <rendition scheme="css" xml:id="r-center">text-align: center;</rendition>
+                <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+                <rendition scheme="css" xml:id="inline-space">content: '        ';</rendition>
+                <rendition scheme="css" xml:id="h-line">content: " ";display:block;border-bottom: 1px solid #rrggbb;</rendition>
+                <rendition scheme="css" xml:id="inline-h-line">content: " — ";</rendition>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lb" rendition="#noHyphen"/>
+                    <tagUsage gi="milestone" rendition="#asterisk"/>
+                    <tagUsage gi="lg" rendition="#it"/>
+                    <tagUsage gi="head" rendition="#r-center"/>
+                </namespace>
+            </tagsDecl><appInfo>
+                <application ident="MUFI" version="4.0">
+                    <label xml:id="svsal-meta-la-0001">MUFI character recommendation v. 4.0</label>
+                    <ref target="http://hdl.handle.net/1956/10699"/>
+                </application>
+                <application ident="Unicode" version="6.3.0">
+                    <label xml:id="svsal-meta-la-0002">The Unicode Consortium. The Unicode Standard, Version 6.3.0</label>
+                    <ref target="http://www.unicode.org/versions/Unicode6.3.0/"/>
+                </application>
+            </appInfo><listPrefixDef>
+                <prefixDef ident="author" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://id.salamanca.school/authors.$1">
+                   <p xml:id="p_f2q34f3cew" xml:lang="en">Within the scope of this edition, private URIs using an "author" prefix refer to 
+                       person datasets, available in the "tei/authors/" directory of the svsal-data package.
+                       The filenames therein are concatenations of the internal ID number of the respective person, beginning 
+                       with the letter "A", and the file extension ".xml". The web application displays these datasets 
+                       under the address <ref type="url" target="http://www.salamanca.school/author.html">http://www.salamanca.school/author.html</ref>, 
+                       which is to be complemented by the "?aid=" parameter, followed by the internal ID number.</p>
+                </prefixDef>
+                <prefixDef ident="work" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://id.salamanca.school/works.$1">
+                    <p xml:id="p_awevearvq" xml:lang="en">Within the scope of this edition, private URIs using a "work" prefix refer to 
+                        work datasets, available in the "tei/works/" directory of the svsal-data package.
+                        The filenames therein are concatenations of the internal ID number of the respective work, beginning 
+                        with the letter "W", and the file extension ".xml". The web application displays these datasets 
+                        under the address <ref type="url" target="http://www.salamanca.school/work.html">http://www.salamanca.school/work.html</ref>, 
+                        which is to be complemented by the "?wid=" parameter, followed by the internal ID number.</p>
+                </prefixDef>
+                <prefixDef ident="lemma" matchPattern="([A-z0-9.:#_\-]+)" replacementPattern="http://www.salamanca.school/lemma.html?lid=$1">
+                    <p xml:id="p_dlkjupupu" xml:lang="en">Within the scope of this edition, private URIs using a "lemma" prefix refer to 
+                        dictionary datasets, available in the "tei/lemmata/" directory of the svsal-data package.
+                        The filenames therein are concatenations of the internal ID number of the respective lemma, beginning 
+                        with the letter "L", and the file extension ".xml". The web application displays these datasets 
+                        under the address <ref type="url" target="http://www.salamanca.school/lemma.html">http://www.salamanca.school/lemma.html</ref>, 
+                        which is to be complemented by the "?lid=" parameter, followed by the internal ID number.</p>
+                </prefixDef>
+                <prefixDef ident="facs" matchPattern="(W[0-9]{4})-[0-9]{4}" replacementPattern="http://wwwuser.gwdg.de/~svsal/images/$1/$0.jpg"> <!-- einbändige Werke -->
+                    <p xml:id="p_sdeaeeq1" xml:lang="en">Within the scope of this edition, private URIs using the "facs" prefix 
+                        refer to scan image files within the server system of the "Gesellschaft für wissenschaftliche Datenverarbeitung in
+                        Göttingen (GWDG)" at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
+                        therein are concatenations of the internal ID number of the respective work and the ".jpg" file extension. 
+                        The mapping of each ID to its respective work also can be found at the mentioned address.</p>
+                </prefixDef>
+                <prefixDef ident="facs" matchPattern="(W[0-9]{4})-([A-Z])-[0-9]{4}" replacementPattern="http://wwwuser.gwdg.de/~svsal/images/$1/$2/$0.jpg"> <!-- mehrbändige Werke -->
+                    <p xml:id="p_sdeaeeq2" xml:lang="en">Within the scope of this edition, private URIs using the "facs" prefix 
+                        refer to scan image files within the server system of the "Gesellschaft für wissenschaftliche Datenverarbeitung in
+                        Göttingen (GWDG)" at <ref target="http://wwwuser.gwdg.de/~svsal/images/">http://wwwuser.gwdg.de/~svsal/images/</ref>. The filenames
+                        therein are concatenations of the internal ID number of the respective work and the ".jpg" file extension. 
+                        The mapping of each ID to its respective work also can be found at the mentioned address.</p>
+                </prefixDef>
+                <!-- The following prefixes linking our data to external sources are disabled for now,
+                     because the data are not rich enough yet... -->
+                <!--
+                <prefixDef ident="cerl" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=$1">
+                    <p xml:id="p_ertertwe">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "cerl" auf Personen-
+                    Datensätze in der öffentlichen Datenbank unter http://thesaurus.cerl.org/.</p>
+                </prefixDef>
+                <prefixDef ident="gnd" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=$1">
+                    <p xml:id="p_xcvsdfdwq">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "cerl" auf Personen-
+                    Datensätze in der öffentlichen Datenbank unter http://thesaurus.cerl.org/.</p>
+                </prefixDef>
+                <prefixDef ident="viaf" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://viaf.org/viaf/$1">
+                    <p xml:id="p_lkjoiop">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "viaf" auf Personen-
+                Datensätze in der öffentlichen Datenbank unter http://viaf.org/viaf/.</p>
+                </prefixDef>
+                <prefixDef ident="fhla" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://www.larramendi.es/aut/$1">
+                    <p xml:id="p_lkjoiop">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "fhla" auf Personen-
+                Datensätze in der öffentlichen Datenbank unter http://www.larramendi.es/aut/.</p>
+                </prefixDef>
+
+                <prefixDef ident="getty" matchPattern="([A-z0-9.#_\-]+)" replacementPattern="http://www.getty.edu/vow/TGNFullDisplay?subjectid=$1">
+                    <p xml:id="p_q23dfq23">Im Kontext dieser Edition verweisen private URIs mit dem Präfix "getty" auf Personen-
+                        Datensätze in der öffentlichen Datenbank unter http://www.getty.edu/.</p>
+                </prefixDef>
+-->
+            </listPrefixDef>
+            <charDecl xml:id="charDecl">
+
+<!-- Characters below 00FF -->
+
+                <char xml:id="char0026">
+                    <desc>AMPERSAND</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>amp</value>
+                    </charProp>
+                    <mapping type="precomposed">&amp;</mapping>
+                    <mapping type="standardized">&amp;</mapping>
+                </char>
+            
+                <char xml:id="char00b6">
+                    <desc>PILCROW SIGN</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>para</value>
+                    </charProp>
+                    <mapping type="precomposed">¶</mapping>
+                    <mapping type="standardized">¶</mapping>
+                </char>
+                <char xml:id="charf1e1">
+                    <desc>PARAGRAPHUS</desc>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized"></mapping>
+                </char>
+            
+                <char xml:id="char00df">
+                    <desc>LATIN SMALL LETTER SHARP S</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>szlig</value>
+                    </charProp>
+                    <mapping type="precomposed">ß</mapping>
+                    <mapping type="standardized">ss</mapping>
+                </char>
+
+                <char xml:id="char00e6">
+                    <desc>LATIN SMALL LETTER AE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>aelig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Lat1Suppl">U+00E6</mapping>
+                    <mapping type="precomposed">æ</mapping>
+                    <mapping type="standardized">ae</mapping>
+                </char>
+                <char xml:id="char00c6">
+                    <desc>LATIN CAPITAL LETTER AE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>AElig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Lat1Suppl">U+00C6</mapping>
+                    <mapping type="precomposed">Æ</mapping>
+                    <mapping type="standardized">AE</mapping>
+                </char>
+                
+                <char xml:id="chara0302">
+                    <desc>LATIN SMALL LETTER A WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">â</mapping>
+                    <mapping type="composed">â</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+                
+                <char xml:id="chara0300">
+                    <desc>LATIN SMALL LETTER A WITH GRAVE</desc>
+                    <mapping type="precomposed">à</mapping>
+                    <mapping type="composed">à</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+
+<!-- Other Precomposed Characters -->
+
+                <char xml:id="char0180">
+                    <desc>LATIN SMALL LETTER B WITH STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>bstrok</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtB">U+0180</mapping>
+                    <mapping type="precomposed">ƀ</mapping>
+                    <mapping type="standardized">b</mapping>
+                </char>
+                <char xml:id="char0111">
+                    <desc>LATIN SMALL LETTER D WITH STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>dstrok</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0111</mapping>
+                    <mapping type="precomposed">đ</mapping>
+                    <mapping type="standardized">d</mapping>
+                </char>
+                <char xml:id="char0142">
+                    <desc>LATIN SMALL LETTER L WITH STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>lstrok</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0142</mapping>
+                    <mapping type="precomposed">ł</mapping>
+                    <mapping type="standardized">l</mapping>
+                </char>
+                <char xml:id="char0153">
+                    <desc>LATIN SMALL LIGATURE OE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>oelig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0153</mapping>
+                    <mapping type="precomposed">œ</mapping>
+                    <mapping type="standardized">oe</mapping>
+                </char>
+                <char xml:id="char0152">
+                    <desc>LATIN CAPITAL LIGATURE OE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>Oelig</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0152</mapping>
+                    <mapping type="precomposed">Œ</mapping>
+                    <mapping type="standardized">OE</mapping>
+                </char>
+                
+                <char xml:id="char017f">
+                    <desc>LATIN SMALL LETTER LONG S</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>slong</value>
+                    </charProp>
+                    <mapping type="precomposed">ſ</mapping>
+                    <mapping type="standardized">s</mapping>
+                </char>
+                <char xml:id="char1e9c">
+                    <desc>LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>slongbarslash</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtAdd"/>
+                    <mapping type="precomposed">ẜ</mapping>
+                    <mapping type="standardized">s</mapping>
+                </char>
+                <char xml:id="char01d4">
+                    <desc>LATIN SMALL LETTER U WITH CARON</desc>
+                    <mapping type="precomposed">ǔ</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                <char xml:id="charu0300">
+                    <desc>LATIN SMALL LETTER U WITH GRAVE</desc>
+                    <mapping type="precomposed">ù</mapping>
+                    <mapping type="composed">ù</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                <char xml:id="char0250">
+                    <desc>LATIN SMALL LETTER TURNED A</desc>
+                    <mapping type="precomposed">ɐ</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+                <char xml:id="char0259">
+                    <desc>LATIN SMALL LETTER SCHWA</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>schwa</value>
+                    </charProp>
+                    <mapping type="precomposed">ə</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="char026f">
+                    <desc>LATIN SMALL LETTER TURNED M</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>turnedm</value>
+                    </charProp>
+                    <mapping type="precomposed">ɯ</mapping>
+                    <mapping type="standardized">m</mapping>
+                </char>
+                <char xml:id="char0292">
+                    <desc>LATIN SMALL LETTER EZH</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>ezh</value>
+                    </charProp>
+                    <mapping type="precomposed">ʒ</mapping>
+                    <mapping type="standardized">z</mapping>
+                </char>
+                <char xml:id="char204a">
+                    <desc>LATIN ABBREVIATION SIGN SMALL ET</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>et</value>
+                    </charProp>
+                    <mapping type="precomposed">⁊</mapping>
+                    <mapping type="standardized">et</mapping>
+                </char>
+                <char xml:id="char211f">
+                    <desc>RESPONSE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>Rslstrok</value>
+                    </charProp>
+                    <mapping type="precomposed">℟</mapping>
+                    <mapping type="standardized">R</mapping>
+                </char>
+                <char xml:id="char2184">
+                    <desc>LATIN ABBREVIATION SIGN SMALL CON</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>conbase</value>
+                    </charProp>
+                    <mapping type="precomposed">ↄ</mapping>
+                    <mapping type="standardized">con</mapping>
+                </char>
+                <char xml:id="chara751">
+                    <desc>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>pbardes</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝑ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="chara750">
+                    <desc>LATIN CAPITAL LETTER P WITH STROKE THROUGH DESCENDER</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>Pbardes</value>
+                    </charProp>
+                    <mapping type="precomposed">Ꝑ</mapping>
+                    <mapping type="standardized">P</mapping>
+                </char>
+                <char xml:id="chara753">
+                    <desc>LATIN SMALL LETTER P WITH FLOURISH</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>pflour</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝓ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="chara759">
+                    <desc>LATIN SMALL LETTER Q WITH DIAGONAL STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>qslstrok</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝙ</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chara75d">
+                    <desc>LATIN SMALL LETTER RUM ROTUNDA</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>rum</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝝ</mapping>
+                    <mapping type="standardized">rum</mapping>
+                </char>
+                <char xml:id="chara75f">
+                    <desc>LATIN SMALL LETTER V WITH DIAGONAL STROKE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>vdiagstrok</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝟ</mapping>
+                    <mapping type="standardized">v</mapping>
+                </char>
+                <char xml:id="chara76d">
+                    <desc>LATIN SMALL LETTER IS</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>is</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝭ</mapping>
+                    <mapping type="standardized">is</mapping>
+                </char>
+
+                <char xml:id="chara770">
+                    <desc>MODIFIER LETTER US</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>usmod</value>
+                    </charProp>
+                    <mapping type="precomposed">ꝰ</mapping>
+                    <mapping type="standardized">us</mapping>
+                </char>
+
+                <char xml:id="chare682">
+                    <desc>LATIN SMALL LETTER Q WITH DOT ABOVE</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>qdot</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E682</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">q̇</mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e682.png"/>
+                </char>
+
+                <char xml:id="chare8b3">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH R ROTUNDA</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>q2app</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E8B3</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e8b3.png"/>
+                </char>
+                <char xml:id="chare8bf">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH FINAL ET</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>q3app</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E8BF</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e8bf.png"/>
+                </char>
+                <char xml:id="chara757">
+                    <desc>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>qbardes</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtD">U+A757</mapping>
+                    <mapping type="precomposed">ꝗ</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chare68b">
+                    <desc>LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE</desc>
+                    <desc n="Combined">LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER + COMBINING TILDE</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>qbardestilde</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> qbardestilde = qbardes + combtilde </value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+E68B</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+E68B = A757+ 0303</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">ꝗ̃</mapping>
+                    <mapping type="standardized">q</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/e68b.png"/>
+                </char>
+                <char xml:id="char0308">
+                    <desc>LATIN SMALL LETTER Q WITH STROKE AND COMBINING DIAERESIS</desc>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value> qdiaeresis = qbardes + combdiaeresis </value>
+                    </charProp>
+                    <mapping type="composed">ꝗ̈</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charebd1">
+                    <desc>LATIN SMALL LETTER D ROTUNDA WITH DOT ABOVE</desc>
+                    <desc>LATIN SMALL LETTER D ROTUNDA + COMBINING DOT ABOVE</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>drotdot</value>
+                    </charProp>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value> drotdot = drot + combdot </value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+EBD1</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+EBD1 = A77A + 0307</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">ꝺ̇</mapping>
+                    <mapping type="standardized">d</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/ebd1.png"/>
+                </char>
+                <char xml:id="charf159">
+                    <desc>LATIN ABBREVIATION SIGN SMALL DE</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>de</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="PUA">U+F159</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">d</mapping>
+                    <graphic mimeType="image/png" url="http://v2.manuscriptorium.com/apps/gbank/data/mufi-graphic/f159.png"/>
+                </char>
+                <char xml:id="chary0302">
+                    <desc>LATIN SMALL LETTER Y WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">ŷ</mapping>
+                    <mapping type="composed">ŷ</mapping>
+                    <mapping type="standardized">y</mapping>
+                </char>
+
+<!-- Combining Characters, the first character of the code after "char" is the base letter, then come 4 identifying characters combining mark -->
+
+                <char xml:id="chara0303">
+                    <desc>LATIN SMALL LETTER A WITH TILDE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>atilde</value>
+                    </charProp>
+                    <charProp>
+                        <unicodeName>combined-entity</unicodeName>
+                        <value> atilde = a + combtilde </value>
+                    </charProp>
+                    <mapping type="precomposed">ã</mapping>
+                    <mapping type="composed">ã</mapping>
+                    <mapping type="standardized">a</mapping>
+                    <graphic mimeType="image/png" url="http://www.manuscriptorium.com/apps/gbank/data/mufi-graphic/00e3.png"/>
+                </char>
+                <char xml:id="chara0304">
+                    <desc>LATIN SMALL LETTER A WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>amacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> amacr = a + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0101</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+0101 = 0061 + 0304</mapping>
+                    <mapping type="precomposed">ā</mapping>
+                    <mapping type="composed">ā</mapping>
+                    <mapping type="standardized">a</mapping>
+                </char>
+                <char xml:id="charb0307">
+                    <desc>LATIN SMALL LETTER B WITH DOT ABOVE</desc>
+                    <mapping type="composed">ḃ</mapping>
+                    <mapping type="standardized">b</mapping>
+                </char>
+                <char xml:id="charc0303">
+                    <desc>LATIN SMALL LETTER C WITH TILDE</desc>
+                    <mapping type="composed">c̃</mapping>
+                    <mapping type="standardized">c</mapping>
+                </char>
+                <char xml:id="charc0327">
+                    <desc>LATIN SMALL LETTER C WITH CEDILLA</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>ccedil</value>
+                    </charProp>
+                    <mapping type="precomposed">ç</mapping>
+                    <mapping type="composed">ç</mapping>
+                    <mapping type="standardized">c</mapping>
+                    <graphic mimeType="image/png" url="http://www.manuscriptorium.com/apps/gbank/data/mufi-graphic/00e7.png"/>
+                </char>
+                <char xml:id="chare0303">
+                    <desc>LATIN SMALL LETTER E WITH TILDE</desc>
+                    <mapping type="precomposed">ẽ</mapping>
+                    <mapping type="composed">ẽ</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                
+                <char xml:id="chare0308">
+                    <desc>LATIN SMALL LETTER E WITH TWO DOTS ABOVE</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>euml</value>
+                    </charProp>
+                    <mapping type="precomposed">ë</mapping>
+                    <mapping type="composed">ë</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0327">
+                    <desc>LATIN SMALL LETTER E WITH CEDILLA</desc>
+                    <mapping type="precomposed">ȩ</mapping>
+                    <mapping type="composed">ȩ</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0304">
+                    <desc>LATIN SMALL LETTER E WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>emacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> emacr = e + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0113</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+0113 = 0065 + 0304</mapping>
+                    <mapping type="precomposed">ē</mapping>
+                    <mapping type="composed">ē</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0328">
+                    <desc>LATIN SMALL LETTER E WITH OGONEK</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>eogon</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+0119</mapping>
+                    <mapping type="precomposed">ę</mapping>
+                    <mapping type="composed">ę</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare0302">
+                    <desc>LATIN SMALL LETTER E WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">ê</mapping>
+                    <mapping type="composed">ê</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                <char xml:id="chare4e9">
+                    <desc>LATIN SMALL LETTER E WITH CURL</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>ecurl</value>
+                    </charProp>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value>ecurl = e + combcurl</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Combined">U+E4E9 = 0065 + 1DCE</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                
+                <char xml:id="chare0300">
+                    <desc>LATIN SMALL LETTER E WITH GRAVE</desc>
+                    <mapping type="precomposed">è</mapping>
+                    <mapping type="composed">è</mapping>
+                    <mapping type="standardized">e</mapping>
+                </char>
+                
+                <char xml:id="charg0304">
+                    <desc>LATIN SMALL LETTER G WITH MACRON</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>gmacr</value>
+                    </charProp>
+                    <mapping type="precomposed">ḡ</mapping>
+                    <mapping type="standardized">g</mapping>
+                </char>
+                
+                <char xml:id="chari0303">
+                    <desc>LATIN SMALL LETTER I WITH TILDE</desc>
+                    <mapping type="precomposed">ĩ</mapping>
+                    <mapping type="composed">ĩ</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0300">
+                    <desc>LATIN SMALL LETTER I WITH GRAVE</desc>
+                    <mapping type="precomposed">ì</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0302">
+                    <desc>LATIN SMALL LETTER I WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">î</mapping>
+                    <mapping type="composed">î</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="chari0304">
+                    <desc>LATIN SMALL LETTER I WITH MACRON</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>imacr</value>
+                    </charProp>
+                    <charProp>
+                        <localName>combined-entity</localName>
+                        <value>imacr = i + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+012B</mapping>
+                    <mapping type="precomposed">ī</mapping>
+                    <mapping type="composed">ī</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                
+                <char xml:id="charj0303">
+                    <desc>LATIN SMALL LETTER J WITH TILDE</desc>
+                    <mapping type="composed">j̃</mapping>
+                    <mapping type="standardized">j</mapping>
+                </char>
+                <char xml:id="charj0308">
+                    <desc>LATIN SMALL LETTER J WITH DIAERESIS</desc>
+                    <mapping type="composed">j̈</mapping>
+                    <mapping type="standardized">j</mapping>
+                </char>
+
+                <char xml:id="charl0303">
+                    <desc>LATIN SMALL LETTER L WITH TILDE</desc>
+                    <mapping type="composed">l̃</mapping>
+                    <mapping type="standardized">l</mapping>
+                </char>
+                <char xml:id="charl0309">
+                    <desc>LATIN SMALL LETTER L WITH HOOK</desc>
+                    <charProp>
+                        <localName>entity</localName>
+                        <value>lhook</value>
+                    </charProp>
+                    <mapping type="composed">l̉</mapping>
+                    <mapping type="standardized">l</mapping>
+                </char>
+                
+                <char xml:id="charm0303">
+                    <desc>LATIN SMALL LETTER M WITH TILDE</desc>
+                    <mapping type="composed">m̃</mapping>
+                    <mapping type="standardized">m</mapping>
+                </char>
+                <char xml:id="charm0304">
+                    <desc>LATIN SMALL LETTER M WITH MACRON</desc>
+                    <mapping type="composed">m̄</mapping>
+                    <mapping type="standardized">m</mapping>
+                </char>
+                
+                <char xml:id="charn0303">
+                    <desc>LATIN SMALL LETTER N WITH TILDE</desc>
+                    <mapping type="precomposed">ñ</mapping>
+                    <mapping type="composed">ñ</mapping>
+                    <mapping type="standardized">n</mapping>
+                </char>
+                <char xml:id="char00D1">
+                    <desc>LATIN CAPITAL LETTER N WITH TILDE</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>Ntilde</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> Ntilde = N + combtilde</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="Lat1Suppl">U+00D1</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+00D1 = 004E + 0303</mapping>
+                    <mapping type="precomposed">Ñ</mapping>
+                    <mapping type="composed">Ñ</mapping>
+                    <mapping type="standardized">N</mapping>
+                </char>
+                <char xml:id="charn0304">
+                    <desc>LATIN SMALL LETTER N WITH MACRON</desc>
+                    <mapping type="composed">n̄</mapping>
+                    <mapping type="standardized">n</mapping>
+                </char>
+                
+                <char xml:id="char0254">
+                    <desc>LATIN SMALL LETTER OPEN O</desc>
+                    <mapping type="precomposed">ɔ</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0300">
+                    <desc>LATIN SMALL LETTER O WITH GRAVE</desc>
+                    <mapping type="precomposed">ò</mapping>
+                    <mapping type="composed">ò</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0302">
+                    <desc>LATIN SMALL LETTER O WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">ô</mapping>
+                    <mapping type="composed">ô</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0303">
+                    <desc>LATIN SMALL LETTER O WITH TILDE</desc>
+                    <mapping type="precomposed">õ</mapping><!--00f5-->
+                    <mapping type="composed">õ</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo00F6">
+                    <desc>LATIN SMALL LETTER O WITH DIAERESIS</desc>
+                    <mapping type="MUFI">ö</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charo0304">
+                    <desc>LATIN SMALL LETTER O WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>omacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> omacr = o + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+014D</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+014D = 006F + 0304</mapping>
+                    <mapping type="precomposed">ō</mapping>
+                    <mapping type="composed">ō</mapping>
+                    <mapping type="standardized">o</mapping>
+                </char>
+                <char xml:id="charp0301">
+                    <desc>LATIN SMALL LETTER P WITH ACUTE ACCENT</desc>
+                    <mapping type="precomposed">ṕ</mapping>
+                    <mapping type="composed">ṕ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="charp0303">
+                    <desc>LATIN SMALL LETTER P WITH TILDE</desc>
+                    <mapping type="composed">p̃</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                <char xml:id="charp0307">
+                    <desc>LATIN SMALL LETTER P WITH DOT ABOVE</desc>
+                    <mapping type="composed">ṗ</mapping>
+                    <mapping type="standardized">p</mapping>
+                </char>
+                
+                <char xml:id="charq0301">
+                    <desc>LATIN SMALL LETTER Q WITH ACUTE ACCENT</desc>
+                    <mapping type="composed">q́</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0303">
+                    <desc>LATIN SMALL LETTER Q WITH TILDE</desc>
+                    <mapping type="composed">q̃</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0304">
+                    <desc>LATIN SMALL LETTER Q WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>qmacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> qmacr = q + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+E681</mapping>
+                    <mapping type="precomposed"></mapping>
+                    <mapping type="composed">q̄</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                
+                <char xml:id="charq0307">
+                    <desc>LATIN SMALL LETTER Q WITH DOT ABOVE</desc>
+                    <mapping type="composed">q̇</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0308">
+                    <desc>LATIN SMALL LETTER Q WITH TWO DOTS ABOVE</desc>
+                    <mapping type="composed">q̈</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="charq0366">
+                    <desc>LATIN SMALL LETTER Q WITH SMALL O ABOVE</desc>
+                    <mapping type="composed">qͦ</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                
+                <char xml:id="charr0303">
+                    <desc>LATIN SMALL LETTER R WITH TILDE</desc>
+                    <mapping type="composed">r̃</mapping>
+                    <mapping type="standardized">r</mapping>
+                </char>
+                <char xml:id="charr0304">
+                    <desc>LATIN SMALL LETTER R WITH MACRON</desc>
+                    <mapping type="composed">r̄</mapping>
+                    <mapping type="standardized">r</mapping>
+                </char>
+                
+                <char xml:id="chars0303">
+                    <desc>LATIN SMALL LETTER S WITH TILDE</desc>
+                    <mapping type="composed">s̃</mapping>
+                    <mapping type="standardized">s</mapping>
+                </char>
+                <char xml:id="chart0303">
+                    <desc>LATIN SMALL LETTER T WITH TILDE</desc>
+                    <mapping type="composed">t̃</mapping>
+                    <mapping type="standardized">t</mapping>
+                </char>
+                
+                <char xml:id="charu0303">
+                    <desc>LATIN SMALL LETTER U WITH TILDE</desc>
+                    <mapping type="precomposed">ũ</mapping>
+                    <mapping type="composed">ũ</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                <char xml:id="charu0304">
+                    <desc>LATIN SMALL LETTER U WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>umacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> umacr = u + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtA">U+016B</mapping>
+                    <mapping type="precomposed">ū</mapping>
+                    <mapping type="composed">ū</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                
+                <char xml:id="charu0302">
+                    <desc>LATIN SMALL LETTER U WITH CIRCUMFLEX</desc>
+                    <mapping type="precomposed">û</mapping>
+                    <mapping type="standardized">u</mapping>
+                </char>
+                
+                <char xml:id="charx0303">
+                    <desc>LATIN SMALL LETTER X WITH TILDE</desc>
+                    <mapping type="composed">x̃</mapping>
+                    <mapping type="standardized">x</mapping>
+                </char>
+                <char xml:id="chary0304">
+                    <desc>LATIN SMALL LETTER Y WITH MACRON</desc>
+                    <charProp>
+                       <localName>entity</localName>
+                       <value>ymacr</value>
+                    </charProp>
+                    <charProp>
+                       <localName>combined-entity</localName>
+                       <value> ymacr = y + combmacr</value>
+                    </charProp>
+                    <mapping type="MUFI" subtype="LatExtB">U+0233</mapping>
+                    <mapping type="MUFI" subtype="Combined">U+0233 = 0079 + 0304</mapping>
+                    <mapping type="precomposed">ȳ</mapping>
+                    <mapping type="composed">ȳ</mapping>
+                    <mapping type="standardized">y</mapping>
+                </char>
+                
+                
+                <!-- Horizontal bars and lines, cross-like symbols -->
+                <char xml:id="char2013">
+                    <desc>EN DASH</desc>
+                    <mapping type="MUFI" subtype="GenPunct">U+2013</mapping>
+                    <mapping type="precomposed">–</mapping>
+                    <mapping type="standardized">–</mapping>
+                </char>
+                <char xml:id="char2014">
+                    <desc>EM DASH</desc>
+                    <mapping type="MUFI" subtype="GenPunct">U+2014</mapping>
+                    <mapping type="precomposed">—</mapping>
+                    <mapping type="standardized">—</mapping>
+                </char>
+                <char xml:id="char2020">
+                    <desc>DAGGER</desc>
+                    <charProp>
+                        <unicodeName>entity</unicodeName>
+                        <value>dagger</value>
+                    </charProp>
+                    <mapping type="precomposed">†</mapping>
+                    <mapping type="standardized">+</mapping>
+                </char>
+                <char xml:id="char271d">
+                    <desc>LATIN CROSS</desc>
+                    <mapping type="MUFI" subtype="Dingbats">U+271D</mapping>
+                    <mapping type="precomposed">✝</mapping>
+                    <mapping type="standardized">+</mapping>
+                </char>
+                
+                
+                <!-- Combining characters where even the base letter is a four-letter codepoint -->
+                <char xml:id="char01310323">
+                    <desc>LATIN TURNED SMALL LETTER I</desc>
+                    <mapping type="precomposed">ı̣</mapping>
+                    <mapping type="standardized">i</mapping>
+                </char>
+                <char xml:id="char21840303">
+                    <desc>LATIN ABBREVIATION SIGN SMALL CON WITH TILDE</desc>
+                    <mapping type="composed">ↄ̃</mapping>
+                    <mapping type="standardized">con</mapping>
+                </char>
+                <char xml:id="chara7590303">
+                    <desc>LATIN SMALL LETTER Q WITH DIAGONAL STROKE AND TILDE</desc>
+                    <mapping type="composed">ꝙ̃</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chare8bf0301">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH FINAL ET AND WITH ACUTE ACCENT</desc>
+                    <mapping type="composed">́</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+                <char xml:id="chare8bf0308">
+                    <desc>LATIN SMALL LETTER Q LIGATED WITH FINAL ET AND WITH TWO DOTS ABOVE</desc>
+                    <mapping type="composed">̈</mapping>
+                    <mapping type="standardized">q</mapping>
+                </char>
+
+                <!-- Other characters, not present in unicode nor MUFI -->
+                <char xml:id="char-turnedfl">
+                    <desc>LATIN TURNED SMALL LIGATURE FL</desc>
+                    <mapping type="standardized">fl.</mapping>
+                </char>
+            </charDecl>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label xml:id="L0007-label">DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc status="g_enriched_approved">
+            <listChange>
+                <change who="#CR" when="2024-04-10" status="g_enriched_approved" xml:id="L0007_change_007" xml:lang="en">Rearranged authors (last name, first name) and annotate persName, title, date in back//bibl</change>
+                <change who="#CR #auto" when="2024-03-27" status="g_enriched_approved" xml:id="L0007_change_006" xml:lang="en">Annotate date and biblScope in body//bibl.</change>
+                <change who="#CR #auto" when="2024-03-27" status="g_enriched_approved" xml:id="L0007_change_005" xml:lang="en">Added body//persName using L0086 list and authors from Alea_L0007_DOCX.</change>
+                <change who="#CR #auto" when="2024-03-27" status="g_enriched_approved" xml:id="L0007_change_004" xml:lang="en">Transformation TEI-P5 to SvSal-TEI.</change>
+                <change who="#CR" when="2024-03-19" status="g_enriched_approved" xml:id="L0007_change_003" xml:lang="en">Structural annotation and manual changes.</change>
+                <change who="#CR #auto" when="2024-03-13" status="g_enriched_approved" xml:id="L0007_change_002" xml:lang="en">Transformation DOCX to TEI.</change>
+                <change who="CB" when="2024-03-06" status="a_raw" xml:id="L0007_change_001" xml:lang="en">Article Alea by Christiane Birr.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="lemma_article" xml:id="completeWork" xml:lang="en">
+        <front xml:id="L0007-front-d1e81">
+            <titlePage xml:id="L0007-tp1">
+                <docTitle xml:id="L0007-dt1">
+                    <titlePart type="main" xml:id="L0007-tpt1">Alea</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>
+                        <persName>
+                            <surname>Birr</surname>, <forename>Christiane</forename>
+                        </persName>
+                    </docAuthor>                    
+                </byline>
+            </titlePage>
+            <div type="contents" xml:id="L0007-div-d1e107">
+                <list xml:id="L0007-li-d1e107">
+                    <head xml:id="L0007-he-e171">Contents</head>
+                    <item xml:id="L0007-it-d1e115"><ref target="#L0007-div-d1e173">1 Definition and context</ref></item>
+                    <item xml:id="L0007-it-d1e119"><ref target="#L0007-div-d1e230">1.1 Word field</ref></item>
+                    <item xml:id="L0007-it-d1e123"><ref target="#L0007-div-d1e267">1.2 Related lemmas</ref></item>
+                    <item xml:id="L0007-it-d1e128"><ref target="#L0007-div-d1e298">2 “Alea” in the School of Salamanca</ref></item>
+                    <item xml:id="L0007-it-d1e132"><ref target="#L0007-div-d1e307">2.1 Is gambling forbidden?</ref></item>
+                    <item xml:id="L0007-it-d1e136"><ref target="#L0007-div-d1e456">2.2 Is gambling a sin?</ref></item>
+                    <item xml:id="L0007-it-d1e140"><ref target="#L0007-div-d1e573">2.3 Acquiring property (dominium) through gambling</ref></item>
+                    <item xml:id="L0007-it-d1e144"><ref target="#L0007-div-d1e658">2.4 Gambling clerics</ref></item>
+                    <item xml:id="L0007-it-d1e148"><ref target="#L0007-div-d1e746">2.5 Obligation of corregidores, alcaldes et al. to suppress gambling</ref></item>
+                    <item xml:id="L0007-it-d1e153"><ref target="#L0007-div-d1e773">3 Final remark</ref></item>
+                    <item xml:id="L0007-it-d1e157"><ref target="#L0007-div-d1e805">Literature</ref></item>
+                    <item xml:id="L0007-it-d1e161"><ref target="#L0007-div-d1e811">Sources</ref></item>
+                    <item xml:id="L0007-it-d1e165"><ref target="#L0007-div-d1e1239">Research Literature</ref></item>
+                </list>
+            </div>
+        </front>
+        <body xml:id="L0007-body-d1e171">
+            <div type="section" n="1 Definition and context" xml:id="L0007-div-d1e173">
+                <head xml:id="Toc160700172">1 Definition and context</head>
+                <p n="1" xml:id="L0007-p-1"><quote xml:id="L0007-qu-d1e180">“Alea”</quote> denotes board games in general and, more specifically, all kinds of games of chance (<bibl corresp="https://id.salamanca.school/texts/W0041:1.64.1?format=html" xml:id="L0007-bibl-d1e183"><author><persName ref="https://d-nb.info/gnd/120148226">Díaz de Luco</persName></author> <date when="1554">1554</date>, <biblScope>cap. 64, p. 125</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0083:1.4.7.35?format=html" xml:id="L0007-bibl-d1e186"><author><persName ref="http://viaf.org/viaf/36035482">Pedraza</persName></author> <date when="1568">1568</date>, <biblScope>lib. 1 cap. 4.32, fol. 85r-v</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e189"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 3 no. 1, p. 643</biblScope></bibl>). It is mostly used in the latter sense of gambling. The professional gambler or organiser of gambling rounds is referred to as <quote xml:id="L0007-qu-d1e192">“aleator”</quote> (<bibl corresp="https://id.salamanca.school/texts/W0041:1.64?format=html" xml:id="L0007-bibl-d1e195"><author><persName ref="https://d-nb.info/gnd/120148226">Díaz de Luco</persName></author> <date when="1554">1554</date>, <biblScope>cap. 64, p. 125</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e199"><author><persName ref="http://viaf.org/viaf/72759209">López</persName></author> <date when="1555">1555</date>, <biblScope>vol. 7, SP 7.14.6, fol. 48r</biblScope></bibl>).</p>
+                <p n="2" xml:id="L0007-p-2">The close connection to chance and unpredictability allows the use of <quote xml:id="L0007-qu-d1e205">“alea”</quote> in the phrase <quote xml:id="L0007-qu-d1e208">“sub (incerta) alea”</quote>, meaning chance, hazard, or happenstance (<bibl corresp="https://id.salamanca.school/texts/W0011:2.2.5.4.5?format=html" xml:id="L0007-bibl-d1e211"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 2 lib. 7 q. 5 ar. 4, p. 603</biblScope></bibl>). In criminal law it is used to discuss the presence or absence of intent (<term xml:id="L0007-term-d1e215">dolus</term>), e.g. in the case of a <term xml:id="L0007-term-d1e220">homicidium casuale</term> (<bibl corresp="https://id.salamanca.school/texts/W0001:vol5.2.9.3.8.section718?format=html" xml:id="L0007-bibl-d1e223"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1675">1675</date>, <biblScope>vol. 5, &gt;Indulgentia&lt; no. 8, p. 293</biblScope></bibl>).</p>
+                <p n="3" xml:id="L0007-p-3">The topic of gambling is generally treated within 5 contexts: (a) licitness, (b) sinfulness, (c) acquisition of property, (d) prohibition of clerics to gamble, and (e) obligations of civil authorities to curb noxious gambling.</p>
+                <div type="subsection" n="1.1 Word field" xml:id="L0007-div-d1e230">
+                    <head xml:id="Toc160700173">1.1 Word field</head>
+                    <p n="4" xml:id="L0007-p-4"><term xml:id="L0007-term-d1e237">alea</term>, <term xml:id="L0007-term-d1e240">aleator</term>, <term xml:id="L0007-term-d1e243">dado(s)</term>, <term xml:id="L0007-term-d1e246">juego</term>, <term xml:id="L0007-term-d1e249">jugador</term>, <term xml:id="L0007-term-d1e252">jugar</term>, <term xml:id="L0007-term-d1e256">ludus</term>, <term xml:id="L0007-term-d1e259">tahur</term>, <term xml:id="L0007-term-d1e262">taxillus</term></p>
+                </div>
+                <div type="subsection" n="1.2 Related lemmas" xml:id="L0007-div-d1e267">
+                    <head xml:id="Toc160700174">1.2 Related lemmas</head>
+                    <p n="5" xml:id="L0007-p-5"><term xml:id="L0007-term-d1e274">blasfemia</term>, <term xml:id="L0007-term-d1e277">clericus</term>, <term xml:id="L0007-term-d1e280">dominium</term>, <term xml:id="L0007-term-d1e283">homicidium</term> (<term xml:id="L0007-term-d1e286">casuale</term>), <term xml:id="L0007-term-d1e289">scandalum</term>, <term xml:id="L0007-term-d1e293">vitium</term></p>
+                </div>
+            </div>
+            <div type="section" n="2 Alea in the School of Salamanca" xml:id="L0007-div-d1e298">
+                <head xml:id="Toc160700175">2 <quote xml:id="L0007-qu-d1e303">Alea</quote> in the School of Salamanca</head>
+                <div type="subsection" n="2.1 Is gambling forbidden?" xml:id="L0007-div-d1e307">
+                    <head xml:id="Toc160700176">2.1 Is gambling forbidden?</head>
+                    <p n="6" xml:id="L0007-p-6">Not by natural law (<bibl xml:id="L0007-bibl-d1e315"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 436</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e318"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 47, p. 291</biblScope></bibl>). As a means of recreation, gambling is permitted and socially accepted (<bibl xml:id="L0007-bibl-d1e321"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 1 no. 3, p. 640</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0083:1.4.7?format=html" xml:id="L0007-bibl-d1e324"><author><persName ref="http://viaf.org/viaf/36035482">Pedraza</persName></author> <date when="1568">1568</date>, <biblScope>lib. 1 cap. 4.32, fol. 85r-v</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number2?format=html" xml:id="L0007-bibl-d1e327"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 2, p. 344</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.3?format=html" xml:id="L0007-bibl-d1e331"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5 art. 2, p. 313</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e334"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 436</biblScope></bibl>). However, gambling for profit meets with strong disapproval: the professional <quote xml:id="L0007-qu-d1e337">“aleator”</quote> is <quote xml:id="L0007-qu-d1e340">“odious”</quote> (<bibl xml:id="L0007-bibl-d1e343"><author><persName ref="http://viaf.org/viaf/72759209">López</persName></author> <date when="1555">1555</date>, <biblScope>vol. 7, SP 7.14.6, fol. 48r</biblScope></bibl>).</p>
+                    <p n="7" xml:id="L0007-p-7">The ius commune’s position is seen as debatable (<bibl xml:id="L0007-bibl-d1e349"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 437–438</biblScope></bibl>). The relevant norms are (see <bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number6?format=html" xml:id="L0007-bibl-d1e352"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 6, p. 346</biblScope></bibl>): in civil law, <bibl xml:id="L0007-bibl-d1e355"><biblScope>Dig. 11.5.1</biblScope> &gt;Praetor ait&lt;</bibl> and <bibl xml:id="L0007-bibl-d1e360"><biblScope>Cod. 3.43.1</biblScope> &gt;Alearum lusus&lt;</bibl>, both expressing disapproval of gambling. In fact, <persName ref="https://d-nb.info/gnd/118798111">Soto</persName> interprets <bibl xml:id="L0007-bibl-d1e365"><biblScope>Cod. 3.43.1</biblScope></bibl> as a prohibition of gambling for lay persons (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2?format=html" xml:id="L0007-bibl-d1e370"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5 art. 2, p. 312</biblScope></bibl>; similar: <bibl xml:id="L0007-bibl-d1e373"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 437</biblScope></bibl>). In canon law, <bibl xml:id="L0007-bibl-d1e376"><biblScope>DG dist. 35 c. 1</biblScope> &gt;Episcopus&lt;</bibl>, <bibl xml:id="L0007-bibl-d1e381"><biblScope>X 3.1.15</biblScope> &gt;Clerici&lt;</bibl>, <bibl xml:id="L0007-bibl-d1e386"><biblScope>X 5.31.11</biblScope> &gt;Inter dilectos filios&lt;</bibl> prohibit clerics from gambling. The civil law takes up the ban in <bibl xml:id="L0007-bibl-d1e391"><biblScope>Cod. 1.3.17 Auth.</biblScope> &gt;Interdicimus&lt;</bibl>.</p>
+                    <p n="8" xml:id="L0007-p-8">The <bibl xml:id="L0007-bibl-d1e399"><title>Siete Partidas</title></bibl> follow this line in <bibl xml:id="L0007-bibl-d1e403"><biblScope>SP 1.5.57</biblScope></bibl> and <bibl xml:id="L0007-bibl-d1e407"><biblScope>1.6.34</biblScope></bibl> (gambling prohibition for prelates), <bibl xml:id="L0007-bibl-d1e411"><biblScope>SP 7.14.6</biblScope></bibl> (limited legal protection for the <quote xml:id="L0007-qu-d1e415">“aleator”</quote>), SP 7.16.10 (sanctions for cheating), <bibl xml:id="L0007-bibl-d1e419"><biblScope>SP 1.20.12</biblScope></bibl> (tithes on winnings), <bibl xml:id="L0007-bibl-d1e423"><biblScope>SP 3.16.8</biblScope></bibl> (bad reputation of gamblers), <bibl xml:id="L0007-bibl-d1e427"><biblScope>SP 3.11.19–21</biblScope></bibl> (oaths required of Jews, Christians, and Muslims, incl. in gambling disputes). Local legislations prohibit some notorious forms and circumstances of gambling (<bibl xml:id="L0007-bibl-d1e431"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 4, p. 645–648</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e434"><title>Tercer Concilio Limense</title>, <biblScope>act. 3, cap. 17, p. 268</biblScope></bibl>), as does <persName>Alfonso X</persName>’s <bibl xml:id="L0007-bibl-d1e441"><title>Ordenamiento de las Tafurerías</title></bibl> (<date when="1314">1314</date>, see <bibl xml:id="L0007-bibl-d1e449"><author><persName>Macdonald</persName></author> <date when="1995">1995</date></bibl>).</p>
+                </div>
+                <div type="subsection" n="2.2 Is gambling a sin?" xml:id="L0007-div-d1e456">
+                    <head xml:id="Toc160700177">2.2 Is gambling a sin?</head>
+                    <p n="9" xml:id="L0007-p-9">Permitted gambling for recreational purposes is not a sin (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number2?format=html" xml:id="L0007-bibl-d1e464"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 3, p. 344</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e467"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 2 no. 2,3, p. 641</biblScope></bibl>; for clerics: <bibl corresp="https://id.salamanca.school/texts/W0001:vol2.3.5.section29?format=html" xml:id="L0007-bibl-d1e470"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 14, cap. 5, no. 29, p. 189</biblScope></bibl>); it can even be seen as an act of <term xml:id="L0007-term-d1e474">virtus</term>, i.e., of temperance (<bibl xml:id="L0007-bibl-d1e477"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 55-57, p. 292</biblScope></bibl>). Others view licit recreational gambling as morally dangerous (<bibl corresp="https://id.salamanca.school/texts/W0041:1.64?format=html" xml:id="L0007-bibl-d1e481"><author><persName ref="https://d-nb.info/gnd/120148226">Díaz de Luco</persName></author> <date when="1554">1554</date>, <biblScope>cap. 64, p. 125</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e484"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 1 no. 4, p. 640</biblScope></bibl>).</p>
+                    <p n="10" xml:id="L0007-p-10">Cheating, seen as equivalent to theft (<term xml:id="L0007-term-d1e491">furtum</term>), turns gambling into a mortal sin (<bibl xml:id="L0007-bibl-d1e494"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 7 no. 1, p. 655</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e497"><author><persName>Cayetan</persName></author> <date when="1525">1525</date>, <biblScope>“Ludus</biblScope>”, fol. 164r</bibl>). A game also becomes a sin when it is prohibited by local laws (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.3?format=html" xml:id="L0007-bibl-d1e500"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5 art. 2, p. 313</biblScope></bibl>) or misused for gain by playing for high stakes (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number1?format=html" xml:id="L0007-bibl-d1e503"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 1, p. 344</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e507"><author><persName>Cayetan</persName></author> <date when="1525">1525</date>, <biblScope>“Ludus</biblScope>”, fol. 164r</bibl>), giving rise to the sins of avarice and greed (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number6?format=html" xml:id="L0007-bibl-d1e510"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 6, p. 346</biblScope></bibl>; see <bibl corresp="https://id.salamanca.school/texts/W0113:1.5.sectionIJ?format=html" xml:id="L0007-bibl-d1e513"><author><persName ref="https://d-nb.info/gnd/119314037">Villalón</persName></author> <date when="1541">1541</date>, <biblScope>cap. 4, fol. 9v</biblScope></bibl>). The definition of high stakes depends on each player’s means, because <quote xml:id="L0007-qu-d1e516">“what is little for one, may be a lot for another”</quote> (<bibl corresp="https://id.salamanca.school/texts/W0083:1.4.7?format=html" xml:id="L0007-bibl-d1e519"><author><persName ref="http://viaf.org/viaf/36035482">Pedraza</persName></author> <date when="1568">1568</date>, <biblScope>lib. 1 cap. 4.32, fol. 85v</biblScope></bibl>). A gambling pater familias sets a bad example for his family (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number3?format=html" xml:id="L0007-bibl-d1e522"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 3, p. 345</biblScope></bibl>; see <bibl corresp="https://id.salamanca.school/texts/W0015:2.2.5.2.1?format=html" xml:id="L0007-bibl-d1e526"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1562">1562</date>, <biblScope>pars 2 cap. 2 Mand. 4 par. 1, p. 29</biblScope></bibl>). Without aggravating circumstances (<term xml:id="L0007-term-d1e530">scandalum</term>), gambling for gain is regarded as merely a venial sin (<bibl corresp="https://id.salamanca.school/texts/W0083:1.4.7?format=html" xml:id="L0007-bibl-d1e533"><author><persName ref="http://viaf.org/viaf/36035482">Pedraza</persName></author> <date when="1568">1568</date>, <biblScope>lib. 1 cap. 4.32, fol. 85v</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number1?format=html" xml:id="L0007-bibl-d1e536"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 1, p. 344</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0015:2.2.4.2.1?format=html" xml:id="L0007-bibl-d1e539"><author><persName ref="https://d-nb.info/gnd/118768735">Vitoria</persName></author> <date when="1562">1562</date>, <biblScope>pars 2 cap. 2, Mand. 3 par. 1, p. 25</biblScope></bibl>), even if local laws forbid gambling altogether: the latter aim at temporal punishment, not at the eternal consequences of a mortal sin (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number7?format=html" xml:id="L0007-bibl-d1e543"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 7, p. 346</biblScope></bibl>; critical: <bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.3?format=html" xml:id="L0007-bibl-d1e546"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5 art. 2, p. 314</biblScope></bibl>; considered <quote xml:id="L0007-qu-d1e549">“probabilior”</quote> by <bibl xml:id="L0007-bibl-d1e552"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 436</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e555"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 2 no. 4,5, p. 642</biblScope></bibl> cites other opinions). Also, social reality cannot be denied: the most exalted persons gamble for large sums, and their confessors invariably absolve them without asking them to quit; if gambling were a mortal sin, such leniency would be impossible (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number7?format=html" xml:id="L0007-bibl-d1e558"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 7, p. 346</biblScope></bibl>). Professional gamblers, however, are infamous, like robbers, liars, adulterers and murderers (<bibl corresp="https://id.salamanca.school/texts/W0007:4.8.2?format=html" xml:id="L0007-bibl-d1e562"><author><persName ref="https://d-nb.info/gnd/115379762">Mercado</persName></author> <date when="1569">1569</date>, <biblScope>pars 4 cap. 8, fol. 188r-v</biblScope></bibl>; see <bibl xml:id="L0007-bibl-d1e566"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 28, p. 288</biblScope></bibl>).</p>
+                </div>
+                <div type="subsection" n="2.3 Acquiring property (dominium) through gambling" xml:id="L0007-div-d1e573">
+                    <head xml:id="Toc160700178">2.3 Acquiring property (<term xml:id="L0007-term-d1e578">dominium</term>) through
+                        gambling</head>
+                    <p n="11" xml:id="L0007-p-11">In civil law, gambling is a contract in which all parties are equally at risk of losing their goods for the opportunity of acquiring the goods of the others (<bibl corresp="https://id.salamanca.school/texts/W0006:vol1.4.6.5.article1?format=html" xml:id="L0007-bibl-d1e584"><author><persName ref="https://d-nb.info/gnd/118837478">Covarrubias</persName></author> <date when="1571">1571</date>, <biblScope>Rel. in reg. Peccatum, pars 2 sect. 4 art. 1, p. 469</biblScope></bibl>); natural law allows these mutually risky contracts (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.3?format=html" xml:id="L0007-bibl-d1e587"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5. art. 2, p. 313</biblScope></bibl>).</p>
+                    <p n="12" xml:id="L0007-p-12">With a valid gambling contract, the winner acquires ownership of the goods staked (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.3?format=html" xml:id="L0007-bibl-d1e593"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5. art. 2, p. 313</biblScope></bibl>). According to a 14<hi rendition="#sup">th</hi>-century Castilian law, the loser can demand their restitution within 8 days of the game; after that, the acquisition is final (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.5?format=html" xml:id="L0007-bibl-d1e599"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5. art. 2, p. 313</biblScope></bibl>; see <bibl xml:id="L0007-bibl-d1e602"><author><persName>Montalvo</persName></author> <date when="1484">1484</date>, <biblScope>lib. 8 tit. 10 l. 1</biblScope></bibl>; different opinion: <bibl xml:id="L0007-bibl-d1e605"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 5 no. 2,3, p. 650</biblScope></bibl>). Consequently, there is no obligation to pay one’s gambling debts, as one could demand restitution immediately after (<bibl xml:id="L0007-bibl-d1e609"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 438–439</biblScope></bibl>).</p>
+                    <p n="13" xml:id="L0007-p-13">Without freely given consent the gambling contract is void: whoever seduces an unexperienced player to a game has to restitute the winnings (<bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.5?format=html" xml:id="L0007-bibl-d1e615"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5 art. 2, p. 315</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e618"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 25, p. 676–678</biblScope></bibl>); the same goes for winnings gained by cheating (<bibl xml:id="L0007-bibl-d1e621"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 7 no. 1, p. 655</biblScope></bibl>).</p>
+                    <p n="14" xml:id="L0007-p-14">Moral theologians tackle the topic in the context of the 7<hi rendition="#sup">th</hi> commandment (<term xml:id="L0007-term-d1e631">furtum</term>; <bibl corresp="https://id.salamanca.school/texts/W0083:1.4.7?format=html" xml:id="L0007-bibl-d1e634"><author><persName ref="http://viaf.org/viaf/36035482">Pedraza</persName></author> <date when="1568">1568</date>, <biblScope>lib. 1 cap. 4, fol. 65r</biblScope></bibl>). Unlike medieval authors like <persName>Aquinas</persName>, <persName>Bonaventura</persName>, <persName>Hostiensis</persName>, etc., the Salamancans reject a moral obligation to restitute the winnings (<bibl xml:id="L0007-bibl-d1e637"><author><persName ref="https://d-nb.info/gnd/124866166">Azor</persName></author> <date when="1618">1618</date>, <biblScope>pars 3 lib. 5 cap. 24, col. 437–438</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number9?format=html" xml:id="L0007-bibl-d1e640"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 9, p. 347</biblScope></bibl>). As gambling was a point of honour among young men from good families, university students may use 4–5 % of their monthly stipend for gambling (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number9?format=html" xml:id="L0007-bibl-d1e644"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 9, p. 347</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.5?format=html" xml:id="L0007-bibl-d1e647"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q. 5 art. 2, p. 315</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e650"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 9 no. 8, p. 663</biblScope></bibl>), even if their father had explicitly forbidden it: natural law allows them to use their funds for anything required for an honourable life (<bibl xml:id="L0007-bibl-d1e653"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 10, p. 664</biblScope></bibl>).</p>
+                </div>
+                <div type="subsection" n="2.4 Gambling clerics" xml:id="L0007-div-d1e658">
+                    <head xml:id="Toc160700179">2.4 Gambling clerics</head>
+                    <p n="15" xml:id="L0007-p-15">Clerics are forbidden to gamble because of the consequences: <term xml:id="L0007-term-d1e667">scandalum</term>, doubts regarding their honesty (<bibl corresp="https://id.salamanca.school/texts/W0002:19.1.number8?format=html" xml:id="L0007-bibl-d1e670"><author><persName ref="https://d-nb.info/gnd/118944053">Azpilcueta</persName></author> <date when="1556">1556</date>, <biblScope>cap. 19 no. 8, p. 346</biblScope></bibl>; <bibl corresp="https://id.salamanca.school/texts/W0011:1.4.6.2.3?format=html" xml:id="L0007-bibl-d1e673"><author><persName ref="https://d-nb.info/gnd/118798111">Soto</persName></author> <date when="1553">1553</date>, <biblScope>pars 1 lib. 4 q.5 art.2, p. 313</biblScope></bibl>), indecency (<bibl xml:id="L0007-bibl-d1e676"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 3, p. 287</biblScope></bibl>), and neglect of pastoral duties (<bibl corresp="https://id.salamanca.school/texts/W0001:vol2.3.5.section29?format=html" xml:id="L0007-bibl-d1e679"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 14, cap. 5, no. 29, p. 189</biblScope></bibl>, <bibl corresp="https://id.salamanca.school/texts/W0001:vol2.3.5.section32?format=html" xml:id="L0007-bibl-d1e683">no. 32, p. 190</bibl>). Playing dice is considered especially contemptible (<bibl corresp="https://id.salamanca.school/texts/W0041:1.64?format=html" xml:id="L0007-bibl-d1e686"><author><persName ref="https://d-nb.info/gnd/120148226">Díaz de Luco</persName></author> <date when="1554">1554</date>, <biblScope>cap. 64, p. 125</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e689"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 28, p. 288</biblScope></bibl>). Sanctions include <term xml:id="L0007-term-d1e693">excommunicatio</term> (<bibl xml:id="L0007-bibl-d1e696"><title>Tercer Concilio Limense</title>, <biblScope>act. 3, cap. 17, p. 268</biblScope></bibl>: ipso facto excommunication of clerics who gamble for more than 50 gold pesos; sceptical of fixed sums: <bibl corresp="https://id.salamanca.school/texts/W0001:vol2.3.5.section30?format=html" xml:id="L0007-bibl-d1e704"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 14 cap. 5 sect. 30, p. 190</biblScope></bibl>) and the loss of <term xml:id="L0007-term-d1e708">beneficium</term> (<bibl xml:id="L0007-bibl-d1e711"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 24 no. 1, p. 674</biblScope></bibl>). To gamble habitually is a mortal sin (<bibl xml:id="L0007-bibl-d1e714"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 24 no. 2, 675</biblScope></bibl>). A cleric who is a public gambler loses his <term xml:id="L0007-term-d1e718">beneficium</term>; opinions are divided as to whether a prior admonition is required (yes: <bibl xml:id="L0007-bibl-d1e722"><author><persName ref="https://d-nb.info/gnd/119442523">Salas</persName></author> <date when="1617">1617</date>, <biblScope>dub. 24 no. 3, p. 675–676</biblScope></bibl>; no: <bibl corresp="https://id.salamanca.school/texts/W0041:1.64?format=html" xml:id="L0007-bibl-d1e725"><author><persName ref="https://d-nb.info/gnd/120148226">Díaz de Luco</persName></author> <date when="1554">1554</date>, <biblScope>cap. 64, p. 126</biblScope></bibl>).</p>
+                    <p n="16" xml:id="L0007-p-16">However, some authors allow clerical gambling if the games are honourable, recreational and for small stakes (<bibl corresp="https://id.salamanca.school/texts/W0001:vol2.3.5.section32?format=html" xml:id="L0007-bibl-d1e731"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 14 cap. 5 no. 32, p. 190–191</biblScope></bibl>; <bibl xml:id="L0007-bibl-d1e734"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 59, p. 292</biblScope></bibl>). Still, clerics are warned that <quote xml:id="L0007-qu-d1e737">“one should not extend one's hand to everything that is lawful”</quote> (<bibl xml:id="L0007-bibl-d1e740"><author><persName ref="https://d-nb.info/gnd/11880460X">Villaroel</persName></author> <date when="1738">1738</date>, <biblScope>pars 1 q. 3 art. 3 no. 62, p. 292</biblScope></bibl>).</p>
+                </div>
+                <div type="subsection" n="2.5 Obligation to suppress gambling" xml:id="L0007-div-d1e746">
+                    <head xml:id="Toc160700180">2.5 Obligation of corregidores, alcaldes et al. to suppress gambling</head>
+                    <p n="17" xml:id="L0007-p-17">Gambling is an important concern of the colonial church and state as it leads to <term xml:id="L0007-term-d1e755">blasfemia</term> and crime (<bibl xml:id="L0007-bibl-d1e758"><author><persName>Villa-Flores</persName></author> <date when="2007">2007</date>, <biblScope>239</biblScope></bibl>); gamblers in the colonies are considered particularly reckless, <quote xml:id="L0007-qu-d1e761">“because in the Indies, minds are more magnanimous and money is of less value“</quote> (<bibl corresp="https://id.salamanca.school/texts/W0001:vol2.3.5.section31?format=html" xml:id="L0007-bibl-d1e764"><author><persName ref="https://d-nb.info/gnd/133542521">Avendaño</persName></author> <date when="1668">1668</date>, <biblScope>tit. 14 cap. 5 no. 31, p. 190</biblScope></bibl>). Corregidores and alcaldes are accused of setting up games in their homes despite being legally obliged to prevent noxious gambling. In such cases, their confessors can order them to make restitution of what has been lost if the actual winner is not available to restitute his winnings himself (<bibl corresp="https://id.salamanca.school/texts/W0076:1.4.6?format=html" xml:id="L0007-bibl-d1e767"><author><persName ref="http://viaf.org/viaf/54496756">Moreno</persName></author> <date when="1637">1637</date>, <biblScope>regla 3, § 5, fol. 6v</biblScope></bibl>).</p>
+                </div>
+            </div>
+            <div type="section" n="3 Final remark" xml:id="L0007-div-d1e773">
+                <head xml:id="Toc160700181">3 Final remark</head>
+                <p n="18" xml:id="L0007-p-18">Gambling has rarely been addressed by legal historians. <bibl xml:id="L0007-bibl-d1e781"><author><persName>Kéry</persName></author> <date when="2000">2000</date></bibl> gives an overview of medieval canon law, <bibl xml:id="L0007-bibl-d1e784"><author><persName>Ceccarelli</persName></author> <date when="2003">2003</date></bibl> adds the Thomists’ perspective, <bibl xml:id="L0007-bibl-d1e787"><author><persName>Lucchesi</persName></author> <date when="2005">2005</date></bibl> a canonist’s view. <bibl xml:id="L0007-bibl-d1e790"><author><persName>Pino Abad</persName></author> <date when="2011">2011</date></bibl> examines Castilian legislation on games of all kinds, including gambling (see also <bibl xml:id="L0007-bibl-d1e793"><author><persName>Wohlhaupter</persName></author> <date when="1931">1931</date></bibl>). <bibl xml:id="L0007-bibl-d1e797"><author><persName>Villa-Flores</persName></author> <date when="2007">2007</date></bibl> offers an instructive discussion of gambling and blasphemy in colonial New Mexico.</p>
+            </div>
+        </body>
+        <back xml:id="L0007-back-d1e803">
+            <div type="sources" n="Literature" xml:id="L0007-div-d1e805">
+                <head xml:id="Toc160700182">Literature</head>
+                <div type="sources" n="Sources" xml:id="L0007-div-d1e811">
+                    <head xml:id="Toc160700183">Sources</head>
+                    <list xml:id="L0007-li-d1e811">
+                        <item xml:id="L0007-it-d1e817"><bibl xml:id="L0007-bibl-d1e817"><author><persName ref="https://d-nb.info/gnd/133542521"><hi rendition="#sc">Avendaño</hi>, Diego de</persName></author>: <title>Thesaurus Indicus</title>, Vol. 2 (<date when="2019">2019</date> [<date when="1668">1668</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0001:vol2">https://id.salamanca.school/texts/W0001:vol2</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e838"><bibl xml:id="L0007-bibl-d1e838"><author><persName ref="https://d-nb.info/gnd/133542521"><hi rendition="#sc">Avendaño</hi>, Diego de</persName></author>: <title>Thesaurus Indicus</title>, Vol. 5 (<date when="2020">2020</date> [<date when="1675">1675</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0001:vol5">https://id.salamanca.school/texts/W0001:vol5</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e857"><bibl xml:id="L0007-bibl-d1e857"><author><persName ref="https://d-nb.info/gnd/124866166"><hi rendition="#sc">Azor</hi>, Juan</persName></author>: <title>Institutionum Moralium</title>, Tomus tertius. Cologne <date when="1618">1618</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e870"><bibl xml:id="L0007-bibl-d1e870"><author><persName ref="https://d-nb.info/gnd/118944053"><hi rendition="#sc">Azpilcueta</hi>, Martin de</persName></author>: <title>Manual de Confessores y Penitentes</title> (<date when="2019">2019</date> [<date when="1556">1556</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0002">https://id.salamanca.school/texts/W0002</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e892"><bibl xml:id="L0007-bibl-d1e892"><author><persName ref="https://d-nb.info/gnd/118837478"><hi rendition="#sc">Covarrubias</hi>, Diego de</persName></author>: <title>Relectio in regulam Peccatum</title>, in: Covarrubias y Leyva, <title>Opera Omnia</title>, Vol. 1 (<date when="2021">2021</date> [<date when="1573">1573</date>]), in: Die Schule von Salamanca. Eine Digitale Quellensammlung &lt;<ref target="https://id.salamanca.school/texts/W0006:vol1">https://id.salamanca.school/texts/W0006:vol1</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e917"><bibl xml:id="L0007-bibl-d1e917"><title><hi rendition="#sc">Decretum Gratiani</hi> Emendatum et Notationibus Illustratum Vna cum Glossis, Gregorii XIII. Pont. Max. iussu editum. Romae</title> <date when="1582">1582</date>.<ref target="https://digital.library.ucla.edu/canonlaw/table_of_contents#vol1">https://digital.library.ucla.edu/canonlaw/table_of_contents#vol1</ref></bibl></item>
+                        <item xml:id="L0007-it-d1e929"><bibl xml:id="L0007-bibl-d1e929"><author><persName ref="https://d-nb.info/gnd/120148226"><hi rendition="#sc">Díaz de Luco</hi>, Juan Bernardo</persName></author>: <title>Practica criminalis canonica</title> (<date when="2021-09-29">2021-09-29</date> [<date when="1554">1554</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0041">https://id.salamanca.school/texts/W0041</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e950"><bibl xml:id="L0007-bibl-d1e950"><author><persName><hi rendition="#sc">Krüger</hi>, Paul</persName></author>/<author><persName><hi rendition="#sc">Mommsen</hi>, Theodor</persName></author>: <title>Corpus Iuris Civilis</title>. Editio Stereotypa Quinta. Volumen Primum: Institutiones, Digesta. Berlin <date when="1879">1879</date>. <ref target="https://archive.org/details/corpusjuriscivil01krueuoft/page/n5/mode/2up">https://archive.org/details/corpusjuriscivil01krueuoft/page/n5/mode/2up</ref></bibl></item>
+                        <item xml:id="L0007-it-d1e970"><bibl xml:id="L0007-bibl-d1e970"><author><persName><hi rendition="#sc">Krüger</hi>, Paul</persName></author>: <title>Corpus Iuris Civilis</title>. Editio Stereotypa Quinta. Volumen Secundum. Codex Iustinianus. Berlin <date when="1892">1892</date>. <ref target="https://archive.org/details/corpusiuriscivil02krueuoft/page/n5/mode/2up">https://archive.org/details/corpusiuriscivil02krueuoft/page/n5/mode/2up</ref></bibl></item>
+                        <item xml:id="L0007-it-d1e985"><bibl xml:id="L0007-bibl-d1e985"><title><hi rendition="#sc">Liber Extra</hi>: Decretales D. Gregorii Papae IX, suae integritati vna cum glossis restitutae</title>. Romae <date when="1582">1582</date>. <ref target="https://digital.library.ucla.edu/canonlaw/table_of_contents#vol2">https://digital.library.ucla.edu/canonlaw/table_of_contents#vol2</ref></bibl></item>
+                        <item xml:id="L0007-it-d1e998"><bibl xml:id="L0007-bibl-d1e998"><author><persName><hi rendition="#sc">Macdonald</hi>, Robert A.</persName></author> (Ed.): Libro de las Tahurerías. A Special Code of Law, Concerning Gambling, Drawn Up by Maestro Roldán at the Command of Alfonso X of Castile. Madison <date when="1995">1995</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1008"><bibl xml:id="L0007-bibl-d1e1008"><author><persName ref="https://d-nb.info/gnd/115379762"><hi rendition="#sc">Mercado</hi>, Tomás de</persName></author>: <title>Tratos y Contratos</title> (<date when="2019">2019</date> [<date when="1569">1569</date>]), in: Die Schule von Salamanca. Eine Digitale Quellensammlung &lt;<ref target="https://id.salamanca.school/texts/W0007">https://id.salamanca.school/texts/W0007</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e1029"><bibl xml:id="L0007-bibl-d1e1029"><author><persName><hi rendition="#sc">Díaz de Montalvo</hi>, Alonso</persName></author>: <title>Ordenanzas reales de Castilla o Libro de las leyes</title>. Huete <date when="1484">1484</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1042"><bibl xml:id="L0007-bibl-d1e1042"><author><persName ref="http://viaf.org/viaf/54496756"><hi rendition="#sc">Moreno</hi>, Gerónimo</persName></author>: <title>Reglas Ciertas, Y Precisamente Necessarias Para Ivezes, Y Ministros De Ivsticia de las Indias, y para sus Confessores</title> (<date when="2022">2022</date> [<date when="1637">1637</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0076">https://id.salamanca.school/texts/W0076</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e1063"><bibl xml:id="L0007-bibl-d1e1063"><title><hi rendition="#sc">Ordenamiento de las Tafurerías</hi></title> (<date when="1314">1314</date>), in: Opúsculos Legales del Rey Don Alfonso El Sabio, publicados por la Real Academia de la Historia. Vol. 2. Madrid <date when="1836">1836</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1075"><bibl xml:id="L0007-bibl-d1e1075"><author><persName ref="http://viaf.org/viaf/36035482"><hi rendition="#sc">Pedraza</hi>, Juan de</persName></author>: <title>Summa de casos de consciencia</title> (<date when="2021">2021</date> [<date when="1568">1568</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0083">https://id.salamanca.school/texts/W0083</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e1097"><bibl xml:id="L0007-bibl-d1e1097"><author><persName ref="https://d-nb.info/gnd/119442523"><hi rendition="#sc">Salas</hi>, Juan de</persName></author>: <title>Tractatus de Ludo, in: ders., Commentarii in Secundam secundae D. Thomae de contractibus, Siue Tractatus Quinque. De Emptione, &amp; Venditione. De Vsuris. De Censibus. De Cambiis. De Ludo.</title> Lyon <date when="1617">1617</date>. pp. 639–685.</bibl></item>
+                        <item xml:id="L0007-it-d1e1111"><bibl xml:id="L0007-bibl-d1e1111"><author><persName ref="https://d-nb.info/gnd/118798111"><hi rendition="#sc">Soto</hi>, Domingo de</persName></author>: <title>De Iustitia et Iure</title> (<date when="2020">2020</date> [<date when="1553">1553</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0011">https://id.salamanca.school/texts/W0011</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e1132"><bibl xml:id="L0007-bibl-d1e1132"><title><hi rendition="#sc">Tercer Concilio Limense</hi></title> (<date when="1583">1583</date>–<date when="1591">1591</date>). Edición Bilingüe de los Decretos, ed. by Luis Martínez Ferrer, Lima <date when="2014">2014</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1147"><bibl xml:id="L0007-bibl-d1e1147"><author><persName ref="https://d-nb.info/gnd/117324833"><hi rendition="#sc">Vacca</hi>, Antonio</persName></author>: <title>Expositiones locorum obscuriorum et Paratitulorum in Pandectas.</title> (<date when="2020">2020</date> [<date when="1554">1554</date>]), in: Die Schule von Salamanca. Eine Digitale Quellensammlung &lt;<ref target="https://id.salamanca.school/texts/W0103">https://id.salamanca.school/texts/W0103</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e1168"><bibl xml:id="L0007-bibl-d1e1168"><author><persName ref="https://d-nb.info/gnd/119314037"><hi rendition="#sc">Villalón</hi>, Diego de</persName></author>: <title>Provechoso tratado de cambios y contrataciones de mercaderes y reprovación de usura</title> (<date when="2020">2020</date> [<date when="1541">1541</date>]), in: Die Schule von Salamanca. Eine Digitale Quellensammlung &lt;<ref target="https://id.salamanca.school/texts/W0113">https://id.salamanca.school/texts/W0113</ref>&gt;</bibl></item>
+                        <item xml:id="L0007-it-d1e1189"><bibl xml:id="L0007-bibl-d1e1189"><author><persName ref="https://d-nb.info/gnd/11880460X"><hi rendition="#sc">Villaroel</hi>, Gaspar de</persName></author>: <title>Govierno Eclesiastico-pacifico, y union de los dos cuchillos pontificio, y regio.</title> Vol. 1. Madrid <date when="1738">1738</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1204"><bibl xml:id="L0007-bibl-d1e1204"><author><persName><hi rendition="#sc">Vio (Cayetan)</hi>, Thomas de</persName></author>: <title>Summa caietana de peccatis et noui testament ientacula.</title> Rome <date when="1525">1525</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1217"><bibl xml:id="L0007-bibl-d1e1217"><author><persName ref="https://d-nb.info/gnd/118768735"><hi rendition="#sc">Vitoria</hi>, Francisco de</persName></author>: <title>Confessionario</title> (<date when="2018">2018</date> [<date when="1562">1562</date>]), in: The School of Salamanca. A Digital Collection of Sources &lt;<ref target="https://id.salamanca.school/texts/W0015">https://id.salamanca.school/texts/W0015</ref>&gt;</bibl></item>
+                    </list>
+                </div>
+                <div type="sources" n="Research Literature" xml:id="L0007-div-d1e1239">
+                    <head xml:id="Toc160700184">Research Literature</head>
+                    <list xml:id="L0007-li-d1e1239">
+                        <item xml:id="L0007-it-d1e1245"><bibl xml:id="L0007-bibl-d1e1245"><author><persName><hi rendition="#sc">Carpenter</hi>, Dwayne E.</persName></author>: <title>Fickle Fortune: Gambling in Medieval Spain, in: Studies in Philology 85</title> (<date when="1988">1988</date>), 267–278.</bibl></item>
+                        <item xml:id="L0007-it-d1e1258"><bibl xml:id="L0007-bibl-d1e1258"><author><persName><hi rendition="#sc">Ceccarelli</hi>, Giovanni</persName></author>: <title>Il Gioco e il Peccato. Economia e rischio nel Tardo Medioevo.</title> Bologna <date when="2003">2003</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1271"><bibl xml:id="L0007-bibl-d1e1271"><author><persName><hi rendition="#sc">Hallebeek</hi>, Jan</persName></author>: <title>On the origin of the constitution Alearum lusus (C. 3,43,1) and its insertion into the Codex Justinianus</title>, in: Tijdschrift voor Rechtsgeschiedenis, 81 (<date when="2013">2013</date>), 129–143. [<ref target="https://doi.org/10.1163/15718190-1305A0007">https://doi.org/10.1163/15718190-1305A0007</ref>]</bibl></item>
+                        <item xml:id="L0007-it-d1e1287"><bibl xml:id="L0007-bibl-d1e1287"><author><persName><hi rendition="#sc">Kéry</hi>, Lotte</persName></author>: <title>Aleas fuge! – Hostiensis und das Glücksspiel</title>, in: Richard H. Helmholz/Paul Mikat/Jörg Müller/Michael Stolleis (Eds.), Grundlagen des Rechts. Festschrift für Peter Landau zum 65. Geburtstag. Paderborn-München-Wien-Zürich <date when="2000">2000</date>. pp. 491–522.</bibl></item>
+                        <item xml:id="L0007-it-d1e1301"><bibl xml:id="L0007-bibl-d1e1301"><author><persName><hi rendition="#sc">Lucchesi</hi>, Marzia</persName></author>: <title>Ludus est crimen? Diritto, gioco, cultura umanistica nell’opera di Stefano Costa, canonista pavese del Quattrocento</title>. Milan <date when="2005">2005</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1314"><bibl xml:id="L0007-bibl-d1e1314"><author><persName><hi rendition="#sc">Villa-Flores</hi>, Javier</persName></author>: <title>On Divine Persecution: Blasphemy and Gambling</title>, in: Susan Schroeder/Stafford Poole (Eds.), Religion in New Spain. Alburquerque <date when="2007">2007</date>. pp. 238–262.</bibl></item>
+                        <item xml:id="L0007-it-d1e1327"><bibl xml:id="L0007-bibl-d1e1327"><author><persName><hi rendition="#sc">Pino Abad</hi>, Miguel</persName></author>: <title>El Delito de Juegos Prohibidos. Análisis histórico-jurídico.</title> Madrid <date when="2011">2011</date>.</bibl></item>
+                        <item xml:id="L0007-it-d1e1340"><bibl xml:id="L0007-bibl-d1e1340"><author><persName><hi rendition="#sc">Wohlhaupter</hi>, Eugen</persName></author>: <title>Zur Rechtsgeschichte des Spiels in Spanien</title>, in: Spanische Forschungen der Görres-Gesellschaft 1 (<date when="1931">1931</date>), 55–128.</bibl></item>
+                    </list>
+                </div>
+            </div>
+        </back>
+    </text>
+</TEI>
