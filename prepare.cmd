@@ -12,7 +12,8 @@
 :: We include all the necessary files here for convenience.
 
 @echo off
-set JAVA_BIN="C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe"
+:: set JAVA_BIN="C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe"
+set JAVA_BIN="C:\Users\wagner\Programme\Oxygen XML Editor 27\jre\bin\java.exe"
 
 :: adjust path to meta xml files like specialcharacters.xml
 .\prepare\sed.exe "s|\.\./meta/|./meta/|g" %1 > "temp1.xml"
